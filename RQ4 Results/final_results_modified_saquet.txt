@@ -1,0 +1,234 @@
+REMEMBER - CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information              9
+    implausible_distractors                    5
+    none_of_the_above                          0
+    longest_answer_correct                     6
+    gratuitous_information_in_stem             0
+    true_or_false                              0
+    avoid_convergence_cues                     0
+    avoid_logical_cues                         2
+    all_of_the_above                           0
+    fill_in_the_blank                          0
+    absolute_terms                             1
+    word_repeats_in_stem_and_correct_answer    4
+    unfocused_stem                             0
+    complex_k_type                             1
+    grammatical_cues_in_stem                   1
+    lost_sequence                              0
+    vague_terms                                0
+    more_than_one_correct                      2
+    negative_worded_stem                       2
+
+UNDERSTAND - CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information               5
+    implausible_distractors                     2
+    none_of_the_above                           0
+    longest_answer_correct                     22
+    gratuitous_information_in_stem              0
+    true_or_false                               0
+    avoid_convergence_cues                      5
+    avoid_logical_cues                          3
+    all_of_the_above                            0
+    fill_in_the_blank                           0
+    absolute_terms                             10
+    word_repeats_in_stem_and_correct_answer     6
+    unfocused_stem                              0
+    complex_k_type                              6
+    grammatical_cues_in_stem                    6
+    lost_sequence                               0
+    vague_terms                                 2
+    more_than_one_correct                       2
+    negative_worded_stem                        0
+
+APPLY - CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information               8
+    implausible_distractors                     9
+    none_of_the_above                           0
+    longest_answer_correct                     10
+    gratuitous_information_in_stem              1
+    true_or_false                               0
+    avoid_convergence_cues                      1
+    avoid_logical_cues                          5
+    all_of_the_above                            0
+    fill_in_the_blank                           0
+    absolute_terms                             13
+    word_repeats_in_stem_and_correct_answer     7
+    unfocused_stem                              0
+    complex_k_type                             12
+    grammatical_cues_in_stem                    0
+    lost_sequence                               2
+    vague_terms                                15
+    more_than_one_correct                       2
+    negative_worded_stem                        0    
+
+
+REMEMBER - NO CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information              4
+    implausible_distractors                    3
+    none_of_the_above                          0
+    longest_answer_correct                     8
+    gratuitous_information_in_stem             0
+    true_or_false                              0
+    avoid_convergence_cues                     2
+    avoid_logical_cues                         0
+    all_of_the_above                           0
+    fill_in_the_blank                          0
+    absolute_terms                             2
+    word_repeats_in_stem_and_correct_answer    4
+    unfocused_stem                             0
+    complex_k_type                             4
+    grammatical_cues_in_stem                   1
+    lost_sequence                              0
+    vague_terms                                3
+    more_than_one_correct                      0
+    negative_worded_stem                       0
+
+UNDERSTAND - NO CONTENT - All 3
+    Total Results
+    ambiguous_unclear_information               5
+    implausible_distractors                     0
+    none_of_the_above                           0
+    longest_answer_correct                     16
+    gratuitous_information_in_stem              0
+    true_or_false                               0
+    avoid_convergence_cues                      5
+    avoid_logical_cues                          1
+    all_of_the_above                            0
+    fill_in_the_blank                           0
+    absolute_terms                              9
+    word_repeats_in_stem_and_correct_answer     7
+    unfocused_stem                              0
+    complex_k_type                              9
+    grammatical_cues_in_stem                    3
+    lost_sequence                               0
+    vague_terms                                 3
+    more_than_one_correct                       1
+    negative_worded_stem                        0
+
+APPLY - NO CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information               8
+    implausible_distractors                     0
+    none_of_the_above                           0
+    longest_answer_correct                      2
+    gratuitous_information_in_stem              0
+    true_or_false                               0
+    avoid_convergence_cues                      3
+    avoid_logical_cues                          2
+    all_of_the_above                            0
+    fill_in_the_blank                           0
+    absolute_terms                              1
+    word_repeats_in_stem_and_correct_answer     2
+    unfocused_stem                              0
+    complex_k_type                             13
+    grammatical_cues_in_stem                    0
+    lost_sequence                               0
+    vague_terms                                 3
+    more_than_one_correct                       4
+    negative_worded_stem                        0
+
+
+REMEMBER - NO CONTENT & CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information              13
+    implausible_distractors                     8
+    none_of_the_above                           0
+    longest_answer_correct                     14
+    gratuitous_information_in_stem              0
+    true_or_false                               0
+    avoid_convergence_cues                      2
+    avoid_logical_cues                          2
+    all_of_the_above                            0
+    fill_in_the_blank                           0
+    absolute_terms                              3
+    word_repeats_in_stem_and_correct_answer     8
+    unfocused_stem                              0
+    complex_k_type                              5
+    grammatical_cues_in_stem                    2
+    lost_sequence                               0
+    vague_terms                                 3
+    more_than_one_correct                       2
+    negative_worded_stem                        2
+
+UNDERSTAND - NO CONTENT & CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information              10
+    implausible_distractors                     2
+    none_of_the_above                           0
+    longest_answer_correct                     38
+    gratuitous_information_in_stem              0
+    true_or_false                               0
+    avoid_convergence_cues                     10
+    avoid_logical_cues                          4
+    all_of_the_above                            0
+    fill_in_the_blank                           0
+    absolute_terms                             19
+    word_repeats_in_stem_and_correct_answer    13
+    unfocused_stem                              0
+    complex_k_type                             15
+    grammatical_cues_in_stem                    9
+    lost_sequence                               0
+    vague_terms                                 5
+    more_than_one_correct                       3
+    negative_worded_stem                        0
+
+APPLY - NO CONTENT & CONTENT - ALL 3
+    Total Results
+    ambiguous_unclear_information              16
+    implausible_distractors                     9
+    none_of_the_above                           0
+    longest_answer_correct                     12
+    gratuitous_information_in_stem              1
+    true_or_false                               0
+    avoid_convergence_cues                      4
+    avoid_logical_cues                          7
+    all_of_the_above                            0
+    fill_in_the_blank                           0
+    absolute_terms                             14
+    word_repeats_in_stem_and_correct_answer     9
+    unfocused_stem                              0
+    complex_k_type                             25
+    grammatical_cues_in_stem                    0
+    lost_sequence                               2
+    vague_terms                                18
+    more_than_one_correct                       6
+    negative_worded_stem                        0
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALL 360 MCQs RESULTS 
+
+Total Results
+ambiguous_unclear_information              39
+implausible_distractors                    19
+none_of_the_above                           0
+longest_answer_correct                     64
+gratuitous_information_in_stem              1
+true_or_false                               0
+avoid_convergence_cues                     16
+avoid_logical_cues                         13
+all_of_the_above                            0
+fill_in_the_blank                           0
+absolute_terms                             36
+word_repeats_in_stem_and_correct_answer    30
+unfocused_stem                              0
+complex_k_type                             45
+grammatical_cues_in_stem                   11
+lost_sequence                               2
+vague_terms                                26
+more_than_one_correct                      11
+negative_worded_stem                        2
