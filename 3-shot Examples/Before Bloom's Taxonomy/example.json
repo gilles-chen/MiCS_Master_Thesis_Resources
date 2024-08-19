@@ -1,0 +1,84 @@
+{
+    "mcqs": [
+        {
+            "id": 1,
+            "question": "Which treaty established the European Union?",
+            "options": {
+                "A": "Treaty of Lisbon",
+                "B": "Treaty of Rome",
+                "C": "Treaty of Maastricht",
+                "D": "Treaty of Paris"
+            },
+            "correct_answer": "C",
+            "hint": "This treaty was signed in 1992.",
+            "feedback": {
+                "correct": "The Treaty of Maastricht, signed in 1992, established the European Union.",
+                "incorrect": {
+                    "A": "The Treaty of Lisbon, signed in 2007, amended the two treaties which form the constitutional basis of the EU but did not establish it.",
+                    "B": "The Treaty of Rome established the European Economic Community (EEC), a precursor to the EU, but not the EU itself.",
+                    "D": "The Treaty of Paris established the European Coal and Steel Community (ECSC), a precursor to the EU, but not the EU itself."
+                }
+            }
+        },
+        {
+            "id": 2,
+            "question": "Which city hosts the headquarters of the European Parliament?",
+            "options": {
+                "A": "Brussels",
+                "B": "Strasbourg",
+                "C": "Luxembourg City",
+                "D": "Frankfurt"
+            },
+            "correct_answer": "B",
+            "hint": "This city is located in northeastern France.",
+            "feedback": {
+                "correct": "The European Parliament has its official seat in Strasbourg, France.",
+                "incorrect": {
+                    "A": "Brussels hosts the European Commission and the Council of the European Union but not the official seat of the European Parliament.",
+                    "C": "Luxembourg City hosts the European Court of Justice and other EU institutions but not the Parliament.",
+                    "D": "Frankfurt hosts the European Central Bank but not the European Parliament."
+                }
+            }
+        },
+        {
+            "id": 3,
+            "question": "What is the common currency used by 19 of the 27 European Union member countries?",
+            "options": {
+                "A": "Pound Sterling",
+                "B": "Danish Krone",
+                "C": "Swiss Franc",
+                "D": "Euro"
+            },
+            "correct_answer": "D",
+            "hint": "This currency was introduced in 1999.",
+            "feedback": {
+                "correct": "The Euro is the common currency used by 19 of the 27 EU member countries.",
+                "incorrect": {
+                    "A": "The Pound Sterling is the currency of the United Kingdom, which is no longer a member of the EU.",
+                    "B": "The Danish Krone is the currency of Denmark, which has opted out of using the Euro.",
+                    "C": "The Swiss Franc is the currency of Switzerland, which is not an EU member."
+                }
+            }
+        },
+        {
+            "id": 4,
+            "question": "Which of the following countries is not a member of the European Union?",
+            "options": {
+                "A": "Norway",
+                "B": "Finland",
+                "C": "Poland",
+                "D": "Portugal"
+            },
+            "correct_answer": "A",
+            "hint": "This country is part of the European Economic Area but not the EU.",
+            "feedback": {
+                "correct": "Norway is not a member of the European Union but is part of the European Economic Area.",
+                "incorrect": {
+                    "B": "Finland is a member of the European Union.",
+                    "C": "Poland is a member of the European Union.",
+                    "D": "Portugal is a member of the European Union."
+                }
+            }
+        }
+    ]
+}

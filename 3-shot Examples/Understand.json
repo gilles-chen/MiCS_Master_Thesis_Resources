@@ -1,0 +1,64 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Why is insulin important in regulating blood glucose levels?",
+            "options": {
+                "A": "It converts glucose to fat.",
+                "B": "It breaks down carbohydrates into glucose.",
+                "C": "It helps cells absorb glucose from the bloodstream.",
+                "D": "It increases the production of glucose in the liver."
+            },
+            "correct_answer": "C",
+            "hint": "Consider insulin's role in facilitating glucose uptake by cells.",
+            "feedback": {
+                "correct": "Insulin helps cells absorb glucose from the bloodstream, lowering blood glucose levels.",
+                "incorrect": {
+                    "A": "Insulin does not convert glucose to fat; it facilitates glucose uptake by cells.",
+                    "B": "Carbohydrate breakdown into glucose is a digestive process, not directly related to insulin.",
+                    "D": "Insulin decreases the production of glucose in the liver, not increases it."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "What is the role of alveoli in the respiratory system?",
+            "options": {
+                "A": "To filter air before it reaches the lungs",
+                "B": "To exchange oxygen and carbon dioxide with the blood",
+                "C": "To humidify and warm inhaled air",
+                "D": "To support the trachea and bronchi"
+            },
+            "correct_answer": "B",
+            "hint": "Think about where the gas exchange occurs in the lungs.",
+            "feedback": {
+                "correct": "Alveoli are tiny air sacs in the lungs where oxygen and carbon dioxide are exchanged with the blood.",
+                "incorrect": {
+                    "A": "Air filtration is mainly performed by the nasal passages and trachea, not the alveoli.",
+                    "C": "Humidifying and warming inhaled air is a function of the nasal passages, not alveoli.",
+                    "D": "Supporting the trachea and bronchi is not the function of alveoli; they are involved in gas exchange."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "How does the body respond to a decrease in blood pressure?",
+            "options": {
+                "A": "By decreasing heart rate",
+                "B": "By dilating blood vessels",
+                "C": "By constricting blood vessels",
+                "D": "By reducing blood volume"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the body's mechanism to increase blood pressure when it drops.",
+            "feedback": {
+                "correct": "The body responds to decreased blood pressure by constricting blood vessels to increase resistance and raise blood pressure.",
+                "incorrect": {
+                    "A": "Decreasing heart rate would lower blood pressure further, not raise it.",
+                    "B": "Dilating blood vessels would decrease blood pressure, not increase it.",
+                    "D": "Reducing blood volume would lower blood pressure further, not raise it."
+                }
+            }
+        }        
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary function of red blood cells?",
+            "options": {
+                "A": "To transport oxygen",
+                "B": "To fight infections",
+                "C": "To produce hormones",
+                "D": "To aid in digestion"
+            },
+            "correct_answer": "A",
+            "hint": "Think about what these cells carry from the lungs to the rest of the body.",
+            "feedback": {
+                "correct": "Red blood cells are primarily responsible for transporting oxygen from the lungs to tissues throughout the body.",
+                "incorrect": {
+                    "B": "White blood cells, not red blood cells, are responsible for fighting infections.",
+                    "C": "Hormone production is not a function of red blood cells; it is carried out by glands.",
+                    "D": "Digestion is not related to the function of red blood cells."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "What is the name of the largest bone in the human body?",
+            "options": {
+                "A": "Femur",
+                "B": "Humerus",
+                "C": "Tibia",
+                "D": "Fibula"
+            },
+            "correct_answer": "A",
+            "hint": "This bone is located in the thigh.",
+            "feedback": {
+                "correct": "The femur is the largest bone in the human body and is located in the thigh.",
+                "incorrect": {
+                    "B": "The humerus is the bone of the upper arm, not the largest bone.",
+                    "C": "The tibia is a large bone in the lower leg but not the largest in the body.",
+                    "D": "The fibula is a smaller bone in the lower leg, not the largest bone."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Which vitamin is essential for blood clotting?",
+            "options": {
+                "A": "Vitamin K",
+                "B": "Vitamin C",
+                "C": "Vitamin D",
+                "D": "Vitamin A"
+            },
+            "correct_answer": "A",
+            "hint": "This vitamin's name starts with the same letter as 'Koagulation,' which is a German word for clotting.",
+            "feedback": {
+                "correct": "Vitamin K is essential for the synthesis of proteins required for blood coagulation.",
+                "incorrect": {
+                    "B": "Vitamin C is important for the immune system and collagen production, not clotting.",
+                    "C": "Vitamin D is crucial for calcium absorption and bone health, not blood clotting.",
+                    "D": "Vitamin A is important for vision and skin health, not involved in blood clotting."
+                }
+            }
+        }
+    ]
+}

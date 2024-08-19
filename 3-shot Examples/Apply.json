@@ -1,0 +1,64 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "A patient with type 1 diabetes accidentally administers an excess dose of insulin. What immediate intervention should be applied to prevent hypoglycemia?",
+            "options": {
+                "A": "Administer a dose of glucagon",
+                "B": "Encourage the patient to eat a high-protein meal",
+                "C": "Provide a carbohydrate-rich snack",
+                "D": "Advise the patient to drink water"
+            },
+            "correct_answer": "C",
+            "hint": "Think about how to quickly raise blood sugar levels.",
+            "feedback": {
+                "correct": "Providing a carbohydrate-rich snack can quickly raise blood sugar levels and prevent hypoglycemia.",
+                "incorrect": {
+                    "A": "Glucagon is used for severe hypoglycemia when the patient cannot eat, not as a first response.",
+                    "B": "A high-protein meal does not quickly increase blood sugar levels.",
+                    "D": "Drinking water does not address hypoglycemia."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "A patient arrives at the emergency department with symptoms of a heart attack. Which medication should be applied immediately to improve blood flow to the heart?",
+            "options": {
+                "A": "Ibuprofen",
+                "B": "Nitroglycerin",
+                "C": "Acetaminophen",
+                "D": "Antihistamine"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a medication that dilates blood vessels.",
+            "feedback": {
+                "correct": "Nitroglycerin is used to dilate blood vessels and improve blood flow to the heart during a heart attack.",
+                "incorrect": {
+                    "A": "Ibuprofen is an anti-inflammatory and pain reliever, not used for heart attack treatment.",
+                    "C": "Acetaminophen is a pain reliever and fever reducer, not used for heart attacks.",
+                    "D": "Antihistamines are used for allergic reactions, not heart attacks."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "A patient is diagnosed with hypertension. Which lifestyle change can be applied to help manage their condition?",
+            "options": {
+                "A": "Increasing sodium intake",
+                "B": "Engaging in regular physical exercise",
+                "C": "Drinking more caffeinated beverages",
+                "D": "Smoking more frequently"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a lifestyle change that improves cardiovascular health.",
+            "feedback": {
+                "correct": "Engaging in regular physical exercise helps lower blood pressure and improve heart health.",
+                "incorrect": {
+                    "A": "Increasing sodium intake can worsen hypertension.",
+                    "C": "Caffeinated beverages can raise blood pressure in some individuals.",
+                    "D": "Smoking can increase blood pressure and worsen cardiovascular health."
+                }
+            }
+        }        
+    ]
+}
