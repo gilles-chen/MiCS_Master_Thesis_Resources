@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given an unsorted array of integers, which data structure would you apply to efficiently find the maximum element?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Max-Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that maintains the largest element at the top.",
+            "feedback": {
+                "correct": "A Max-Heap maintains the largest element at the root, allowing efficient retrieval of the maximum element.",
+                "incorrect": {
+                    "A": "A stack does not provide efficient access to the maximum element.",
+                    "B": "A queue follows FIFO order and does not maintain the maximum element efficiently.",
+                    "D": "A linked list would require O(n) time to find the maximum element."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which data structure would you use to implement a browser's back button functionality?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that follows Last In, First Out (LIFO) order.",
+            "feedback": {
+                "correct": "A stack is ideal for implementing a browser's back button as it follows LIFO order, allowing the most recent page to be accessed first.",
+                "incorrect": {
+                    "A": "A queue follows FIFO order, which is not suitable for a back button functionality.",
+                    "C": "An array does not inherently support LIFO order without additional operations.",
+                    "D": "A linked list does not inherently support LIFO order without additional operations."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "To efficiently manage a dynamic set of strings for an autocomplete feature, which data structure should be applied?",
+            "options": {
+                "A": "Array",
+                "B": "Trie",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that supports efficient prefix-based searches.",
+            "feedback": {
+                "correct": "A Trie is designed for efficient prefix-based searches, making it ideal for autocomplete features.",
+                "incorrect": {
+                    "A": "An array does not support efficient prefix-based searches.",
+                    "C": "A stack does not support efficient prefix-based searches.",
+                    "D": "A queue does not support efficient prefix-based searches."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which data structure would you use to implement a priority queue where elements are processed based on priority?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Heap",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that allows efficient retrieval of the highest or lowest priority element.",
+            "feedback": {
+                "correct": "A Heap is ideal for implementing a priority queue as it allows efficient retrieval of the highest or lowest priority element.",
+                "incorrect": {
+                    "A": "An array does not provide efficient priority-based retrieval.",
+                    "B": "A linked list does not provide efficient priority-based retrieval.",
+                    "D": "A stack follows LIFO order and does not support priority-based retrieval."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "To implement a system that requires frequent insertions and deletions at both ends, which data structure should be applied?",
+            "options": {
+                "A": "Array",
+                "B": "Doubly Linked List",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that allows efficient insertions and deletions at both ends.",
+            "feedback": {
+                "correct": "A Doubly Linked List allows efficient insertions and deletions at both ends, making it suitable for such a system.",
+                "incorrect": {
+                    "A": "An array requires shifting elements, making insertions and deletions inefficient.",
+                    "C": "A stack only allows insertions and deletions at one end.",
+                    "D": "A queue only allows insertions at one end and deletions at the other."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which data structure would you use to efficiently store and manage a database index?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "B-tree",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that is optimized for disk storage and allows efficient insertion, deletion, and search operations.",
+            "feedback": {
+                "correct": "A B-tree is optimized for disk storage and allows efficient insertion, deletion, and search operations, making it suitable for database indexes.",
+                "incorrect": {
+                    "A": "An array does not provide efficient insertion and deletion operations.",
+                    "B": "A linked list does not provide efficient search operations.",
+                    "D": "A stack does not provide efficient search operations."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "To implement a task scheduler that processes tasks based on their priority, which data structure should be applied?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Priority Queue",
+                "D": "Linked List"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that processes elements based on their priority.",
+            "feedback": {
+                "correct": "A Priority Queue processes elements based on their priority, making it suitable for a task scheduler.",
+                "incorrect": {
+                    "A": "A queue processes elements in FIFO order, not based on priority.",
+                    "B": "A stack processes elements in LIFO order, not based on priority.",
+                    "D": "A linked list does not inherently support priority-based processing."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Which data structure would you use to implement a breadth-first search (BFS) algorithm?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that follows First In, First Out (FIFO) order.",
+            "feedback": {
+                "correct": "A Queue follows FIFO order, making it suitable for implementing a breadth-first search (BFS) algorithm.",
+                "incorrect": {
+                    "A": "A stack follows LIFO order, which is not suitable for BFS.",
+                    "C": "An array does not inherently support FIFO order without additional operations.",
+                    "D": "A linked list does not inherently support FIFO order without additional operations."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "To efficiently store and retrieve key-value pairs, which data structure should be applied?",
+            "options": {
+                "A": "Array",
+                "B": "Hash Table",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that provides average O(1) time complexity for search, insert, and delete operations.",
+            "feedback": {
+                "correct": "A Hash Table provides average O(1) time complexity for search, insert, and delete operations, making it suitable for storing and retrieving key-value pairs.",
+                "incorrect": {
+                    "A": "An array does not provide efficient search, insert, and delete operations.",
+                    "C": "A stack does not provide efficient search operations.",
+                    "D": "A queue does not provide efficient search operations."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Which data structure would you use to implement a system that requires efficient range queries?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Segment Tree",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that allows efficient querying of sums, minimums, and other range queries.",
+            "feedback": {
+                "correct": "A Segment Tree allows efficient querying of sums, minimums, and other range queries, making it suitable for such a system.",
+                "incorrect": {
+                    "A": "An array does not provide efficient range queries.",
+                    "B": "A linked list does not provide efficient range queries.",
+                    "D": "A stack does not provide efficient range queries."
+                }
+            }
+        }
+    ]
+}

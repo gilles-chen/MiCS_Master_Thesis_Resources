@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary purpose of a data structure?",
+            "options": {
+                "A": "To organize and store data efficiently",
+                "B": "To compile code",
+                "C": "To debug programs",
+                "D": "To design user interfaces"
+            },
+            "correct_answer": "A",
+            "hint": "Think about how data is managed in memory.",
+            "feedback": {
+                "correct": "Data structures are used to organize and store data efficiently for easy access and modification.",
+                "incorrect": {
+                    "B": "Compiling code is the job of a compiler, not a data structure.",
+                    "C": "Debugging programs is done using debugging tools, not data structures.",
+                    "D": "Designing user interfaces is related to UI/UX design, not data structures."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which data structure uses LIFO (Last In, First Out) principle?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Tree"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a structure where the last element added is the first one to be removed.",
+            "feedback": {
+                "correct": "A stack uses the LIFO principle, where the last element added is the first to be removed.",
+                "incorrect": {
+                    "B": "A queue uses FIFO (First In, First Out) principle.",
+                    "C": "A linked list does not follow LIFO or FIFO principles specifically.",
+                    "D": "A tree is a hierarchical data structure and does not follow LIFO principle."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the time complexity of accessing an element in an array?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A",
+            "hint": "Think about how quickly you can access an element if you know its index.",
+            "feedback": {
+                "correct": "Accessing an element in an array is O(1) because you can directly access any element if you know its index.",
+                "incorrect": {
+                    "B": "O(n) is the time complexity for searching an element in an unsorted array.",
+                    "C": "O(log n) is the time complexity for searching in a balanced binary search tree.",
+                    "D": "O(n^2) is the time complexity for some nested loop operations, not for accessing array elements."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which data structure is used to implement a priority queue?",
+            "options": {
+                "A": "Heap",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a data structure that allows efficient retrieval of the highest (or lowest) priority element.",
+            "feedback": {
+                "correct": "A heap is commonly used to implement a priority queue because it allows efficient retrieval of the highest (or lowest) priority element.",
+                "incorrect": {
+                    "B": "A stack follows LIFO principle and is not used for priority queues.",
+                    "C": "An array can be used but is not efficient for priority queues.",
+                    "D": "A linked list is not efficient for implementing priority queues."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the main characteristic of a binary search tree?",
+            "options": {
+                "A": "Each node has at most two children",
+                "B": "Each node has exactly two children",
+                "C": "Each node has at most three children",
+                "D": "Each node has exactly three children"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the number of children each node can have in this type of tree.",
+            "feedback": {
+                "correct": "In a binary search tree, each node has at most two children.",
+                "incorrect": {
+                    "B": "Not every node in a binary search tree has exactly two children; some nodes may have one or no children.",
+                    "C": "A binary search tree does not allow nodes to have three children.",
+                    "D": "A binary search tree does not allow nodes to have three children."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which data structure is best suited for implementing a FIFO (First In, First Out) system?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Tree",
+                "D": "Graph"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a structure where the first element added is the first one to be removed.",
+            "feedback": {
+                "correct": "A queue uses the FIFO principle, where the first element added is the first to be removed.",
+                "incorrect": {
+                    "B": "A stack uses the LIFO principle, not FIFO.",
+                    "C": "A tree is a hierarchical data structure and does not follow FIFO principle.",
+                    "D": "A graph is a collection of nodes and edges and does not follow FIFO principle."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the primary use of a hash table?",
+            "options": {
+                "A": "To store key-value pairs",
+                "B": "To sort data",
+                "C": "To traverse a tree",
+                "D": "To implement recursion"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a data structure that allows fast retrieval using keys.",
+            "feedback": {
+                "correct": "A hash table is primarily used to store key-value pairs for fast retrieval.",
+                "incorrect": {
+                    "B": "Sorting data is not the primary use of a hash table.",
+                    "C": "Traversing a tree is not related to hash tables.",
+                    "D": "Implementing recursion is a programming technique, not related to hash tables."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Which data structure is used to represent hierarchical relationships?",
+            "options": {
+                "A": "Tree",
+                "B": "Array",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a structure that resembles a family tree.",
+            "feedback": {
+                "correct": "A tree is used to represent hierarchical relationships, such as organizational structures or file systems.",
+                "incorrect": {
+                    "B": "An array is a linear data structure, not used for hierarchical relationships.",
+                    "C": "A stack is a linear data structure, not used for hierarchical relationships.",
+                    "D": "A queue is a linear data structure, not used for hierarchical relationships."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the main advantage of using a linked list over an array?",
+            "options": {
+                "A": "Dynamic size",
+                "B": "Faster access time",
+                "C": "Less memory usage",
+                "D": "Simpler implementation"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the flexibility in size when adding or removing elements.",
+            "feedback": {
+                "correct": "The main advantage of a linked list over an array is its dynamic size, allowing easy addition and removal of elements.",
+                "incorrect": {
+                    "B": "Arrays have faster access time due to direct indexing.",
+                    "C": "Linked lists generally use more memory due to storage of pointers.",
+                    "D": "Linked lists are generally more complex to implement than arrays."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Which data structure is used to implement depth-first search (DFS) in a graph?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Array",
+                "D": "Heap"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a structure that follows LIFO principle, which is suitable for backtracking.",
+            "feedback": {
+                "correct": "A stack is used to implement depth-first search (DFS) because it follows the LIFO principle, suitable for backtracking.",
+                "incorrect": {
+                    "B": "A queue is used for breadth-first search (BFS), not DFS.",
+                    "C": "An array is not typically used to implement DFS.",
+                    "D": "A heap is used for priority queues, not for DFS."
+                }
+            }
+        }
+    ]
+}

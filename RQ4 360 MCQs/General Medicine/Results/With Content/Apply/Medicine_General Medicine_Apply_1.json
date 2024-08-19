@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "A patient presents with elevated blood pressure. Which lifestyle modification should be applied to help manage their hypertension?",
+            "options": {
+                "A": "Increasing sodium intake",
+                "B": "Engaging in regular physical exercise",
+                "C": "Drinking more caffeinated beverages",
+                "D": "Smoking more frequently"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a lifestyle change that improves cardiovascular health.",
+            "feedback": {
+                "correct": "Engaging in regular physical exercise helps lower blood pressure and improve heart health.",
+                "incorrect": {
+                    "A": "Increasing sodium intake can worsen hypertension.",
+                    "C": "Caffeinated beverages can raise blood pressure in some individuals.",
+                    "D": "Smoking can increase blood pressure and worsen cardiovascular health."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "A patient with type 2 diabetes needs a management plan. Which combination of strategies should be applied to effectively manage their condition?",
+            "options": {
+                "A": "Dietary changes, exercise, and medication",
+                "B": "Increased sugar intake and reduced physical activity",
+                "C": "Smoking cessation and high-fat diet",
+                "D": "Avoiding all medications and relying solely on exercise"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a holistic approach involving multiple aspects of lifestyle and medical intervention.",
+            "feedback": {
+                "correct": "Dietary changes, exercise, and medication are essential components of an effective diabetes management plan.",
+                "incorrect": {
+                    "B": "Increased sugar intake and reduced physical activity can worsen diabetes.",
+                    "C": "Smoking cessation is beneficial, but a high-fat diet is not recommended.",
+                    "D": "Exercise is important, but medications are often necessary for effective management."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "A patient with chronic obstructive pulmonary disease (COPD) is seeking advice on managing their condition. Which strategy should be applied to help manage COPD?",
+            "options": {
+                "A": "Encouraging smoking cessation",
+                "B": "Increasing exposure to pollutants",
+                "C": "Reducing physical activity",
+                "D": "Avoiding all medications"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a strategy that addresses a major risk factor for COPD.",
+            "feedback": {
+                "correct": "Encouraging smoking cessation is crucial for managing COPD and improving lung function.",
+                "incorrect": {
+                    "B": "Increasing exposure to pollutants can worsen COPD symptoms.",
+                    "C": "Physical activity should be maintained to improve overall health.",
+                    "D": "Medications are often necessary to manage COPD symptoms effectively."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "A patient with asthma needs an effective management plan. Which combination of strategies should be applied?",
+            "options": {
+                "A": "Avoiding allergens, using bronchodilators, and corticosteroids",
+                "B": "Increasing exposure to allergens and avoiding medications",
+                "C": "Smoking more frequently and avoiding physical activity",
+                "D": "Relying solely on dietary changes"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a comprehensive approach that includes both avoidance and medication.",
+            "feedback": {
+                "correct": "Avoiding allergens, using bronchodilators, and corticosteroids are key strategies for managing asthma.",
+                "incorrect": {
+                    "B": "Increasing exposure to allergens and avoiding medications can worsen asthma symptoms.",
+                    "C": "Smoking and avoiding physical activity are detrimental to asthma management.",
+                    "D": "Dietary changes alone are not sufficient to manage asthma."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "A patient with hypothyroidism requires treatment. Which medication should be applied to manage their condition?",
+            "options": {
+                "A": "Levothyroxine",
+                "B": "Insulin",
+                "C": "Bronchodilators",
+                "D": "Antihistamines"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a medication that replaces deficient thyroid hormones.",
+            "feedback": {
+                "correct": "Levothyroxine is used to replace deficient thyroid hormones in hypothyroidism.",
+                "incorrect": {
+                    "B": "Insulin is used for diabetes management, not hypothyroidism.",
+                    "C": "Bronchodilators are used for respiratory conditions, not hypothyroidism.",
+                    "D": "Antihistamines are used for allergic reactions, not hypothyroidism."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "A patient with coronary artery disease (CAD) needs a comprehensive management plan. Which combination of strategies should be applied?",
+            "options": {
+                "A": "Dietary changes, exercise, and medication",
+                "B": "Increased fat intake and reduced physical activity",
+                "C": "Smoking more frequently and avoiding medications",
+                "D": "Relying solely on stress management techniques"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a holistic approach involving multiple aspects of lifestyle and medical intervention.",
+            "feedback": {
+                "correct": "Dietary changes, exercise, and medication are essential components of an effective CAD management plan.",
+                "incorrect": {
+                    "B": "Increased fat intake and reduced physical activity can worsen CAD.",
+                    "C": "Smoking and avoiding medications are detrimental to CAD management.",
+                    "D": "Stress management is important but not sufficient alone for CAD management."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "A patient with a suspected urinary tract infection (UTI) needs treatment. Which strategy should be applied?",
+            "options": {
+                "A": "Prescribing antibiotics and advising on hygiene practices",
+                "B": "Increasing fluid intake and avoiding antibiotics",
+                "C": "Encouraging the use of diuretics",
+                "D": "Relying solely on pain relief medications"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a treatment that addresses the bacterial cause and preventive measures.",
+            "feedback": {
+                "correct": "Prescribing antibiotics and advising on hygiene practices are key strategies for managing UTIs.",
+                "incorrect": {
+                    "B": "Increasing fluid intake is helpful, but antibiotics are necessary to treat the infection.",
+                    "C": "Diuretics are not typically used for UTI management.",
+                    "D": "Pain relief medications alone do not address the bacterial cause of UTIs."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "A patient with osteoarthritis is seeking pain relief. Which combination of strategies should be applied?",
+            "options": {
+                "A": "Pain relief medications, physical therapy, and lifestyle modifications",
+                "B": "Increasing physical inactivity and avoiding medications",
+                "C": "Smoking more frequently and avoiding physical therapy",
+                "D": "Relying solely on dietary supplements"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a comprehensive approach involving multiple aspects of treatment.",
+            "feedback": {
+                "correct": "Pain relief medications, physical therapy, and lifestyle modifications are essential components of an effective osteoarthritis management plan.",
+                "incorrect": {
+                    "B": "Increasing physical inactivity and avoiding medications can worsen osteoarthritis symptoms.",
+                    "C": "Smoking and avoiding physical therapy are detrimental to osteoarthritis management.",
+                    "D": "Dietary supplements alone are not sufficient to manage osteoarthritis."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "A patient with a history of heart disease needs preventive care. Which strategy should be applied to reduce their risk of future cardiac events?",
+            "options": {
+                "A": "Regular exercise, healthy diet, and medication adherence",
+                "B": "Increased salt intake and reduced physical activity",
+                "C": "Smoking more frequently and avoiding medications",
+                "D": "Relying solely on stress management techniques"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a holistic approach involving multiple aspects of lifestyle and medical intervention.",
+            "feedback": {
+                "correct": "Regular exercise, a healthy diet, and medication adherence are essential components of an effective preventive care plan for heart disease.",
+                "incorrect": {
+                    "B": "Increased salt intake and reduced physical activity can worsen heart disease.",
+                    "C": "Smoking and avoiding medications are detrimental to heart disease management.",
+                    "D": "Stress management is important but not sufficient alone for heart disease prevention."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "A patient with chronic low back pain needs a management plan. Which combination of strategies should be applied?",
+            "options": {
+                "A": "Pain relief medications, physical therapy, and ergonomic adjustments",
+                "B": "Increasing physical inactivity and avoiding medications",
+                "C": "Smoking more frequently and avoiding physical therapy",
+                "D": "Relying solely on dietary changes"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a comprehensive approach involving multiple aspects of treatment.",
+            "feedback": {
+                "correct": "Pain relief medications, physical therapy, and ergonomic adjustments are essential components of an effective low back pain management plan.",
+                "incorrect": {
+                    "B": "Increasing physical inactivity and avoiding medications can worsen low back pain.",
+                    "C": "Smoking and avoiding physical therapy are detrimental to low back pain management.",
+                    "D": "Dietary changes alone are not sufficient to manage low back pain."
+                }
+            }
+        }
+    ]
+}

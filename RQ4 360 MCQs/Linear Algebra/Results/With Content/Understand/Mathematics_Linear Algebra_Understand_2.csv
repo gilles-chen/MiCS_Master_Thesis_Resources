@@ -1,0 +1,3 @@
+"id","text","answer","a","b","c","d"
+"1","Given the matrix A = [[2, 3], [1, 4]], apply the matrix multiplication operation to find the product of A and the vector v = [1, 2].","[7, 10]","[8, 9]","[7, 10]","[5, 10]","[4, 11]"
+"2","Apply the concept of eigenvalues to determine which of the following is an eigenvalue of the matrix B = [[4, 1], [2, 3]].","5","1","2","3","5"

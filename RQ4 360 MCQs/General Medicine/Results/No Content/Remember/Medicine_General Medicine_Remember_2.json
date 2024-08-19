@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the normal range for adult human body temperature in degrees Celsius?",
+            "options": {
+                "A": "36.1 - 37.2",
+                "B": "35.0 - 36.0",
+                "C": "37.5 - 38.5",
+                "D": "34.0 - 35.0"
+            },
+            "correct_answer": "A",
+            "hint": "It is slightly above 36 degrees Celsius.",
+            "feedback": {
+                "correct": "The normal range for adult human body temperature is typically between 36.1 and 37.2 degrees Celsius.",
+                "incorrect": {
+                    "B": "35.0 - 36.0 degrees Celsius is below the normal range and may indicate hypothermia.",
+                    "C": "37.5 - 38.5 degrees Celsius is above the normal range and may indicate fever.",
+                    "D": "34.0 - 35.0 degrees Celsius is significantly below the normal range and indicates severe hypothermia."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which organ is primarily responsible for filtering blood and producing urine?",
+            "options": {
+                "A": "Kidney",
+                "B": "Liver",
+                "C": "Heart",
+                "D": "Lungs"
+            },
+            "correct_answer": "A",
+            "hint": "This organ is part of the urinary system.",
+            "feedback": {
+                "correct": "The kidneys are responsible for filtering blood and producing urine.",
+                "incorrect": {
+                    "B": "The liver is responsible for detoxifying chemicals and metabolizing drugs, not producing urine.",
+                    "C": "The heart pumps blood throughout the body but does not filter it or produce urine.",
+                    "D": "The lungs are responsible for gas exchange, not filtering blood or producing urine."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the primary function of hemoglobin in the blood?",
+            "options": {
+                "A": "To transport oxygen",
+                "B": "To fight infections",
+                "C": "To clot blood",
+                "D": "To digest food"
+            },
+            "correct_answer": "A",
+            "hint": "Hemoglobin binds to a gas essential for cellular respiration.",
+            "feedback": {
+                "correct": "Hemoglobin's primary function is to transport oxygen from the lungs to the tissues.",
+                "incorrect": {
+                    "B": "White blood cells, not hemoglobin, are responsible for fighting infections.",
+                    "C": "Platelets and clotting factors are responsible for blood clotting, not hemoglobin.",
+                    "D": "Digestive enzymes, not hemoglobin, are responsible for digesting food."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which vitamin is essential for the absorption of calcium in the body?",
+            "options": {
+                "A": "Vitamin D",
+                "B": "Vitamin C",
+                "C": "Vitamin B12",
+                "D": "Vitamin K"
+            },
+            "correct_answer": "A",
+            "hint": "This vitamin is often associated with sunlight.",
+            "feedback": {
+                "correct": "Vitamin D is essential for the absorption of calcium in the body.",
+                "incorrect": {
+                    "B": "Vitamin C is important for the immune system and collagen production, not calcium absorption.",
+                    "C": "Vitamin B12 is important for nerve function and blood formation, not calcium absorption.",
+                    "D": "Vitamin K is important for blood clotting, not calcium absorption."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the main function of the alveoli in the lungs?",
+            "options": {
+                "A": "Gas exchange",
+                "B": "Blood filtration",
+                "C": "Nutrient absorption",
+                "D": "Hormone production"
+            },
+            "correct_answer": "A",
+            "hint": "These structures are crucial for breathing.",
+            "feedback": {
+                "correct": "The main function of the alveoli is gas exchange, allowing oxygen to enter the blood and carbon dioxide to be expelled.",
+                "incorrect": {
+                    "B": "Blood filtration is a function of the kidneys, not the alveoli.",
+                    "C": "Nutrient absorption occurs in the intestines, not the alveoli.",
+                    "D": "Hormone production is carried out by glands, not the alveoli."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which part of the brain is responsible for regulating heart rate and breathing?",
+            "options": {
+                "A": "Medulla oblongata",
+                "B": "Cerebellum",
+                "C": "Hypothalamus",
+                "D": "Cerebrum"
+            },
+            "correct_answer": "A",
+            "hint": "This part of the brain is located in the brainstem.",
+            "feedback": {
+                "correct": "The medulla oblongata is responsible for regulating heart rate and breathing.",
+                "incorrect": {
+                    "B": "The cerebellum is responsible for coordinating voluntary movements, not regulating heart rate and breathing.",
+                    "C": "The hypothalamus regulates body temperature and other autonomic functions, but not directly heart rate and breathing.",
+                    "D": "The cerebrum is involved in higher brain functions like thought and action, not regulating heart rate and breathing."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the primary function of insulin in the body?",
+            "options": {
+                "A": "To regulate blood sugar levels",
+                "B": "To aid in digestion",
+                "C": "To fight infections",
+                "D": "To transport oxygen"
+            },
+            "correct_answer": "A",
+            "hint": "This hormone is crucial for glucose metabolism.",
+            "feedback": {
+                "correct": "Insulin's primary function is to regulate blood sugar levels by facilitating the uptake of glucose into cells.",
+                "incorrect": {
+                    "B": "Digestive enzymes, not insulin, aid in digestion.",
+                    "C": "White blood cells, not insulin, are responsible for fighting infections.",
+                    "D": "Hemoglobin, not insulin, is responsible for transporting oxygen."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Which type of blood vessel carries blood away from the heart?",
+            "options": {
+                "A": "Arteries",
+                "B": "Veins",
+                "C": "Capillaries",
+                "D": "Lymphatic vessels"
+            },
+            "correct_answer": "A",
+            "hint": "These vessels have thick, muscular walls to handle high pressure.",
+            "feedback": {
+                "correct": "Arteries carry blood away from the heart to various parts of the body.",
+                "incorrect": {
+                    "B": "Veins carry blood towards the heart, not away from it.",
+                    "C": "Capillaries are small blood vessels where gas exchange occurs, but they do not carry blood away from the heart.",
+                    "D": "Lymphatic vessels carry lymph, not blood, and are part of the immune system."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the primary function of the large intestine?",
+            "options": {
+                "A": "Water absorption",
+                "B": "Protein digestion",
+                "C": "Nutrient absorption",
+                "D": "Hormone production"
+            },
+            "correct_answer": "A",
+            "hint": "This organ helps in forming solid waste.",
+            "feedback": {
+                "correct": "The primary function of the large intestine is to absorb water from the remaining indigestible food matter.",
+                "incorrect": {
+                    "B": "Protein digestion primarily occurs in the stomach and small intestine, not the large intestine.",
+                    "C": "Nutrient absorption occurs mainly in the small intestine, not the large intestine.",
+                    "D": "Hormone production is carried out by glands, not the large intestine."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Which element is essential for the production of thyroid hormones?",
+            "options": {
+                "A": "Iodine",
+                "B": "Iron",
+                "C": "Calcium",
+                "D": "Magnesium"
+            },
+            "correct_answer": "A",
+            "hint": "This element is often added to table salt.",
+            "feedback": {
+                "correct": "Iodine is essential for the production of thyroid hormones.",
+                "incorrect": {
+                    "B": "Iron is important for hemoglobin production, not thyroid hormones.",
+                    "C": "Calcium is important for bone health, not thyroid hormone production.",
+                    "D": "Magnesium is involved in many biochemical reactions but not specifically in thyroid hormone production."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the determinant of a 2x2 matrix with elements a, b, c, and d?",
+            "options": {
+                "A": "ad - bc",
+                "B": "ab - cd",
+                "C": "ac - bd",
+                "D": "a + b + c + d"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the formula involving the product of the diagonals.",
+            "feedback": {
+                "correct": "The determinant of a 2x2 matrix is calculated as ad - bc.",
+                "incorrect": {
+                    "B": "This is not the correct formula for the determinant of a 2x2 matrix.",
+                    "C": "This is not the correct formula for the determinant of a 2x2 matrix.",
+                    "D": "This is simply the sum of all elements, not the determinant."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "What is the identity matrix for a 2x2 matrix?",
+            "options": {
+                "A": "[1 0; 0 1]",
+                "B": "[0 1; 1 0]",
+                "C": "[1 1; 1 1]",
+                "D": "[0 0; 0 0]"
+            },
+            "correct_answer": "A",
+            "hint": "The identity matrix has 1s on the diagonal and 0s elsewhere.",
+            "feedback": {
+                "correct": "The identity matrix for a 2x2 matrix is [1 0; 0 1].",
+                "incorrect": {
+                    "B": "This matrix has 1s off the diagonal, which is not correct for an identity matrix.",
+                    "C": "This matrix has 1s in all positions, which is not correct for an identity matrix.",
+                    "D": "This matrix has 0s in all positions, which is not correct for an identity matrix."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the rank of a matrix?",
+            "options": {
+                "A": "The number of non-zero rows in its row echelon form",
+                "B": "The number of columns in the matrix",
+                "C": "The number of rows in the matrix",
+                "D": "The sum of all elements in the matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the concept related to the linear independence of rows.",
+            "feedback": {
+                "correct": "The rank of a matrix is the number of non-zero rows in its row echelon form.",
+                "incorrect": {
+                    "B": "The number of columns is not the definition of the rank of a matrix.",
+                    "C": "The number of rows is not the definition of the rank of a matrix.",
+                    "D": "The sum of all elements is not related to the rank of a matrix."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "What is a vector space?",
+            "options": {
+                "A": "A set of vectors that is closed under vector addition and scalar multiplication",
+                "B": "A set of vectors that is closed under matrix multiplication",
+                "C": "A set of vectors that is closed under vector subtraction",
+                "D": "A set of vectors that is closed under dot product"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the operations that define a vector space.",
+            "feedback": {
+                "correct": "A vector space is a set of vectors that is closed under vector addition and scalar multiplication.",
+                "incorrect": {
+                    "B": "Matrix multiplication is not a defining operation for a vector space.",
+                    "C": "Vector subtraction alone does not define a vector space.",
+                    "D": "The dot product is not a defining operation for a vector space."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the transpose of a matrix?",
+            "options": {
+                "A": "A new matrix obtained by swapping rows and columns",
+                "B": "A new matrix obtained by multiplying each element by -1",
+                "C": "A new matrix obtained by adding a constant to each element",
+                "D": "A new matrix obtained by reversing the order of elements"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the operation that involves rows and columns.",
+            "feedback": {
+                "correct": "The transpose of a matrix is obtained by swapping its rows and columns.",
+                "incorrect": {
+                    "B": "Multiplying each element by -1 gives the negative of the matrix, not the transpose.",
+                    "C": "Adding a constant to each element does not produce the transpose.",
+                    "D": "Reversing the order of elements does not produce the transpose."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is an eigenvalue of a matrix?",
+            "options": {
+                "A": "A scalar such that there exists a non-zero vector for which the matrix times the vector equals the scalar times the vector",
+                "B": "A scalar such that the matrix times the scalar equals zero",
+                "C": "A scalar such that the matrix times the scalar equals the identity matrix",
+                "D": "A scalar such that the matrix times the scalar equals the transpose of the matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the matrix, the scalar, and a vector.",
+            "feedback": {
+                "correct": "An eigenvalue is a scalar such that there exists a non-zero vector for which the matrix times the vector equals the scalar times the vector.",
+                "incorrect": {
+                    "B": "This does not define an eigenvalue.",
+                    "C": "This does not define an eigenvalue.",
+                    "D": "This does not define an eigenvalue."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the trace of a square matrix?",
+            "options": {
+                "A": "The sum of the elements on the main diagonal",
+                "B": "The product of the elements on the main diagonal",
+                "C": "The sum of all elements in the matrix",
+                "D": "The determinant of the matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Focus on the elements along the main diagonal.",
+            "feedback": {
+                "correct": "The trace of a square matrix is the sum of the elements on the main diagonal.",
+                "incorrect": {
+                    "B": "The product of the elements on the main diagonal is not the trace.",
+                    "C": "The sum of all elements in the matrix is not the trace.",
+                    "D": "The determinant is a different concept from the trace."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is a basis of a vector space?",
+            "options": {
+                "A": "A set of linearly independent vectors that span the vector space",
+                "B": "A set of vectors that are all orthogonal to each other",
+                "C": "A set of vectors that are all parallel to each other",
+                "D": "A set of vectors that are all equal in magnitude"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the properties of the vectors in the set.",
+            "feedback": {
+                "correct": "A basis of a vector space is a set of linearly independent vectors that span the vector space.",
+                "incorrect": {
+                    "B": "Orthogonality is not a requirement for a basis.",
+                    "C": "Parallel vectors cannot span a vector space.",
+                    "D": "Equal magnitude is not a requirement for a basis."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the null space of a matrix?",
+            "options": {
+                "A": "The set of all vectors that, when multiplied by the matrix, result in the zero vector",
+                "B": "The set of all vectors that, when multiplied by the matrix, result in the identity matrix",
+                "C": "The set of all vectors that, when multiplied by the matrix, result in the transpose of the matrix",
+                "D": "The set of all vectors that, when multiplied by the matrix, result in the determinant of the matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the result of multiplying the matrix by vectors in the null space.",
+            "feedback": {
+                "correct": "The null space of a matrix is the set of all vectors that, when multiplied by the matrix, result in the zero vector.",
+                "incorrect": {
+                    "B": "The identity matrix is not related to the null space.",
+                    "C": "The transpose of the matrix is not related to the null space.",
+                    "D": "The determinant of the matrix is not related to the null space."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the inverse of a matrix?",
+            "options": {
+                "A": "A matrix that, when multiplied by the original matrix, results in the identity matrix",
+                "B": "A matrix that, when multiplied by the original matrix, results in the zero matrix",
+                "C": "A matrix that, when multiplied by the original matrix, results in the transpose of the original matrix",
+                "D": "A matrix that, when multiplied by the original matrix, results in the determinant of the original matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the matrix that undoes the effect of the original matrix.",
+            "feedback": {
+                "correct": "The inverse of a matrix is a matrix that, when multiplied by the original matrix, results in the identity matrix.",
+                "incorrect": {
+                    "B": "The zero matrix is not the result of multiplying a matrix by its inverse.",
+                    "C": "The transpose of the original matrix is not the result of multiplying a matrix by its inverse.",
+                    "D": "The determinant of the original matrix is not the result of multiplying a matrix by its inverse."
+                }
+            }
+        }
+    ]
+}

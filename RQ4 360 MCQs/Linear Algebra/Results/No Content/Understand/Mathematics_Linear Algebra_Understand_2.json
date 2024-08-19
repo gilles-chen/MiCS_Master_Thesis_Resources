@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Explain why a matrix is invertible if and only if its determinant is non-zero.",
+            "options": {
+                "A": "Because a non-zero determinant indicates the matrix has full rank.",
+                "B": "Because a non-zero determinant means the matrix is symmetric.",
+                "C": "Because a non-zero determinant implies the matrix is diagonalizable.",
+                "D": "Because a non-zero determinant ensures the matrix is orthogonal."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the determinant and the rank of a matrix.",
+            "feedback": {
+                "correct": "A non-zero determinant indicates that the matrix has full rank, meaning it is invertible.",
+                "incorrect": {
+                    "B": "A non-zero determinant does not necessarily mean the matrix is symmetric.",
+                    "C": "A non-zero determinant does not imply the matrix is diagonalizable.",
+                    "D": "A non-zero determinant does not ensure the matrix is orthogonal."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Describe the geometric interpretation of the dot product of two vectors.",
+            "options": {
+                "A": "It represents the area of the parallelogram formed by the vectors.",
+                "B": "It represents the volume of the parallelepiped formed by the vectors.",
+                "C": "It represents the projection of one vector onto another.",
+                "D": "It represents the angle between the two vectors."
+            },
+            "correct_answer": "C",
+            "hint": "Think about how the dot product relates to the lengths of the vectors and the cosine of the angle between them.",
+            "feedback": {
+                "correct": "The dot product represents the projection of one vector onto another, scaled by the magnitude of the other vector.",
+                "incorrect": {
+                    "A": "The area of the parallelogram is given by the magnitude of the cross product, not the dot product.",
+                    "B": "The volume of the parallelepiped is related to the scalar triple product, not the dot product.",
+                    "D": "The dot product is related to the cosine of the angle, but it does not directly represent the angle."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Interpret the significance of eigenvalues in the context of linear transformations.",
+            "options": {
+                "A": "Eigenvalues determine the rotation angle of the transformation.",
+                "B": "Eigenvalues indicate the scaling factor along the eigenvectors.",
+                "C": "Eigenvalues represent the translation vector of the transformation.",
+                "D": "Eigenvalues describe the shear factor of the transformation."
+            },
+            "correct_answer": "B",
+            "hint": "Consider how eigenvalues affect the magnitude of eigenvectors under the transformation.",
+            "feedback": {
+                "correct": "Eigenvalues indicate the scaling factor by which the eigenvectors are stretched or compressed during the transformation.",
+                "incorrect": {
+                    "A": "Eigenvalues do not determine the rotation angle; they are related to scaling.",
+                    "C": "Eigenvalues do not represent translation; they are related to scaling along eigenvectors.",
+                    "D": "Eigenvalues do not describe shear; they are related to scaling."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Compare the row space and column space of a matrix.",
+            "options": {
+                "A": "The row space and column space are always the same.",
+                "B": "The row space and column space have the same dimension but different bases.",
+                "C": "The row space is a subspace of the column space.",
+                "D": "The column space is a subspace of the row space."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the rank of the matrix and how it relates to both the row space and column space.",
+            "feedback": {
+                "correct": "The row space and column space have the same dimension, known as the rank of the matrix, but they generally have different bases.",
+                "incorrect": {
+                    "A": "The row space and column space are not always the same; they have different bases.",
+                    "C": "The row space is not a subspace of the column space; they are distinct subspaces.",
+                    "D": "The column space is not a subspace of the row space; they are distinct subspaces."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Summarize the process of finding the inverse of a 2x2 matrix.",
+            "options": {
+                "A": "Swap the diagonal elements, change the signs of the off-diagonal elements, and divide by the determinant.",
+                "B": "Transpose the matrix and divide by the determinant.",
+                "C": "Swap the rows and columns and multiply by the determinant.",
+                "D": "Replace each element with its cofactor and divide by the determinant."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the formula for the inverse of a 2x2 matrix.",
+            "feedback": {
+                "correct": "To find the inverse of a 2x2 matrix, swap the diagonal elements, change the signs of the off-diagonal elements, and divide by the determinant.",
+                "incorrect": {
+                    "B": "Transposing the matrix is not sufficient; you also need to adjust the elements and divide by the determinant.",
+                    "C": "Swapping rows and columns is not the correct method for finding the inverse.",
+                    "D": "Replacing each element with its cofactor is part of finding the adjugate, not directly the inverse."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Explain the relationship between the rank of a matrix and its solutions to a system of linear equations.",
+            "options": {
+                "A": "The rank determines the number of solutions.",
+                "B": "The rank indicates whether the system is consistent or inconsistent.",
+                "C": "The rank shows the number of free variables in the solution.",
+                "D": "The rank reveals the number of pivot positions in the matrix."
+            },
+            "correct_answer": "B",
+            "hint": "Consider how the rank relates to the consistency of the system.",
+            "feedback": {
+                "correct": "The rank of a matrix indicates whether the system of linear equations is consistent (has at least one solution) or inconsistent (has no solutions).",
+                "incorrect": {
+                    "A": "The rank does not directly determine the number of solutions; it indicates consistency.",
+                    "C": "The rank does not show the number of free variables; it indicates the number of pivot positions.",
+                    "D": "While the rank reveals the number of pivot positions, it is more directly related to the consistency of the system."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Describe the effect of a linear transformation represented by a matrix on the unit circle.",
+            "options": {
+                "A": "It always rotates the unit circle.",
+                "B": "It always scales the unit circle uniformly.",
+                "C": "It can transform the unit circle into an ellipse.",
+                "D": "It can only translate the unit circle."
+            },
+            "correct_answer": "C",
+            "hint": "Consider how different linear transformations affect the shape of the unit circle.",
+            "feedback": {
+                "correct": "A linear transformation represented by a matrix can transform the unit circle into an ellipse by scaling and rotating it.",
+                "incorrect": {
+                    "A": "Not all linear transformations involve rotation.",
+                    "B": "Not all linear transformations scale uniformly; they can scale differently in different directions.",
+                    "D": "Linear transformations do not involve translation; they involve scaling, rotating, and shearing."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Interpret the meaning of the trace of a square matrix.",
+            "options": {
+                "A": "The trace is the sum of the eigenvalues of the matrix.",
+                "B": "The trace is the product of the eigenvalues of the matrix.",
+                "C": "The trace is the determinant of the matrix.",
+                "D": "The trace is the rank of the matrix."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the trace and the eigenvalues of a matrix.",
+            "feedback": {
+                "correct": "The trace of a square matrix is the sum of its eigenvalues.",
+                "incorrect": {
+                    "B": "The product of the eigenvalues is the determinant, not the trace.",
+                    "C": "The trace is not the determinant; it is the sum of the diagonal elements.",
+                    "D": "The trace is not the rank; it is the sum of the diagonal elements."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Compare the properties of orthogonal and orthonormal sets of vectors.",
+            "options": {
+                "A": "Orthogonal sets have vectors with unit length, while orthonormal sets do not.",
+                "B": "Orthonormal sets have vectors with unit length, while orthogonal sets do not.",
+                "C": "Both orthogonal and orthonormal sets have vectors with unit length.",
+                "D": "Neither orthogonal nor orthonormal sets have vectors with unit length."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the definitions of orthogonal and orthonormal vectors.",
+            "feedback": {
+                "correct": "Orthonormal sets have vectors that are both orthogonal and of unit length, while orthogonal sets only require the vectors to be orthogonal.",
+                "incorrect": {
+                    "A": "Orthogonal sets do not require vectors to have unit length.",
+                    "C": "Only orthonormal sets require vectors to have unit length.",
+                    "D": "Orthonormal sets do have vectors with unit length."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Summarize the concept of a basis in a vector space.",
+            "options": {
+                "A": "A basis is a set of vectors that span the vector space and are linearly dependent.",
+                "B": "A basis is a set of vectors that span the vector space and are linearly independent.",
+                "C": "A basis is a set of vectors that are orthogonal to each other.",
+                "D": "A basis is a set of vectors that are orthonormal to each other."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the requirements for a set of vectors to form a basis.",
+            "feedback": {
+                "correct": "A basis is a set of vectors that span the vector space and are linearly independent.",
+                "incorrect": {
+                    "A": "A basis must be linearly independent, not dependent.",
+                    "C": "Orthogonality is not a requirement for a basis, although it can be a property of some bases.",
+                    "D": "Orthonormality is not a requirement for a basis, although it can be a property of some bases."
+                }
+            }
+        }
+    ]
+}

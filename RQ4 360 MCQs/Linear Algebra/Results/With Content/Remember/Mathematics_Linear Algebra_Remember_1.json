@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary focus of linear algebra?",
+            "options": {
+                "A": "Study of vector spaces and linear mappings",
+                "B": "Study of calculus and integrals",
+                "C": "Study of probability and statistics",
+                "D": "Study of number theory"
+            },
+            "correct_answer": "A",
+            "hint": "It involves vectors and matrices.",
+            "feedback": {
+                "correct": "Linear algebra primarily focuses on vector spaces and linear mappings between these spaces.",
+                "incorrect": {
+                    "B": "Calculus and integrals are the focus of calculus, not linear algebra.",
+                    "C": "Probability and statistics are separate fields of study.",
+                    "D": "Number theory deals with properties of numbers, not linear algebra."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which of the following is a property of a vector space?",
+            "options": {
+                "A": "Closure under addition and scalar multiplication",
+                "B": "Existence of multiplicative inverses",
+                "C": "Non-commutative addition",
+                "D": "Existence of a multiplicative identity"
+            },
+            "correct_answer": "A",
+            "hint": "Think about operations involving vectors.",
+            "feedback": {
+                "correct": "A vector space is closed under addition and scalar multiplication.",
+                "incorrect": {
+                    "B": "Multiplicative inverses are not a requirement for vector spaces.",
+                    "C": "Addition in vector spaces is commutative.",
+                    "D": "A multiplicative identity is not a requirement for vector spaces."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the inverse of a matrix A denoted as?",
+            "options": {
+                "A": "A^-1",
+                "B": "A^T",
+                "C": "det(A)",
+                "D": "A*"
+            },
+            "correct_answer": "A",
+            "hint": "It is often used in solving linear systems.",
+            "feedback": {
+                "correct": "The inverse of a matrix A is denoted as A^-1.",
+                "incorrect": {
+                    "B": "A^T denotes the transpose of matrix A.",
+                    "C": "det(A) denotes the determinant of matrix A.",
+                    "D": "A* is not a standard notation for the inverse of a matrix."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which of the following is a key concept in linear algebra?",
+            "options": {
+                "A": "Vectors and Vector Spaces",
+                "B": "Differential Equations",
+                "C": "Integral Calculus",
+                "D": "Complex Analysis"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the basic building blocks of linear algebra.",
+            "feedback": {
+                "correct": "Vectors and vector spaces are fundamental concepts in linear algebra.",
+                "incorrect": {
+                    "B": "Differential equations are studied in calculus and differential equations, not linear algebra.",
+                    "C": "Integral calculus is a separate field of study.",
+                    "D": "Complex analysis deals with complex numbers and functions, not linear algebra."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the determinant of a matrix used for?",
+            "options": {
+                "A": "Checking matrix invertibility",
+                "B": "Calculating eigenvalues",
+                "C": "Finding the transpose",
+                "D": "Performing matrix addition"
+            },
+            "correct_answer": "A",
+            "hint": "It helps in determining if a matrix is singular or not.",
+            "feedback": {
+                "correct": "The determinant of a matrix is used to check if the matrix is invertible.",
+                "incorrect": {
+                    "B": "Eigenvalues are found using the characteristic polynomial, not directly through the determinant.",
+                    "C": "The transpose of a matrix is found by flipping rows and columns, not using the determinant.",
+                    "D": "Matrix addition does not involve the determinant."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is a linear transformation?",
+            "options": {
+                "A": "A mapping that preserves vector addition and scalar multiplication",
+                "B": "A function that only scales vectors",
+                "C": "A process that only rotates vectors",
+                "D": "A transformation that changes the dimension of vectors"
+            },
+            "correct_answer": "A",
+            "hint": "It involves preserving basic vector operations.",
+            "feedback": {
+                "correct": "A linear transformation is a mapping that preserves vector addition and scalar multiplication.",
+                "incorrect": {
+                    "B": "Scaling is just one aspect of linear transformations.",
+                    "C": "Rotation is a type of linear transformation but not the definition.",
+                    "D": "Linear transformations do not necessarily change the dimension of vectors."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the kernel of a linear transformation?",
+            "options": {
+                "A": "The set of vectors mapped to the zero vector",
+                "B": "The set of all eigenvectors",
+                "C": "The set of all eigenvalues",
+                "D": "The set of vectors that are scaled"
+            },
+            "correct_answer": "A",
+            "hint": "It involves vectors that are mapped to zero.",
+            "feedback": {
+                "correct": "The kernel of a linear transformation is the set of vectors mapped to the zero vector.",
+                "incorrect": {
+                    "B": "Eigenvectors are not necessarily mapped to the zero vector.",
+                    "C": "Eigenvalues are scalars, not vectors.",
+                    "D": "Scaling does not define the kernel."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Which matrix operation involves flipping a matrix over its diagonal?",
+            "options": {
+                "A": "Transpose",
+                "B": "Inverse",
+                "C": "Determinant",
+                "D": "Addition"
+            },
+            "correct_answer": "A",
+            "hint": "It switches the row and column indices.",
+            "feedback": {
+                "correct": "The transpose of a matrix involves flipping it over its diagonal.",
+                "incorrect": {
+                    "B": "The inverse of a matrix is not obtained by flipping it over its diagonal.",
+                    "C": "The determinant is a scalar value, not an operation involving flipping.",
+                    "D": "Addition does not involve flipping the matrix."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is an eigenvector?",
+            "options": {
+                "A": "A non-zero vector that changes only in scale when a linear transformation is applied",
+                "B": "A vector that is always mapped to zero",
+                "C": "A vector that is always orthogonal to other vectors",
+                "D": "A vector that represents the inverse of a matrix"
+            },
+            "correct_answer": "A",
+            "hint": "It is associated with eigenvalues.",
+            "feedback": {
+                "correct": "An eigenvector is a non-zero vector that changes only in scale when a linear transformation is applied.",
+                "incorrect": {
+                    "B": "Eigenvectors are not necessarily mapped to zero.",
+                    "C": "Eigenvectors are not defined by orthogonality.",
+                    "D": "Eigenvectors do not represent the inverse of a matrix."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the sum of the eigenvalues of a matrix equal to?",
+            "options": {
+                "A": "The trace of the matrix",
+                "B": "The determinant of the matrix",
+                "C": "The rank of the matrix",
+                "D": "The inverse of the matrix"
+            },
+            "correct_answer": "A",
+            "hint": "It is a property involving the diagonal elements.",
+            "feedback": {
+                "correct": "The sum of the eigenvalues of a matrix equals the trace of the matrix.",
+                "incorrect": {
+                    "B": "The determinant is the product of the eigenvalues, not their sum.",
+                    "C": "The rank is the number of linearly independent rows or columns, not related to the sum of eigenvalues.",
+                    "D": "The inverse is not related to the sum of eigenvalues."
+                }
+            }
+        }
+    ]
+}

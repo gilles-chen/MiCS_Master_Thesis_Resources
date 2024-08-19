@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given an unsorted array of integers, which data structure would you use to efficiently find the median after each insertion?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Heap",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that can efficiently handle dynamic data and provide quick access to the median.",
+            "feedback": {
+                "correct": "Heaps (specifically a combination of min-heap and max-heap) can be used to efficiently find the median in dynamic data.",
+                "incorrect": {
+                    "A": "An array would require sorting after each insertion, which is inefficient.",
+                    "B": "A linked list does not provide efficient access to the median.",
+                    "D": "A stack follows LIFO order and is not suitable for finding medians."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "You need to implement a browser's back and forward navigation. Which data structure is most appropriate for this task?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Graph"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that allows you to easily access the most recently visited page.",
+            "feedback": {
+                "correct": "A stack is ideal for this task as it allows you to push and pop pages, following the LIFO principle.",
+                "incorrect": {
+                    "A": "A queue follows FIFO order, which is not suitable for back and forward navigation.",
+                    "C": "An array does not provide efficient access to the most recently visited page.",
+                    "D": "A graph is too complex for this simple navigation task."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Which data structure would you use to implement an efficient priority queue?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Heap",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that allows for efficient insertion and extraction of the highest (or lowest) priority element.",
+            "feedback": {
+                "correct": "A heap is ideal for implementing a priority queue due to its efficient insertion and extraction operations.",
+                "incorrect": {
+                    "A": "An array would require sorting, which is inefficient for a priority queue.",
+                    "B": "A linked list does not provide efficient access to the highest priority element.",
+                    "D": "A stack follows LIFO order and is not suitable for priority queues."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "You need to store a dynamic set of strings and perform efficient prefix searches. Which data structure should you use?",
+            "options": {
+                "A": "Array",
+                "B": "Trie",
+                "C": "Hash Table",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure specifically designed for handling strings and prefix searches.",
+            "feedback": {
+                "correct": "A trie is designed for efficient prefix searches and is ideal for storing dynamic sets of strings.",
+                "incorrect": {
+                    "A": "An array does not provide efficient prefix search capabilities.",
+                    "C": "A hash table is efficient for exact matches but not for prefix searches.",
+                    "D": "A linked list does not provide efficient prefix search capabilities."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Which data structure would you use to implement a LRU (Least Recently Used) cache?",
+            "options": {
+                "A": "Array",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Hash Table with Doubly Linked List"
+            },
+            "correct_answer": "D",
+            "hint": "Consider a combination of data structures that allows for efficient access and removal of elements.",
+            "feedback": {
+                "correct": "A combination of a hash table and a doubly linked list allows for efficient access and removal of the least recently used elements.",
+                "incorrect": {
+                    "A": "An array does not provide efficient access and removal of elements.",
+                    "B": "A stack follows LIFO order, which is not suitable for LRU cache.",
+                    "C": "A queue follows FIFO order, which is not suitable for LRU cache."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "You need to implement a system that handles a large number of range queries efficiently. Which data structure should you use?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Segment Tree",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that is specifically designed for handling range queries efficiently.",
+            "feedback": {
+                "correct": "A segment tree is designed for efficient range queries and is ideal for this task.",
+                "incorrect": {
+                    "A": "An array does not provide efficient range query capabilities.",
+                    "B": "A linked list does not provide efficient range query capabilities.",
+                    "D": "A stack is not suitable for handling range queries."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Which data structure would you use to implement a spell checker that suggests corrections for misspelled words?",
+            "options": {
+                "A": "Array",
+                "B": "Trie",
+                "C": "Hash Table",
+                "D": "Queue"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that allows for efficient storage and retrieval of words based on prefixes.",
+            "feedback": {
+                "correct": "A trie is ideal for implementing a spell checker due to its efficient prefix-based search capabilities.",
+                "incorrect": {
+                    "A": "An array does not provide efficient prefix-based search capabilities.",
+                    "C": "A hash table is efficient for exact matches but not for prefix-based searches.",
+                    "D": "A queue is not suitable for storing and retrieving words based on prefixes."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "You need to implement a system that processes tasks based on their priority. Which data structure should you use?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Priority Queue",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that allows for efficient insertion and extraction of tasks based on their priority.",
+            "feedback": {
+                "correct": "A priority queue is ideal for processing tasks based on their priority.",
+                "incorrect": {
+                    "A": "An array would require sorting, which is inefficient for processing tasks based on priority.",
+                    "B": "A linked list does not provide efficient access to the highest priority task.",
+                    "D": "A stack follows LIFO order and is not suitable for processing tasks based on priority."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Which data structure would you use to implement a dynamic associative array?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Hash Table",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that allows for efficient key-value pair storage and retrieval.",
+            "feedback": {
+                "correct": "A hash table is ideal for implementing a dynamic associative array due to its efficient key-value pair storage and retrieval.",
+                "incorrect": {
+                    "A": "An array does not provide efficient key-value pair storage and retrieval.",
+                    "B": "A linked list does not provide efficient key-value pair storage and retrieval.",
+                    "D": "A stack is not suitable for storing key-value pairs."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "You need to implement a system that efficiently handles frequent insertions and deletions of elements. Which data structure should you use?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that allows for efficient insertions and deletions at arbitrary positions.",
+            "feedback": {
+                "correct": "A linked list is ideal for handling frequent insertions and deletions due to its dynamic size and efficient operations.",
+                "incorrect": {
+                    "A": "An array requires shifting elements, which is inefficient for frequent insertions and deletions.",
+                    "C": "A stack follows LIFO order and is not suitable for arbitrary insertions and deletions.",
+                    "D": "A queue follows FIFO order and is not suitable for arbitrary insertions and deletions."
+                }
+            }
+        }
+    ]
+}

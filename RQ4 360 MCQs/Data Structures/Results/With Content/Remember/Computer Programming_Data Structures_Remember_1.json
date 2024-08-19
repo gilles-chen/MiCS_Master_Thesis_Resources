@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary characteristic of a linear data structure?",
+            "options": {
+                "A": "Data is stored in a hierarchical manner.",
+                "B": "Data is stored in a sequential manner.",
+                "C": "Data is stored in a random manner.",
+                "D": "Data is stored in a circular manner."
+            },
+            "correct_answer": "B",
+            "hint": "Think about how elements are connected in a linear data structure.",
+            "feedback": {
+                "correct": "Linear data structures store data in a sequential manner, where each element is connected to its previous and next element.",
+                "incorrect": {
+                    "A": "Hierarchical storage is a characteristic of non-linear data structures like trees.",
+                    "C": "Random storage is not a characteristic of linear data structures.",
+                    "D": "Circular storage is a specific type of linked list, but not a general characteristic of all linear data structures."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which data structure follows the Last In, First Out (LIFO) principle?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think about which data structure allows you to add and remove elements from the same end.",
+            "feedback": {
+                "correct": "A stack follows the Last In, First Out (LIFO) principle, where the last element added is the first one to be removed.",
+                "incorrect": {
+                    "A": "A queue follows the First In, First Out (FIFO) principle.",
+                    "C": "An array does not inherently follow LIFO or FIFO principles.",
+                    "D": "A linked list does not inherently follow LIFO or FIFO principles."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the time complexity for accessing an element by index in an array?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(1)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "C",
+            "hint": "Consider how quickly you can access an element if you know its index.",
+            "feedback": {
+                "correct": "The time complexity for accessing an element by index in an array is O(1) because arrays allow direct access to any element.",
+                "incorrect": {
+                    "A": "O(n) is the time complexity for searching an element in an unsorted array.",
+                    "B": "O(log n) is not the correct time complexity for accessing an element by index in an array.",
+                    "D": "O(n log n) is not the correct time complexity for accessing an element by index in an array."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which type of linked list has nodes with pointers to both the next and previous nodes?",
+            "options": {
+                "A": "Singly Linked List",
+                "B": "Doubly Linked List",
+                "C": "Circular Linked List",
+                "D": "Array"
+            },
+            "correct_answer": "B",
+            "hint": "Think about which linked list type allows traversal in both directions.",
+            "feedback": {
+                "correct": "A doubly linked list has nodes with pointers to both the next and previous nodes, allowing traversal in both directions.",
+                "incorrect": {
+                    "A": "A singly linked list has nodes with pointers only to the next node.",
+                    "C": "A circular linked list has nodes where the last node points to the first node.",
+                    "D": "An array is not a type of linked list."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Which data structure is commonly used for implementing function call management?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think about which data structure follows the LIFO principle, which is useful for managing nested function calls.",
+            "feedback": {
+                "correct": "A stack is commonly used for implementing function call management because it follows the LIFO principle.",
+                "incorrect": {
+                    "A": "A queue follows the FIFO principle and is not suitable for function call management.",
+                    "C": "An array does not inherently follow LIFO or FIFO principles.",
+                    "D": "A linked list does not inherently follow LIFO or FIFO principles."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is the primary use of a hash table?",
+            "options": {
+                "A": "Storing hierarchical data",
+                "B": "Implementing associative arrays",
+                "C": "Managing function calls",
+                "D": "Storing sequential data"
+            },
+            "correct_answer": "B",
+            "hint": "Think about which data structure provides efficient key-value mapping.",
+            "feedback": {
+                "correct": "A hash table is primarily used for implementing associative arrays, providing efficient key-value mapping.",
+                "incorrect": {
+                    "A": "Storing hierarchical data is a characteristic of trees.",
+                    "C": "Managing function calls is a characteristic of stacks.",
+                    "D": "Storing sequential data is a characteristic of arrays and linked lists."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Which type of tree is used to efficiently store and manage databases and file systems?",
+            "options": {
+                "A": "Binary Tree",
+                "B": "Binary Search Tree",
+                "C": "AVL Tree",
+                "D": "B-tree"
+            },
+            "correct_answer": "D",
+            "hint": "Think about which tree type is designed for efficient storage and retrieval in large datasets.",
+            "feedback": {
+                "correct": "B-trees are used to efficiently store and manage databases and file systems due to their balanced nature and efficient disk access.",
+                "incorrect": {
+                    "A": "Binary trees are not specifically designed for database and file system management.",
+                    "B": "Binary search trees are not as efficient as B-trees for large datasets.",
+                    "C": "AVL trees are self-balancing binary search trees but are not specifically used for database and file system management."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is the time complexity for insertion in a balanced binary search tree?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(1)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B",
+            "hint": "Consider how balanced trees maintain their structure during insertions.",
+            "feedback": {
+                "correct": "The time complexity for insertion in a balanced binary search tree is O(log n) because the tree remains balanced, ensuring efficient operations.",
+                "incorrect": {
+                    "A": "O(n) is the time complexity for insertion in an unbalanced tree in the worst case.",
+                    "C": "O(1) is not the correct time complexity for insertion in a balanced binary search tree.",
+                    "D": "O(n log n) is not the correct time complexity for insertion in a balanced binary search tree."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Which data structure is used for implementing breadth-first search (BFS) algorithms?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think about which data structure follows the FIFO principle, which is essential for BFS.",
+            "feedback": {
+                "correct": "A queue is used for implementing breadth-first search (BFS) algorithms because it follows the FIFO principle.",
+                "incorrect": {
+                    "A": "A stack follows the LIFO principle and is used for depth-first search (DFS) algorithms.",
+                    "C": "An array does not inherently follow FIFO or LIFO principles.",
+                    "D": "A linked list does not inherently follow FIFO or LIFO principles."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the primary characteristic of a min-heap?",
+            "options": {
+                "A": "Parent node has a value greater than or equal to its children.",
+                "B": "Parent node has a value less than or equal to its children.",
+                "C": "Nodes are connected in a circular manner.",
+                "D": "Nodes are connected in a sequential manner."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the relationship between parent and child nodes in a min-heap.",
+            "feedback": {
+                "correct": "In a min-heap, the parent node has a value less than or equal to its children, ensuring the smallest element is always at the root.",
+                "incorrect": {
+                    "A": "This is a characteristic of a max-heap, not a min-heap.",
+                    "C": "Circular connection is not a characteristic of heaps.",
+                    "D": "Sequential connection is not a characteristic of heaps."
+                }
+            }
+        }
+    ]
+}

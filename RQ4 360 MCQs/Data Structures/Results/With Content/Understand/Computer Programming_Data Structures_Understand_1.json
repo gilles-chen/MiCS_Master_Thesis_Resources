@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Explain why arrays are used in dynamic programming.",
+            "options": {
+                "A": "Because they allow for dynamic resizing.",
+                "B": "Because they store data in a tabular format for efficient access.",
+                "C": "Because they support efficient insertions and deletions.",
+                "D": "Because they are non-linear data structures."
+            },
+            "correct_answer": "B",
+            "hint": "Consider how arrays store data and their access time complexity.",
+            "feedback": {
+                "correct": "Arrays store data in a tabular format, which is useful for dynamic programming as it allows for efficient access to elements.",
+                "incorrect": {
+                    "A": "Arrays have a fixed size and do not allow for dynamic resizing.",
+                    "C": "Arrays do not support efficient insertions and deletions; these operations have O(n) time complexity.",
+                    "D": "Arrays are linear data structures, not non-linear."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Describe the main difference between a stack and a queue.",
+            "options": {
+                "A": "A stack follows FIFO while a queue follows LIFO.",
+                "B": "A stack follows LIFO while a queue follows FIFO.",
+                "C": "A stack allows random access while a queue does not.",
+                "D": "A stack is a non-linear data structure while a queue is linear."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the order in which elements are accessed in both structures.",
+            "feedback": {
+                "correct": "A stack follows Last In, First Out (LIFO) while a queue follows First In, First Out (FIFO).",
+                "incorrect": {
+                    "A": "This is incorrect; it is the other way around.",
+                    "C": "Neither a stack nor a queue allows random access.",
+                    "D": "Both stack and queue are linear data structures."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Interpret the significance of using a hash table for fast lookups.",
+            "options": {
+                "A": "Hash tables provide O(n) time complexity for lookups.",
+                "B": "Hash tables provide O(1) time complexity for lookups on average.",
+                "C": "Hash tables provide O(log n) time complexity for lookups.",
+                "D": "Hash tables provide O(n^2) time complexity for lookups."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the average time complexity for search operations in a hash table.",
+            "feedback": {
+                "correct": "Hash tables provide O(1) time complexity for lookups on average, making them very efficient for this purpose.",
+                "incorrect": {
+                    "A": "O(n) time complexity is incorrect for hash table lookups.",
+                    "C": "O(log n) time complexity is typical for balanced trees, not hash tables.",
+                    "D": "O(n^2) time complexity is incorrect for hash table lookups."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Compare the time complexity of insertion in an array and a linked list.",
+            "options": {
+                "A": "Both have O(1) time complexity.",
+                "B": "Array has O(n) and linked list has O(1) time complexity.",
+                "C": "Array has O(1) and linked list has O(n) time complexity.",
+                "D": "Both have O(n) time complexity."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the need for shifting elements in an array during insertion.",
+            "feedback": {
+                "correct": "Array has O(n) time complexity for insertion due to the need to shift elements, while linked list has O(1) time complexity for insertion at the beginning.",
+                "incorrect": {
+                    "A": "This is incorrect; array insertion is not O(1).",
+                    "C": "This is incorrect; linked list insertion is O(1).",
+                    "D": "This is incorrect; linked list insertion is O(1)."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Explain the primary use of a priority queue.",
+            "options": {
+                "A": "To store elements in a LIFO order.",
+                "B": "To store elements in a FIFO order.",
+                "C": "To process elements based on their priority.",
+                "D": "To store elements in a tabular format."
+            },
+            "correct_answer": "C",
+            "hint": "Consider how elements are processed in a priority queue.",
+            "feedback": {
+                "correct": "A priority queue processes elements based on their priority, not just the order they were added.",
+                "incorrect": {
+                    "A": "LIFO order is used by stacks, not priority queues.",
+                    "B": "FIFO order is used by simple queues, not priority queues.",
+                    "D": "Tabular format is used by arrays, not priority queues."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Describe the main characteristic of a binary search tree (BST).",
+            "options": {
+                "A": "Each node has at most three children.",
+                "B": "Each node has a value greater than its parent.",
+                "C": "Left child has a smaller value, right child has a greater value.",
+                "D": "Nodes are connected in a circular manner."
+            },
+            "correct_answer": "C",
+            "hint": "Consider the value relationship between parent and child nodes in a BST.",
+            "feedback": {
+                "correct": "In a binary search tree, the left child has a smaller value and the right child has a greater value than the parent node.",
+                "incorrect": {
+                    "A": "Each node in a BST has at most two children, not three.",
+                    "B": "This is incorrect; the value relationship is between parent and child nodes.",
+                    "D": "Nodes in a BST are not connected in a circular manner."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Summarize the key operations of a stack.",
+            "options": {
+                "A": "Enqueue, Dequeue, Peek",
+                "B": "Insert, Delete, Search",
+                "C": "Push, Pop, Peek",
+                "D": "Insert, Delete, Traverse"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the LIFO nature of a stack.",
+            "feedback": {
+                "correct": "The key operations of a stack are Push (add an element to the top), Pop (remove an element from the top), and Peek (view the top element without removing it).",
+                "incorrect": {
+                    "A": "Enqueue and Dequeue are operations of a queue, not a stack.",
+                    "B": "Insert and Delete are general operations, but Search is not a primary stack operation.",
+                    "D": "Traverse is not a primary stack operation."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Interpret the role of a root node in a tree data structure.",
+            "options": {
+                "A": "It is the node with the highest value.",
+                "B": "It is the node with the lowest value.",
+                "C": "It is the topmost node from which all other nodes descend.",
+                "D": "It is a node with no children."
+            },
+            "correct_answer": "C",
+            "hint": "Consider the hierarchical structure of a tree.",
+            "feedback": {
+                "correct": "The root node is the topmost node in a tree from which all other nodes descend.",
+                "incorrect": {
+                    "A": "The root node is not necessarily the node with the highest value.",
+                    "B": "The root node is not necessarily the node with the lowest value.",
+                    "D": "A node with no children is called a leaf node, not a root node."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Compare the traversal methods of a binary tree.",
+            "options": {
+                "A": "In-order, Pre-order, Post-order",
+                "B": "Depth-First Search, Breadth-First Search",
+                "C": "Linear, Non-linear",
+                "D": "Sequential, Random"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the common methods used to visit all nodes in a binary tree.",
+            "feedback": {
+                "correct": "The traversal methods of a binary tree include In-order, Pre-order, and Post-order.",
+                "incorrect": {
+                    "B": "Depth-First Search and Breadth-First Search are traversal methods for graphs.",
+                    "C": "Linear and Non-linear are types of data structures, not traversal methods.",
+                    "D": "Sequential and Random are not traversal methods."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Explain the purpose of using a circular linked list.",
+            "options": {
+                "A": "To allow random access to elements.",
+                "B": "To connect the last node back to the first node.",
+                "C": "To store elements in a tabular format.",
+                "D": "To ensure each node has two pointers."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the structure of a circular linked list.",
+            "feedback": {
+                "correct": "A circular linked list connects the last node back to the first node, forming a circle.",
+                "incorrect": {
+                    "A": "Circular linked lists do not allow random access to elements.",
+                    "C": "Circular linked lists do not store elements in a tabular format.",
+                    "D": "Ensuring each node has two pointers is a characteristic of a doubly linked list, not necessarily a circular linked list."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Why is a holistic approach important in General Medicine?",
+            "options": {
+                "A": "It focuses solely on biological aspects of patient care.",
+                "B": "It considers the biological, psychological, and social aspects of patient care.",
+                "C": "It emphasizes only the psychological aspects of patient care.",
+                "D": "It is concerned only with acute illnesses."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the comprehensive nature of patient care in General Medicine.",
+            "feedback": {
+                "correct": "A holistic approach in General Medicine considers the biological, psychological, and social aspects of patient care.",
+                "incorrect": {
+                    "A": "Focusing solely on biological aspects does not encompass the holistic approach.",
+                    "C": "Emphasizing only psychological aspects neglects the biological and social components.",
+                    "D": "General Medicine also deals with chronic illnesses and preventive care, not just acute illnesses."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "How do General Practitioners (GPs) contribute to disease prevention?",
+            "options": {
+                "A": "By only treating diseases after they occur.",
+                "B": "By focusing on early detection, vaccinations, and lifestyle counseling.",
+                "C": "By prescribing medications without considering preventive measures.",
+                "D": "By referring all patients to specialists."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the preventive strategies GPs use.",
+            "feedback": {
+                "correct": "GPs contribute to disease prevention by focusing on early detection, vaccinations, and lifestyle counseling.",
+                "incorrect": {
+                    "A": "GPs also emphasize preventive measures, not just treatment after diseases occur.",
+                    "C": "Preventive measures are a key part of a GP's role, not just prescribing medications.",
+                    "D": "GPs manage many conditions themselves and only refer to specialists when necessary."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the significance of empathy in patient-centered care?",
+            "options": {
+                "A": "It has no impact on patient outcomes.",
+                "B": "It enhances patient trust and care outcomes.",
+                "C": "It is only important for psychological conditions.",
+                "D": "It is irrelevant in clinical decision-making."
+            },
+            "correct_answer": "B",
+            "hint": "Think about how empathy affects the doctor-patient relationship.",
+            "feedback": {
+                "correct": "Empathy enhances patient trust and care outcomes by fostering a better doctor-patient relationship.",
+                "incorrect": {
+                    "A": "Empathy significantly impacts patient outcomes by improving trust and communication.",
+                    "C": "Empathy is important for all types of conditions, not just psychological ones.",
+                    "D": "Empathy is crucial in clinical decision-making as it helps understand patient needs better."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Why is it important for GPs to stay updated with the latest medical guidelines and research?",
+            "options": {
+                "A": "To provide evidence-based care.",
+                "B": "To only treat rare diseases.",
+                "C": "To avoid patient interaction.",
+                "D": "To focus solely on administrative tasks."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the role of current knowledge in patient care.",
+            "feedback": {
+                "correct": "Staying updated with the latest medical guidelines and research is important for providing evidence-based care.",
+                "incorrect": {
+                    "B": "GPs treat a wide range of conditions, not just rare diseases.",
+                    "C": "Patient interaction is a key part of a GP's role.",
+                    "D": "While administrative tasks are part of the job, the primary focus is on patient care."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "How do GPs manage chronic illnesses like diabetes and hypertension?",
+            "options": {
+                "A": "By providing one-time treatment.",
+                "B": "By ensuring continuity of care and regular monitoring.",
+                "C": "By ignoring lifestyle factors.",
+                "D": "By only referring patients to specialists."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the long-term management strategies for chronic illnesses.",
+            "feedback": {
+                "correct": "GPs manage chronic illnesses by ensuring continuity of care and regular monitoring to prevent complications.",
+                "incorrect": {
+                    "A": "Chronic illnesses require ongoing management, not just one-time treatment.",
+                    "C": "Lifestyle factors are crucial in managing chronic illnesses.",
+                    "D": "GPs manage many aspects of chronic illnesses themselves and refer to specialists when necessary."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is the role of vaccinations in preventive healthcare?",
+            "options": {
+                "A": "To treat diseases after they occur.",
+                "B": "To prevent the occurrence of infectious diseases.",
+                "C": "To replace the need for healthy lifestyle choices.",
+                "D": "To only be administered to children."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the primary purpose of vaccinations.",
+            "feedback": {
+                "correct": "Vaccinations play a critical role in preventing the occurrence of infectious diseases.",
+                "incorrect": {
+                    "A": "Vaccinations are preventive, not curative.",
+                    "C": "Vaccinations complement healthy lifestyle choices, not replace them.",
+                    "D": "Vaccinations are important for both children and adults."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Why is effective communication important in patient history-taking?",
+            "options": {
+                "A": "To gather accurate patient information and build rapport.",
+                "B": "To avoid spending too much time with patients.",
+                "C": "To ensure patients do not ask questions.",
+                "D": "To focus solely on physical examination."
+            },
+            "correct_answer": "A",
+            "hint": "Think about the benefits of good communication during history-taking.",
+            "feedback": {
+                "correct": "Effective communication is important in patient history-taking to gather accurate patient information and build rapport.",
+                "incorrect": {
+                    "B": "Spending adequate time with patients is important for thorough history-taking.",
+                    "C": "Encouraging patient questions is part of effective communication.",
+                    "D": "History-taking and physical examination are both crucial components of patient assessment."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "How does hypertension affect cardiovascular health?",
+            "options": {
+                "A": "It has no impact on cardiovascular health.",
+                "B": "It increases the risk of heart disease and stroke.",
+                "C": "It only affects respiratory health.",
+                "D": "It is beneficial for cardiovascular health."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the complications associated with high blood pressure.",
+            "feedback": {
+                "correct": "Hypertension increases the risk of heart disease and stroke by putting extra strain on the cardiovascular system.",
+                "incorrect": {
+                    "A": "Hypertension significantly impacts cardiovascular health.",
+                    "C": "Hypertension primarily affects the cardiovascular system, not the respiratory system.",
+                    "D": "Hypertension is harmful, not beneficial, for cardiovascular health."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the purpose of spirometry in lung function testing?",
+            "options": {
+                "A": "To measure blood pressure.",
+                "B": "To evaluate airflow and diagnose respiratory conditions.",
+                "C": "To assess liver function.",
+                "D": "To measure blood glucose levels."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the primary use of spirometry.",
+            "feedback": {
+                "correct": "Spirometry is used to evaluate airflow and diagnose respiratory conditions like asthma and COPD.",
+                "incorrect": {
+                    "A": "Spirometry is not used to measure blood pressure.",
+                    "C": "Spirometry does not assess liver function.",
+                    "D": "Spirometry is not used to measure blood glucose levels."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Why is it important to conduct a systematic physical examination?",
+            "options": {
+                "A": "To ensure no aspect of the examination is overlooked.",
+                "B": "To focus only on the patient's chief complaint.",
+                "C": "To avoid spending too much time with the patient.",
+                "D": "To rely solely on patient history for diagnosis."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the benefits of a thorough and systematic approach.",
+            "feedback": {
+                "correct": "Conducting a systematic physical examination ensures no aspect of the examination is overlooked, leading to a comprehensive assessment.",
+                "incorrect": {
+                    "B": "While the chief complaint is important, a systematic examination ensures a thorough assessment.",
+                    "C": "Spending adequate time on a systematic examination is crucial for accurate diagnosis.",
+                    "D": "Both patient history and physical examination are essential for accurate diagnosis."
+                }
+            }
+        }
+    ]
+}

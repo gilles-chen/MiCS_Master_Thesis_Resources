@@ -1,0 +1,6 @@
+"id","text","answer","a","b","c","d"
+"1","Given an unsorted array of integers, which data structure would you apply to efficiently find the median after each insertion?","Heap","Stack","Queue","Heap","Linked List"
+"2","You need to implement a spell checker that suggests corrections for misspelled words. Which data structure would you apply to store the dictionary of words for efficient prefix-based searching?","Trie","Array","Trie","Stack","Graph"
+"3","To implement a priority queue for a task scheduling system, which data structure would you apply to ensure that the highest priority task is always processed first?","Heap","Array","Linked List","Heap","Queue"
+"4","You are tasked with implementing a system that frequently inserts and deletes elements from both ends of a list. Which data structure would you apply to achieve this efficiently?","Doubly Linked List","Array","Doubly Linked List","Stack","Binary Search Tree"
+"5","To implement a cache that provides average O(1) time complexity for insertions, deletions, and lookups, which data structure would you apply?","Hash Table","Array","Linked List","Hash Table","Binary Search Tree"

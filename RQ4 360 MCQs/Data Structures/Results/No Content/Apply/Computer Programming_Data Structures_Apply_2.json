@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given a binary search tree (BST), how would you apply an algorithm to find the minimum value in the tree?",
+            "options": {
+                "A": "Traverse to the leftmost node",
+                "B": "Traverse to the rightmost node",
+                "C": "Perform an in-order traversal",
+                "D": "Perform a post-order traversal"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the properties of a binary search tree.",
+            "feedback": {
+                "correct": "In a BST, the minimum value is found at the leftmost node.",
+                "incorrect": {
+                    "B": "The rightmost node contains the maximum value, not the minimum.",
+                    "C": "An in-order traversal visits nodes in ascending order but is not the most efficient way to find the minimum.",
+                    "D": "A post-order traversal does not guarantee finding the minimum value efficiently."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "How would you use a stack to reverse a string?",
+            "options": {
+                "A": "Push all characters onto the stack and then pop them off",
+                "B": "Push all characters onto the stack and then push them back on",
+                "C": "Pop all characters from the stack and then push them back on",
+                "D": "Pop all characters from the stack and then pop them off again"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the LIFO (Last In, First Out) property of a stack.",
+            "feedback": {
+                "correct": "Pushing all characters onto the stack and then popping them off will reverse the string due to the LIFO property.",
+                "incorrect": {
+                    "B": "Pushing characters back onto the stack after pushing them initially does not reverse the string.",
+                    "C": "Popping characters from an empty stack is not possible.",
+                    "D": "Popping characters twice does not reverse the string."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Which data structure would you apply to implement a breadth-first search (BFS) algorithm?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the order in which nodes are visited in BFS.",
+            "feedback": {
+                "correct": "A queue is used in BFS to explore nodes level by level.",
+                "incorrect": {
+                    "B": "A stack is used in depth-first search (DFS), not BFS.",
+                    "C": "A heap is used for priority-based operations, not for BFS.",
+                    "D": "A linked list does not provide the necessary order for BFS."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "How would you apply a hash table to efficiently check for duplicates in an array?",
+            "options": {
+                "A": "Insert each element into the hash table and check for collisions",
+                "B": "Sort the array and then check for duplicates",
+                "C": "Use a stack to store elements and check for duplicates",
+                "D": "Use a queue to store elements and check for duplicates"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the average time complexity of hash table operations.",
+            "feedback": {
+                "correct": "Inserting elements into a hash table and checking for collisions allows for efficient duplicate detection.",
+                "incorrect": {
+                    "B": "Sorting the array has a higher time complexity compared to using a hash table.",
+                    "C": "A stack does not provide efficient duplicate checking.",
+                    "D": "A queue does not provide efficient duplicate checking."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "How would you use a linked list to implement a queue?",
+            "options": {
+                "A": "Use the head for dequeue operations and the tail for enqueue operations",
+                "B": "Use the head for enqueue operations and the tail for dequeue operations",
+                "C": "Use the head for both enqueue and dequeue operations",
+                "D": "Use the tail for both enqueue and dequeue operations"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the efficiency of operations at the head and tail of a linked list.",
+            "feedback": {
+                "correct": "Using the head for dequeue and the tail for enqueue operations ensures efficient O(1) operations.",
+                "incorrect": {
+                    "B": "Using the head for enqueue and the tail for dequeue operations would be inefficient.",
+                    "C": "Using the head for both operations would not maintain the queue order.",
+                    "D": "Using the tail for both operations would not maintain the queue order."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which data structure would you apply to implement an undo feature in a text editor?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Hash Table",
+                "D": "Binary Search Tree"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the LIFO property for undo operations.",
+            "feedback": {
+                "correct": "A stack is used for undo operations because it follows the LIFO principle.",
+                "incorrect": {
+                    "B": "A queue follows FIFO, which is not suitable for undo operations.",
+                    "C": "A hash table is not suitable for maintaining order of operations.",
+                    "D": "A binary search tree is not suitable for maintaining order of operations."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "How would you apply a priority queue to manage tasks with different priorities?",
+            "options": {
+                "A": "Insert tasks with their priority and always extract the highest priority task",
+                "B": "Insert tasks without priority and extract tasks in the order they were added",
+                "C": "Insert tasks with their priority and always extract the lowest priority task",
+                "D": "Insert tasks without priority and extract tasks randomly"
+            },
+            "correct_answer": "A",
+            "hint": "Consider how a priority queue manages elements based on their priority.",
+            "feedback": {
+                "correct": "A priority queue allows for efficient extraction of the highest priority task.",
+                "incorrect": {
+                    "B": "Inserting tasks without priority does not utilize the priority queue's functionality.",
+                    "C": "Extracting the lowest priority task is not the typical use of a priority queue.",
+                    "D": "Extracting tasks randomly does not utilize the priority queue's functionality."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "How would you use a graph data structure to represent a social network?",
+            "options": {
+                "A": "Use nodes to represent users and edges to represent friendships",
+                "B": "Use nodes to represent friendships and edges to represent users",
+                "C": "Use nodes to represent messages and edges to represent users",
+                "D": "Use nodes to represent users and edges to represent messages"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the entities and relationships in a social network.",
+            "feedback": {
+                "correct": "In a social network graph, nodes represent users and edges represent friendships.",
+                "incorrect": {
+                    "B": "Friendships are better represented as edges, not nodes.",
+                    "C": "Messages are not the primary entities in a social network graph.",
+                    "D": "Messages are not the primary entities in a social network graph."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "How would you apply a depth-first search (DFS) algorithm to detect a cycle in a directed graph?",
+            "options": {
+                "A": "Track visited nodes and the recursion stack",
+                "B": "Track visited nodes and the queue",
+                "C": "Track visited nodes and the priority queue",
+                "D": "Track visited nodes and the hash table"
+            },
+            "correct_answer": "A",
+            "hint": "Consider how to detect back edges in DFS.",
+            "feedback": {
+                "correct": "Tracking visited nodes and the recursion stack helps detect back edges, indicating a cycle.",
+                "incorrect": {
+                    "B": "A queue is used in BFS, not DFS.",
+                    "C": "A priority queue is not used in DFS.",
+                    "D": "A hash table does not help in detecting cycles in DFS."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "How would you use a trie data structure to implement an autocomplete feature?",
+            "options": {
+                "A": "Insert words into the trie and traverse from the root to find suggestions",
+                "B": "Insert words into the trie and traverse from the leaves to find suggestions",
+                "C": "Insert words into the trie and use a stack to find suggestions",
+                "D": "Insert words into the trie and use a queue to find suggestions"
+            },
+            "correct_answer": "A",
+            "hint": "Consider how a trie organizes words by their prefixes.",
+            "feedback": {
+                "correct": "Inserting words into the trie and traversing from the root allows for efficient prefix-based suggestions.",
+                "incorrect": {
+                    "B": "Traversing from the leaves is not efficient for finding suggestions.",
+                    "C": "A stack is not typically used for finding suggestions in a trie.",
+                    "D": "A queue is not typically used for finding suggestions in a trie."
+                }
+            }
+        }
+    ]
+}

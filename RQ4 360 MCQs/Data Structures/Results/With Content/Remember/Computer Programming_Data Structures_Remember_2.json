@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary characteristic of a linear data structure?",
+            "options": {
+                "A": "Data is stored in a hierarchical manner.",
+                "B": "Data is stored in a sequential manner.",
+                "C": "Data is stored in a random manner.",
+                "D": "Data is stored in a circular manner."
+            },
+            "correct_answer": "B",
+            "hint": "Think about how elements are connected to each other in a linear data structure.",
+            "feedback": {
+                "correct": "Linear data structures store data in a sequential manner, where each element is connected to its previous and next element.",
+                "incorrect": {
+                    "A": "Hierarchical storage is a characteristic of non-linear data structures like trees.",
+                    "C": "Random storage is not a characteristic of linear data structures.",
+                    "D": "Circular storage is a specific type of linked list but not a general characteristic of all linear data structures."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which data structure follows the Last In, First Out (LIFO) access pattern?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think about which data structure allows you to add and remove elements only from one end.",
+            "feedback": {
+                "correct": "A stack follows the Last In, First Out (LIFO) access pattern, where the last element added is the first one to be removed.",
+                "incorrect": {
+                    "A": "A queue follows the First In, First Out (FIFO) access pattern.",
+                    "C": "An array does not follow a specific access pattern like LIFO or FIFO.",
+                    "D": "A linked list allows insertion and deletion at any position, not specifically LIFO."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the time complexity for accessing an element by index in an array?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(1)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C",
+            "hint": "Consider how quickly you can access an element if you know its index.",
+            "feedback": {
+                "correct": "The time complexity for accessing an element by index in an array is O(1) because arrays allow direct access to any element.",
+                "incorrect": {
+                    "A": "O(n) is the time complexity for searching an element in an unsorted array.",
+                    "B": "O(log n) is not the correct time complexity for accessing an element by index in an array.",
+                    "D": "O(n^2) is not related to accessing elements in an array."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which type of linked list has nodes with pointers to both the next and previous nodes?",
+            "options": {
+                "A": "Singly Linked List",
+                "B": "Doubly Linked List",
+                "C": "Circular Linked List",
+                "D": "Array"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the type of linked list that allows traversal in both directions.",
+            "feedback": {
+                "correct": "A doubly linked list has nodes with pointers to both the next and previous nodes, allowing traversal in both directions.",
+                "incorrect": {
+                    "A": "A singly linked list has nodes with pointers only to the next node.",
+                    "C": "A circular linked list has nodes where the last node points to the first node, but it does not necessarily have pointers to previous nodes.",
+                    "D": "An array is not a type of linked list."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Which data structure is commonly used for implementing function call management?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think about which data structure follows the LIFO principle, which is useful for managing nested function calls.",
+            "feedback": {
+                "correct": "A stack is commonly used for implementing function call management because it follows the LIFO principle.",
+                "incorrect": {
+                    "A": "A queue follows the FIFO principle and is not suitable for function call management.",
+                    "C": "An array does not follow a specific access pattern like LIFO or FIFO.",
+                    "D": "A linked list allows insertion and deletion at any position, not specifically LIFO."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is the primary advantage of using a hash table?",
+            "options": {
+                "A": "Efficient range queries",
+                "B": "Fast lookups",
+                "C": "Hierarchical data representation",
+                "D": "Sequential access"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the data structure that provides average O(1) time complexity for search operations.",
+            "feedback": {
+                "correct": "The primary advantage of using a hash table is fast lookups, with average O(1) time complexity for search operations.",
+                "incorrect": {
+                    "A": "Efficient range queries are a feature of segment trees and Fenwick trees.",
+                    "C": "Hierarchical data representation is a feature of tree data structures.",
+                    "D": "Sequential access is a feature of arrays and linked lists."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Which type of tree is used to efficiently store and manage databases and file systems?",
+            "options": {
+                "A": "Binary Tree",
+                "B": "Binary Search Tree (BST)",
+                "C": "AVL Tree",
+                "D": "B-trees"
+            },
+            "correct_answer": "D",
+            "hint": "Think about the type of tree that is specifically designed for efficient storage and management of large amounts of data.",
+            "feedback": {
+                "correct": "B-trees are used to efficiently store and manage databases and file systems.",
+                "incorrect": {
+                    "A": "Binary trees are a general type of tree and are not specifically used for databases and file systems.",
+                    "B": "Binary Search Trees (BST) are used for ordered data but are not specifically designed for databases and file systems.",
+                    "C": "AVL trees are self-balancing BSTs but are not specifically used for databases and file systems."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is the time complexity for insertion and deletion operations in a heap?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the time complexity for maintaining the heap property during insertion and deletion.",
+            "feedback": {
+                "correct": "The time complexity for insertion and deletion operations in a heap is O(log n) because the heap property must be maintained.",
+                "incorrect": {
+                    "A": "O(1) is the time complexity for accessing the minimum or maximum element in a heap.",
+                    "B": "O(n) is not the correct time complexity for insertion and deletion in a heap.",
+                    "D": "O(n^2) is not related to heap operations."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Which data structure is used for efficient prefix-based searches?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Trie",
+                "C": "Heap",
+                "D": "Segment Tree"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the data structure that is specifically designed for storing and searching strings.",
+            "feedback": {
+                "correct": "A trie is used for efficient prefix-based searches, making it suitable for applications like autocomplete systems.",
+                "incorrect": {
+                    "A": "Hash tables are used for fast lookups but are not specifically designed for prefix-based searches.",
+                    "C": "Heaps are used for priority queues and heap sort but not for prefix-based searches.",
+                    "D": "Segment trees are used for range queries but not for prefix-based searches."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the time complexity for searching an element in a balanced Binary Search Tree (BST)?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the time complexity for searching in a tree where the height is minimized.",
+            "feedback": {
+                "correct": "The time complexity for searching an element in a balanced Binary Search Tree (BST) is O(log n) because the height of the tree is minimized.",
+                "incorrect": {
+                    "A": "O(1) is not the correct time complexity for searching in a balanced BST.",
+                    "B": "O(n) is the time complexity for searching in an unbalanced BST or a linked list.",
+                    "D": "O(n^2) is not related to searching in a BST."
+                }
+            }
+        }
+    ]
+}

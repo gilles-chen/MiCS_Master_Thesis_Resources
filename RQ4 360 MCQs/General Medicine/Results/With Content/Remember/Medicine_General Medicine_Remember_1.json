@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary focus of General Medicine?",
+            "options": {
+                "A": "Comprehensive care of adults",
+                "B": "Pediatric care",
+                "C": "Surgical procedures",
+                "D": "Dental health"
+            },
+            "correct_answer": "A",
+            "hint": "It involves diagnosis and treatment for a wide array of conditions affecting different body systems.",
+            "feedback": {
+                "correct": "General Medicine focuses on the comprehensive care of adults, providing diagnosis and treatment for various conditions.",
+                "incorrect": {
+                    "B": "Pediatric care is the focus of Pediatrics, not General Medicine.",
+                    "C": "Surgical procedures are primarily the focus of Surgery, not General Medicine.",
+                    "D": "Dental health is the focus of Dentistry, not General Medicine."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which of the following is a key responsibility of a General Practitioner (GP)?",
+            "options": {
+                "A": "Performing complex surgeries",
+                "B": "Managing chronic illnesses",
+                "C": "Designing dental prosthetics",
+                "D": "Conducting laboratory research"
+            },
+            "correct_answer": "B",
+            "hint": "GPs are skilled in managing long-term conditions such as diabetes and hypertension.",
+            "feedback": {
+                "correct": "GPs are responsible for managing chronic illnesses, ensuring continuity of care and regular monitoring.",
+                "incorrect": {
+                    "A": "Performing complex surgeries is typically the responsibility of surgeons.",
+                    "C": "Designing dental prosthetics is the responsibility of dentists.",
+                    "D": "Conducting laboratory research is typically the responsibility of medical researchers."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the primary method used by GPs to prevent diseases?",
+            "options": {
+                "A": "Surgical intervention",
+                "B": "Preventive healthcare",
+                "C": "Radiation therapy",
+                "D": "Chemotherapy"
+            },
+            "correct_answer": "B",
+            "hint": "This method includes early detection of diseases, vaccinations, and lifestyle counseling.",
+            "feedback": {
+                "correct": "Preventive healthcare is the primary method used by GPs to prevent diseases.",
+                "incorrect": {
+                    "A": "Surgical intervention is not primarily used for disease prevention.",
+                    "C": "Radiation therapy is used for treating certain cancers, not for disease prevention.",
+                    "D": "Chemotherapy is used for treating cancer, not for disease prevention."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which chronic illness is commonly managed by General Practitioners?",
+            "options": {
+                "A": "Diabetes",
+                "B": "Appendicitis",
+                "C": "Acute bronchitis",
+                "D": "Fractures"
+            },
+            "correct_answer": "A",
+            "hint": "This condition involves abnormal blood sugar regulation.",
+            "feedback": {
+                "correct": "Diabetes is a common chronic illness managed by General Practitioners.",
+                "incorrect": {
+                    "B": "Appendicitis is typically managed by surgeons.",
+                    "C": "Acute bronchitis is usually a short-term condition, not a chronic illness.",
+                    "D": "Fractures are typically managed by orthopedic specialists."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Which of the following is a common cardiovascular disease managed in General Medicine?",
+            "options": {
+                "A": "Hypertension",
+                "B": "Asthma",
+                "C": "Diabetes",
+                "D": "Hypothyroidism"
+            },
+            "correct_answer": "A",
+            "hint": "This condition is characterized by elevated blood pressure.",
+            "feedback": {
+                "correct": "Hypertension is a common cardiovascular disease managed in General Medicine.",
+                "incorrect": {
+                    "B": "Asthma is a respiratory disease, not a cardiovascular disease.",
+                    "C": "Diabetes is an endocrine disorder, not a cardiovascular disease.",
+                    "D": "Hypothyroidism is an endocrine disorder, not a cardiovascular disease."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is the primary tool used by GPs to assess lung function?",
+            "options": {
+                "A": "ECG",
+                "B": "Spirometry",
+                "C": "X-ray",
+                "D": "MRI"
+            },
+            "correct_answer": "B",
+            "hint": "This tool evaluates airflow and is critical for diagnosing conditions like asthma and COPD.",
+            "feedback": {
+                "correct": "Spirometry is the primary tool used by GPs to assess lung function.",
+                "incorrect": {
+                    "A": "ECG is used to assess cardiac function, not lung function.",
+                    "C": "X-ray can visualize lung conditions but does not assess lung function.",
+                    "D": "MRI provides detailed images but is not typically used for routine lung function assessment."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Which diagnostic test provides information about kidney function and electrolyte levels?",
+            "options": {
+                "A": "Complete Blood Count (CBC)",
+                "B": "Basic Metabolic Panel (BMP)",
+                "C": "Liver Function Tests (LFTs)",
+                "D": "ECG"
+            },
+            "correct_answer": "B",
+            "hint": "This test includes measurements of blood glucose, calcium, and electrolytes.",
+            "feedback": {
+                "correct": "The Basic Metabolic Panel (BMP) provides information about kidney function and electrolyte levels.",
+                "incorrect": {
+                    "A": "The Complete Blood Count (CBC) assesses overall health and detects disorders like anemia and infection.",
+                    "C": "Liver Function Tests (LFTs) evaluate liver health.",
+                    "D": "ECG measures the electrical activity of the heart."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is the primary purpose of vaccinations in preventive medicine?",
+            "options": {
+                "A": "Treating chronic diseases",
+                "B": "Preventing infectious diseases",
+                "C": "Managing acute conditions",
+                "D": "Diagnosing medical conditions"
+            },
+            "correct_answer": "B",
+            "hint": "Vaccinations play a critical role in this aspect of public health.",
+            "feedback": {
+                "correct": "The primary purpose of vaccinations in preventive medicine is to prevent infectious diseases.",
+                "incorrect": {
+                    "A": "Vaccinations are not used for treating chronic diseases.",
+                    "C": "Vaccinations are not primarily used for managing acute conditions.",
+                    "D": "Vaccinations are not used for diagnosing medical conditions."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Which technique is NOT part of a physical examination?",
+            "options": {
+                "A": "Inspection",
+                "B": "Palpation",
+                "C": "Percussion",
+                "D": "Vaccination"
+            },
+            "correct_answer": "D",
+            "hint": "This technique involves administering a substance to prevent disease.",
+            "feedback": {
+                "correct": "Vaccination is not part of a physical examination; it is a preventive measure.",
+                "incorrect": {
+                    "A": "Inspection is a technique used in physical examination.",
+                    "B": "Palpation is a technique used in physical examination.",
+                    "C": "Percussion is a technique used in physical examination."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Which of the following is a common symptom of hypothyroidism?",
+            "options": {
+                "A": "Weight loss",
+                "B": "Increased heart rate",
+                "C": "Fatigue",
+                "D": "Hyperactivity"
+            },
+            "correct_answer": "C",
+            "hint": "This symptom is related to low energy levels.",
+            "feedback": {
+                "correct": "Fatigue is a common symptom of hypothyroidism.",
+                "incorrect": {
+                    "A": "Weight loss is more commonly associated with hyperthyroidism.",
+                    "B": "Increased heart rate is more commonly associated with hyperthyroidism.",
+                    "D": "Hyperactivity is more commonly associated with hyperthyroidism."
+                }
+            }
+        }
+    ]
+}

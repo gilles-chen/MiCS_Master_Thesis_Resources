@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given a vector space V and a linear transformation T: V \u2192 V, how would you apply T to a vector v = [2, -1] if T is represented by the matrix A = [[1, 2], [3, 4]]?",
+            "options": {
+                "A": "[4, 10]",
+                "B": "[0, 0]",
+                "C": "[0, 1]",
+                "D": "[1, 3]"
+            },
+            "correct_answer": "A",
+            "hint": "Use matrix multiplication to apply the transformation.",
+            "feedback": {
+                "correct": "Multiplying the matrix A by the vector v gives [4, 10].",
+                "incorrect": {
+                    "B": "This result does not come from the correct matrix multiplication.",
+                    "C": "This result does not come from the correct matrix multiplication.",
+                    "D": "This result does not come from the correct matrix multiplication."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "How would you use the determinant to determine if the matrix A = [[2, 3], [1, 4]] is invertible?",
+            "options": {
+                "A": "Calculate the determinant and check if it is zero.",
+                "B": "Check if all elements are non-zero.",
+                "C": "Check if the matrix is symmetric.",
+                "D": "Check if the trace of the matrix is non-zero."
+            },
+            "correct_answer": "A",
+            "hint": "The determinant is key to matrix invertibility.",
+            "feedback": {
+                "correct": "A matrix is invertible if its determinant is non-zero.",
+                "incorrect": {
+                    "B": "Non-zero elements do not guarantee invertibility.",
+                    "C": "Symmetry is not related to invertibility.",
+                    "D": "The trace being non-zero does not determine invertibility."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Apply the concept of linear independence to determine if the vectors [1, 2] and [2, 4] are linearly independent.",
+            "options": {
+                "A": "They are linearly dependent because one is a scalar multiple of the other.",
+                "B": "They are linearly independent because they are not multiples of each other.",
+                "C": "They are linearly independent because they span the vector space.",
+                "D": "They are linearly dependent because they have the same direction."
+            },
+            "correct_answer": "A",
+            "hint": "Check if one vector can be written as a scalar multiple of the other.",
+            "feedback": {
+                "correct": "The vectors are linearly dependent because [2, 4] is 2 times [1, 2].",
+                "incorrect": {
+                    "B": "They are multiples of each other, hence dependent.",
+                    "C": "Spanning the vector space does not imply independence.",
+                    "D": "Same direction implies dependence."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "How would you apply the concept of eigenvalues to determine if a matrix A = [[2, 1], [1, 2]] has an eigenvalue of 3?",
+            "options": {
+                "A": "Solve the characteristic equation det(A - 3I) = 0.",
+                "B": "Check if the trace of A is 3.",
+                "C": "Check if the determinant of A is 3.",
+                "D": "Check if A is diagonalizable."
+            },
+            "correct_answer": "A",
+            "hint": "Use the characteristic polynomial to find eigenvalues.",
+            "feedback": {
+                "correct": "The characteristic equation det(A - \u03bbI) = 0 determines eigenvalues.",
+                "incorrect": {
+                    "B": "The trace is the sum of eigenvalues, not a single eigenvalue.",
+                    "C": "The determinant is the product of eigenvalues, not a single eigenvalue.",
+                    "D": "Diagonalizability does not directly determine specific eigenvalues."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "How would you use matrix multiplication to find the product of matrices A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 3]]?",
+            "options": {
+                "A": "[[4, 6], [10, 12]]",
+                "B": "[[4, 6], [6, 12]]",
+                "C": "[[4, 6], [9, 12]]",
+                "D": "[[4, 6], [9, 18]]"
+            },
+            "correct_answer": "C",
+            "hint": "Multiply rows of A by columns of B.",
+            "feedback": {
+                "correct": "The correct product is [[4, 6], [9, 12]].",
+                "incorrect": {
+                    "A": "This result does not come from the correct matrix multiplication.",
+                    "B": "This result does not come from the correct matrix multiplication.",
+                    "D": "This result does not come from the correct matrix multiplication."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "How would you apply the concept of a linear transformation to determine the image of the vector [1, 2] under the transformation T(x, y) = (2x + y, x - y)?",
+            "options": {
+                "A": "[4, -1]",
+                "B": "[3, -1]",
+                "C": "[4, 1]",
+                "D": "[3, 1]"
+            },
+            "correct_answer": "B",
+            "hint": "Substitute the vector components into the transformation equations.",
+            "feedback": {
+                "correct": "Substituting x = 1 and y = 2 into T(x, y) gives [3, -1].",
+                "incorrect": {
+                    "A": "This result does not come from the correct substitution.",
+                    "C": "This result does not come from the correct substitution.",
+                    "D": "This result does not come from the correct substitution."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "How would you use the properties of determinants to find the determinant of the matrix A = [[3, 2], [1, 4]]?",
+            "options": {
+                "A": "10",
+                "B": "14",
+                "C": "11",
+                "D": "8"
+            },
+            "correct_answer": "A",
+            "hint": "Use the formula det(A) = ad - bc for a 2x2 matrix.",
+            "feedback": {
+                "correct": "The determinant is calculated as (3*4) - (2*1) = 10.",
+                "incorrect": {
+                    "B": "This result does not come from the correct determinant formula.",
+                    "C": "This result does not come from the correct determinant formula.",
+                    "D": "This result does not come from the correct determinant formula."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "How would you apply the concept of matrix inversion to solve the system of equations represented by A = [[1, 2], [3, 4]] and b = [5, 6]?",
+            "options": {
+                "A": "Find A^-1 and multiply it by b.",
+                "B": "Find the determinant of A and use it to solve for x.",
+                "C": "Transpose A and multiply it by b.",
+                "D": "Add A and b."
+            },
+            "correct_answer": "A",
+            "hint": "Matrix inversion is used to solve systems of linear equations.",
+            "feedback": {
+                "correct": "Multiplying A^-1 by b gives the solution to the system.",
+                "incorrect": {
+                    "B": "The determinant alone does not solve the system.",
+                    "C": "Transposing A does not solve the system.",
+                    "D": "Adding A and b does not solve the system."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "How would you use the concept of eigenvectors to diagonalize the matrix A = [[4, 1], [2, 3]]?",
+            "options": {
+                "A": "Find the eigenvalues and corresponding eigenvectors, then form the matrix P and D.",
+                "B": "Find the determinant and trace of A.",
+                "C": "Transpose A and find its inverse.",
+                "D": "Add the identity matrix to A."
+            },
+            "correct_answer": "A",
+            "hint": "Diagonalization involves eigenvalues and eigenvectors.",
+            "feedback": {
+                "correct": "Eigenvalues and eigenvectors are used to form the matrices P and D for diagonalization.",
+                "incorrect": {
+                    "B": "The determinant and trace alone do not diagonalize the matrix.",
+                    "C": "Transposing and inverting A do not diagonalize it.",
+                    "D": "Adding the identity matrix does not diagonalize A."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "How would you apply the concept of vector spaces to determine if the set of vectors {[1, 0], [0, 1], [1, 1]} forms a basis for R^2?",
+            "options": {
+                "A": "Check if the vectors are linearly independent and span R^2.",
+                "B": "Check if the vectors are orthogonal.",
+                "C": "Check if the vectors are normalized.",
+                "D": "Check if the vectors are all non-zero."
+            },
+            "correct_answer": "A",
+            "hint": "A basis must be linearly independent and span the space.",
+            "feedback": {
+                "correct": "A basis for R^2 must be linearly independent and span R^2.",
+                "incorrect": {
+                    "B": "Orthogonality is not required for a basis.",
+                    "C": "Normalization is not required for a basis.",
+                    "D": "Non-zero vectors alone do not form a basis."
+                }
+            }
+        }
+    ]
+}

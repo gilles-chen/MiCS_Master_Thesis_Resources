@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "A patient presents with acute asthma exacerbation. Which medication should be applied immediately to relieve bronchospasm?",
+            "options": {
+                "A": "Albuterol",
+                "B": "Montelukast",
+                "C": "Fluticasone",
+                "D": "Theophylline"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a fast-acting bronchodilator.",
+            "feedback": {
+                "correct": "Albuterol is a fast-acting bronchodilator used to relieve bronchospasm in acute asthma exacerbations.",
+                "incorrect": {
+                    "B": "Montelukast is a leukotriene receptor antagonist used for long-term control, not immediate relief.",
+                    "C": "Fluticasone is an inhaled corticosteroid used for long-term control, not immediate relief.",
+                    "D": "Theophylline is a bronchodilator but is not used for immediate relief in acute settings."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "A patient with a history of peptic ulcer disease presents with severe epigastric pain and signs of peritonitis. What is the most appropriate initial diagnostic test to apply?",
+            "options": {
+                "A": "Abdominal ultrasound",
+                "B": "Upper endoscopy",
+                "C": "Abdominal X-ray",
+                "D": "CT scan of the abdomen"
+            },
+            "correct_answer": "D",
+            "hint": "Consider a test that provides detailed imaging of the abdomen.",
+            "feedback": {
+                "correct": "A CT scan of the abdomen is the most appropriate initial diagnostic test to evaluate for complications such as perforation.",
+                "incorrect": {
+                    "A": "Abdominal ultrasound is less sensitive for detecting perforation.",
+                    "B": "Upper endoscopy is not the initial test of choice in acute settings with suspected perforation.",
+                    "C": "Abdominal X-ray can show free air but is less detailed than a CT scan."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "A patient with chronic kidney disease (CKD) is found to have hyperkalemia. Which intervention should be applied to rapidly lower the serum potassium level?",
+            "options": {
+                "A": "Administering calcium gluconate",
+                "B": "Administering insulin and glucose",
+                "C": "Administering sodium bicarbonate",
+                "D": "Administering loop diuretics"
+            },
+            "correct_answer": "B",
+            "hint": "Consider an intervention that shifts potassium into cells.",
+            "feedback": {
+                "correct": "Administering insulin and glucose helps to rapidly lower serum potassium by shifting it into cells.",
+                "incorrect": {
+                    "A": "Calcium gluconate stabilizes the cardiac membrane but does not lower potassium levels.",
+                    "C": "Sodium bicarbonate can help in certain cases but is not the fastest method.",
+                    "D": "Loop diuretics help with potassium excretion but are not the fastest method."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "A patient with atrial fibrillation is at risk for thromboembolism. Which medication should be applied to reduce this risk?",
+            "options": {
+                "A": "Aspirin",
+                "B": "Warfarin",
+                "C": "Clopidogrel",
+                "D": "Heparin"
+            },
+            "correct_answer": "B",
+            "hint": "Consider an anticoagulant used for long-term management.",
+            "feedback": {
+                "correct": "Warfarin is an anticoagulant used to reduce the risk of thromboembolism in patients with atrial fibrillation.",
+                "incorrect": {
+                    "A": "Aspirin is less effective than anticoagulants for this purpose.",
+                    "C": "Clopidogrel is an antiplatelet agent, not the first choice for atrial fibrillation.",
+                    "D": "Heparin is used for short-term anticoagulation, not long-term management."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "A patient with suspected bacterial meningitis requires immediate treatment. Which antibiotic regimen should be applied empirically?",
+            "options": {
+                "A": "Amoxicillin and clavulanate",
+                "B": "Ceftriaxone and vancomycin",
+                "C": "Azithromycin and doxycycline",
+                "D": "Metronidazole and ciprofloxacin"
+            },
+            "correct_answer": "B",
+            "hint": "Consider broad-spectrum antibiotics that cover common meningitis pathogens.",
+            "feedback": {
+                "correct": "Ceftriaxone and vancomycin are commonly used empirically to cover a broad range of bacterial pathogens in suspected meningitis.",
+                "incorrect": {
+                    "A": "Amoxicillin and clavulanate are not broad-spectrum enough for meningitis.",
+                    "C": "Azithromycin and doxycycline are not the first choice for bacterial meningitis.",
+                    "D": "Metronidazole and ciprofloxacin are not typically used for meningitis."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "A patient with type 2 diabetes presents with a blood glucose level of 450 mg/dL and ketones in the urine. What is the most appropriate initial treatment to apply?",
+            "options": {
+                "A": "Oral hypoglycemic agents",
+                "B": "Intravenous insulin",
+                "C": "Dietary modification",
+                "D": "Exercise"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a treatment that rapidly lowers blood glucose levels.",
+            "feedback": {
+                "correct": "Intravenous insulin is the most appropriate initial treatment to rapidly lower blood glucose levels and address ketosis.",
+                "incorrect": {
+                    "A": "Oral hypoglycemic agents are not effective in acute settings with very high blood glucose levels.",
+                    "C": "Dietary modification is important but not the initial treatment in this acute scenario.",
+                    "D": "Exercise is not appropriate in the acute management of severe hyperglycemia and ketosis."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "A patient with chronic obstructive pulmonary disease (COPD) experiences an acute exacerbation. Which intervention should be applied to improve oxygenation?",
+            "options": {
+                "A": "Oral corticosteroids",
+                "B": "Inhaled bronchodilators",
+                "C": "Antibiotics",
+                "D": "Oxygen therapy"
+            },
+            "correct_answer": "D",
+            "hint": "Consider an intervention that directly increases oxygen levels.",
+            "feedback": {
+                "correct": "Oxygen therapy is applied to improve oxygenation in patients with acute COPD exacerbations.",
+                "incorrect": {
+                    "A": "Oral corticosteroids help reduce inflammation but do not directly improve oxygenation.",
+                    "B": "Inhaled bronchodilators help open airways but do not directly increase oxygen levels.",
+                    "C": "Antibiotics may be needed if there is an infection but do not directly improve oxygenation."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "A patient with deep vein thrombosis (DVT) is started on anticoagulation therapy. Which laboratory test should be applied to monitor the effectiveness of warfarin therapy?",
+            "options": {
+                "A": "Complete blood count (CBC)",
+                "B": "Prothrombin time (PT)/INR",
+                "C": "Activated partial thromboplastin time (aPTT)",
+                "D": "D-dimer"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a test that measures the effectiveness of warfarin.",
+            "feedback": {
+                "correct": "Prothrombin time (PT)/INR is used to monitor the effectiveness of warfarin therapy.",
+                "incorrect": {
+                    "A": "Complete blood count (CBC) does not monitor anticoagulation effectiveness.",
+                    "C": "Activated partial thromboplastin time (aPTT) is used to monitor heparin, not warfarin.",
+                    "D": "D-dimer is used to diagnose clotting disorders, not to monitor warfarin therapy."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "A patient with hyperthyroidism is scheduled for thyroidectomy. Which medication should be applied preoperatively to reduce the risk of thyroid storm?",
+            "options": {
+                "A": "Levothyroxine",
+                "B": "Methimazole",
+                "C": "Propranolol",
+                "D": "Radioactive iodine"
+            },
+            "correct_answer": "B",
+            "hint": "Consider an antithyroid medication.",
+            "feedback": {
+                "correct": "Methimazole is an antithyroid medication used preoperatively to reduce thyroid hormone levels and the risk of thyroid storm.",
+                "incorrect": {
+                    "A": "Levothyroxine is used to treat hypothyroidism, not hyperthyroidism.",
+                    "C": "Propranolol is used to manage symptoms but does not reduce thyroid hormone levels.",
+                    "D": "Radioactive iodine is used for long-term treatment, not preoperative management."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "A patient with acute myocardial infarction (MI) is being treated in the emergency department. Which intervention should be applied to restore coronary blood flow?",
+            "options": {
+                "A": "Beta-blockers",
+                "B": "Thrombolytic therapy",
+                "C": "ACE inhibitors",
+                "D": "Statins"
+            },
+            "correct_answer": "B",
+            "hint": "Consider an intervention that dissolves blood clots.",
+            "feedback": {
+                "correct": "Thrombolytic therapy is used to dissolve blood clots and restore coronary blood flow in acute MI.",
+                "incorrect": {
+                    "A": "Beta-blockers are used to reduce heart workload but do not restore blood flow.",
+                    "C": "ACE inhibitors are used for long-term management, not immediate restoration of blood flow.",
+                    "D": "Statins are used to manage cholesterol levels, not for immediate restoration of blood flow."
+                }
+            }
+        }
+    ]
+}

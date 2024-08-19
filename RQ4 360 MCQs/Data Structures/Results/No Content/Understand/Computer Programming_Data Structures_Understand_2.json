@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Explain why a binary search tree (BST) is more efficient than a linked list for search operations.",
+            "options": {
+                "A": "A BST has a time complexity of O(n) for search operations.",
+                "B": "A BST allows for binary search, reducing the search time to O(log n) in a balanced tree.",
+                "C": "A BST uses more memory, making it faster.",
+                "D": "A BST can store more elements than a linked list."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the time complexity of search operations in a balanced BST.",
+            "feedback": {
+                "correct": "A BST allows for binary search, which reduces the search time to O(log n) in a balanced tree, making it more efficient than a linked list.",
+                "incorrect": {
+                    "A": "A BST has a time complexity of O(log n) for search operations in a balanced tree, not O(n).",
+                    "C": "Memory usage does not directly correlate with search speed.",
+                    "D": "The number of elements a data structure can store does not determine its search efficiency."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Describe the main advantage of using a hash table over an array for storing data.",
+            "options": {
+                "A": "Hash tables can store more data than arrays.",
+                "B": "Hash tables provide constant time complexity for search, insert, and delete operations.",
+                "C": "Hash tables use less memory than arrays.",
+                "D": "Hash tables maintain the order of elements."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the time complexity of operations in a hash table.",
+            "feedback": {
+                "correct": "Hash tables provide constant time complexity (O(1)) for search, insert, and delete operations, which is a significant advantage over arrays.",
+                "incorrect": {
+                    "A": "The capacity to store data depends on the implementation and is not inherently greater in hash tables.",
+                    "C": "Hash tables may use more memory due to the need for handling collisions.",
+                    "D": "Hash tables do not maintain the order of elements; they are designed for fast access."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Summarize the key difference between a stack and a queue.",
+            "options": {
+                "A": "A stack allows insertion at both ends, while a queue allows insertion at one end.",
+                "B": "A stack follows Last In First Out (LIFO) order, while a queue follows First In First Out (FIFO) order.",
+                "C": "A stack is used for breadth-first search, while a queue is used for depth-first search.",
+                "D": "A stack can only store integers, while a queue can store any data type."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the order in which elements are accessed in each data structure.",
+            "feedback": {
+                "correct": "A stack follows Last In First Out (LIFO) order, meaning the last element added is the first to be removed. A queue follows First In First Out (FIFO) order, meaning the first element added is the first to be removed.",
+                "incorrect": {
+                    "A": "A stack allows insertion and deletion at one end (the top), while a queue allows insertion at one end and deletion at the other.",
+                    "C": "Stacks are typically used for depth-first search, while queues are used for breadth-first search.",
+                    "D": "Both stacks and queues can store any data type, not just integers."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Interpret the significance of the 'load factor' in a hash table.",
+            "options": {
+                "A": "It determines the maximum number of elements a hash table can store.",
+                "B": "It indicates the average number of elements per bucket.",
+                "C": "It measures the efficiency of the hash function.",
+                "D": "It is the ratio of the number of elements to the number of buckets."
+            },
+            "correct_answer": "D",
+            "hint": "Think about how the load factor relates to the distribution of elements in the hash table.",
+            "feedback": {
+                "correct": "The load factor is the ratio of the number of elements to the number of buckets in a hash table. It helps in determining when to resize the hash table.",
+                "incorrect": {
+                    "A": "The load factor does not determine the maximum number of elements a hash table can store.",
+                    "B": "The load factor is not an average number of elements per bucket but a ratio.",
+                    "C": "The load factor does not measure the efficiency of the hash function directly."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Compare and contrast an array and a linked list in terms of memory allocation.",
+            "options": {
+                "A": "Arrays use dynamic memory allocation, while linked lists use static memory allocation.",
+                "B": "Arrays use contiguous memory allocation, while linked lists use non-contiguous memory allocation.",
+                "C": "Arrays and linked lists both use contiguous memory allocation.",
+                "D": "Arrays use non-contiguous memory allocation, while linked lists use contiguous memory allocation."
+            },
+            "correct_answer": "B",
+            "hint": "Consider how elements are stored in memory for both data structures.",
+            "feedback": {
+                "correct": "Arrays use contiguous memory allocation, meaning all elements are stored in a single block of memory. Linked lists use non-contiguous memory allocation, where each element points to the next, allowing for dynamic memory usage.",
+                "incorrect": {
+                    "A": "Arrays use static (contiguous) memory allocation, while linked lists use dynamic (non-contiguous) memory allocation.",
+                    "C": "Linked lists do not use contiguous memory allocation.",
+                    "D": "Arrays use contiguous memory allocation, not non-contiguous."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Explain the purpose of a priority queue and how it differs from a regular queue.",
+            "options": {
+                "A": "A priority queue allows elements to be inserted at both ends.",
+                "B": "A priority queue processes elements based on their priority, not just their order of arrival.",
+                "C": "A priority queue is always implemented using a linked list.",
+                "D": "A priority queue can only store integer values."
+            },
+            "correct_answer": "B",
+            "hint": "Consider how elements are processed in a priority queue compared to a regular queue.",
+            "feedback": {
+                "correct": "A priority queue processes elements based on their priority, meaning higher priority elements are processed before lower priority ones, regardless of their order of arrival.",
+                "incorrect": {
+                    "A": "A priority queue does not allow insertion at both ends; it processes elements based on priority.",
+                    "C": "A priority queue can be implemented using various data structures, not just a linked list.",
+                    "D": "A priority queue can store any data type, not just integers."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Describe the main characteristic of a circular linked list.",
+            "options": {
+                "A": "It has a fixed number of nodes.",
+                "B": "The last node points back to the first node, forming a circle.",
+                "C": "It allows for bidirectional traversal.",
+                "D": "It uses a hash function to manage nodes."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the structure of the last node in a circular linked list.",
+            "feedback": {
+                "correct": "In a circular linked list, the last node points back to the first node, forming a circular structure.",
+                "incorrect": {
+                    "A": "A circular linked list does not have a fixed number of nodes; it can grow dynamically.",
+                    "C": "Bidirectional traversal is a characteristic of a doubly linked list, not a circular linked list.",
+                    "D": "A circular linked list does not use a hash function to manage nodes."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Interpret the role of the 'head' pointer in a singly linked list.",
+            "options": {
+                "A": "It points to the last node in the list.",
+                "B": "It points to the first node in the list.",
+                "C": "It points to the middle node in the list.",
+                "D": "It points to the node with the highest value."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the starting point of a singly linked list.",
+            "feedback": {
+                "correct": "The 'head' pointer in a singly linked list points to the first node in the list, serving as the entry point for traversal.",
+                "incorrect": {
+                    "A": "The 'head' pointer points to the first node, not the last node.",
+                    "C": "The 'head' pointer does not point to the middle node; it points to the first node.",
+                    "D": "The 'head' pointer does not point to the node with the highest value; it points to the first node."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Summarize the key advantage of using a doubly linked list over a singly linked list.",
+            "options": {
+                "A": "Doubly linked lists use less memory.",
+                "B": "Doubly linked lists allow for traversal in both directions.",
+                "C": "Doubly linked lists are easier to implement.",
+                "D": "Doubly linked lists have a simpler node structure."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the additional pointers in a doubly linked list.",
+            "feedback": {
+                "correct": "Doubly linked lists allow for traversal in both directions (forward and backward) due to the presence of two pointers in each node, one pointing to the next node and one to the previous node.",
+                "incorrect": {
+                    "A": "Doubly linked lists use more memory due to the additional pointer in each node.",
+                    "C": "Doubly linked lists are generally more complex to implement than singly linked lists.",
+                    "D": "The node structure in a doubly linked list is more complex due to the additional pointer."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Explain the concept of 'recursion' in the context of data structures.",
+            "options": {
+                "A": "Recursion is a technique where a function calls itself to solve a problem.",
+                "B": "Recursion is a method of sorting data in a list.",
+                "C": "Recursion is a way to traverse a graph using a stack.",
+                "D": "Recursion is a technique to allocate memory dynamically."
+            },
+            "correct_answer": "A",
+            "hint": "Consider how a function can solve a problem by breaking it down into smaller instances of the same problem.",
+            "feedback": {
+                "correct": "Recursion is a technique where a function calls itself to solve a problem by breaking it down into smaller, more manageable sub-problems.",
+                "incorrect": {
+                    "B": "Recursion is not specifically a method of sorting data; it is a broader technique used in various algorithms.",
+                    "C": "Recursion can be used to traverse a graph, but it is not limited to using a stack.",
+                    "D": "Recursion is not a technique for dynamic memory allocation; it is a method for solving problems."
+                }
+            }
+        }
+    ]
+}

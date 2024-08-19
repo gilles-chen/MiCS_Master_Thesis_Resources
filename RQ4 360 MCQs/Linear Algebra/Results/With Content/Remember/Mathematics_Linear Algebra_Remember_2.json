@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary focus of linear algebra?",
+            "options": {
+                "A": "Study of calculus and integrals",
+                "B": "Study of vector spaces and linear mappings",
+                "C": "Study of probability and statistics",
+                "D": "Study of discrete mathematics"
+            },
+            "correct_answer": "B",
+            "hint": "It involves vectors and matrices.",
+            "feedback": {
+                "correct": "Linear algebra is primarily concerned with vector spaces and linear mappings between these spaces.",
+                "incorrect": {
+                    "A": "Calculus and integrals are not the primary focus of linear algebra.",
+                    "C": "Probability and statistics are separate fields of study.",
+                    "D": "Discrete mathematics is a different branch of mathematics."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which of the following is a property of a vector space?",
+            "options": {
+                "A": "Existence of a zero vector",
+                "B": "Existence of a unit vector",
+                "C": "Existence of a negative vector",
+                "D": "Existence of a positive vector"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the vector that does not change other vectors when added.",
+            "feedback": {
+                "correct": "A vector space must have a zero vector such that adding it to any vector does not change the vector.",
+                "incorrect": {
+                    "B": "A unit vector is not a required property of a vector space.",
+                    "C": "Existence of a negative vector is not a standard property of vector spaces.",
+                    "D": "Existence of a positive vector is not a standard property of vector spaces."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the result of multiplying a matrix by its inverse?",
+            "options": {
+                "A": "Zero matrix",
+                "B": "Identity matrix",
+                "C": "Transpose of the matrix",
+                "D": "Determinant of the matrix"
+            },
+            "correct_answer": "B",
+            "hint": "The result is a matrix that does not change other matrices when multiplied.",
+            "feedback": {
+                "correct": "Multiplying a matrix by its inverse results in the identity matrix.",
+                "incorrect": {
+                    "A": "The zero matrix is not the result of multiplying a matrix by its inverse.",
+                    "C": "The transpose of the matrix is not the result of multiplying a matrix by its inverse.",
+                    "D": "The determinant is a scalar, not a matrix."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which operation involves flipping a matrix over its diagonal?",
+            "options": {
+                "A": "Matrix addition",
+                "B": "Matrix multiplication",
+                "C": "Matrix inversion",
+                "D": "Matrix transpose"
+            },
+            "correct_answer": "D",
+            "hint": "This operation switches the row and column indices.",
+            "feedback": {
+                "correct": "The transpose of a matrix involves flipping it over its diagonal.",
+                "incorrect": {
+                    "A": "Matrix addition does not involve flipping over the diagonal.",
+                    "B": "Matrix multiplication does not involve flipping over the diagonal.",
+                    "C": "Matrix inversion does not involve flipping over the diagonal."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the determinant of a matrix used for?",
+            "options": {
+                "A": "Checking matrix invertibility",
+                "B": "Calculating the transpose",
+                "C": "Finding the trace of the matrix",
+                "D": "Performing matrix addition"
+            },
+            "correct_answer": "A",
+            "hint": "It helps determine if a matrix is singular or not.",
+            "feedback": {
+                "correct": "The determinant is used to check if a matrix is invertible.",
+                "incorrect": {
+                    "B": "The determinant is not used for calculating the transpose.",
+                    "C": "The determinant is not used for finding the trace of the matrix.",
+                    "D": "The determinant is not used for performing matrix addition."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which of the following is a key concept in linear algebra?",
+            "options": {
+                "A": "Differentiation",
+                "B": "Integration",
+                "C": "Eigenvalues and Eigenvectors",
+                "D": "Probability distributions"
+            },
+            "correct_answer": "C",
+            "hint": "These concepts are essential for stability analysis and systems modeling.",
+            "feedback": {
+                "correct": "Eigenvalues and eigenvectors are key concepts in linear algebra.",
+                "incorrect": {
+                    "A": "Differentiation is a concept in calculus, not linear algebra.",
+                    "B": "Integration is a concept in calculus, not linear algebra.",
+                    "D": "Probability distributions are part of probability and statistics, not linear algebra."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the time complexity of standard matrix multiplication?",
+            "options": {
+                "A": "O(n^2)",
+                "B": "O(n^3)",
+                "C": "O(n^4)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "B",
+            "hint": "It involves three nested loops for the standard algorithm.",
+            "feedback": {
+                "correct": "The time complexity of standard matrix multiplication is O(n^3).",
+                "incorrect": {
+                    "A": "O(n^2) is the time complexity for matrix addition, not multiplication.",
+                    "C": "O(n^4) is not the correct time complexity for standard matrix multiplication.",
+                    "D": "O(n log n) is not the correct time complexity for standard matrix multiplication."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is a linear transformation?",
+            "options": {
+                "A": "A mapping that preserves vector addition and scalar multiplication",
+                "B": "A function that only scales vectors",
+                "C": "A process of finding the inverse of a matrix",
+                "D": "A method for solving quadratic equations"
+            },
+            "correct_answer": "A",
+            "hint": "It involves preserving two key operations in vector spaces.",
+            "feedback": {
+                "correct": "A linear transformation is a mapping that preserves vector addition and scalar multiplication.",
+                "incorrect": {
+                    "B": "A linear transformation does more than just scale vectors.",
+                    "C": "Finding the inverse of a matrix is not the definition of a linear transformation.",
+                    "D": "Solving quadratic equations is not related to linear transformations."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Which of the following is an application of eigenvalues and eigenvectors?",
+            "options": {
+                "A": "Solving linear systems",
+                "B": "Dimensionality reduction in data science",
+                "C": "Matrix addition",
+                "D": "Calculating the transpose"
+            },
+            "correct_answer": "B",
+            "hint": "Think about Principal Component Analysis (PCA).",
+            "feedback": {
+                "correct": "Eigenvalues and eigenvectors are used in dimensionality reduction techniques like PCA.",
+                "incorrect": {
+                    "A": "Solving linear systems is not a direct application of eigenvalues and eigenvectors.",
+                    "C": "Matrix addition does not involve eigenvalues and eigenvectors.",
+                    "D": "Calculating the transpose does not involve eigenvalues and eigenvectors."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the kernel of a linear transformation?",
+            "options": {
+                "A": "The set of vectors mapped to the zero vector",
+                "B": "The set of all possible outputs",
+                "C": "The determinant of the transformation matrix",
+                "D": "The inverse of the transformation matrix"
+            },
+            "correct_answer": "A",
+            "hint": "It involves vectors that are mapped to a specific vector.",
+            "feedback": {
+                "correct": "The kernel of a linear transformation is the set of vectors mapped to the zero vector.",
+                "incorrect": {
+                    "B": "The set of all possible outputs is the image, not the kernel.",
+                    "C": "The determinant is not related to the kernel.",
+                    "D": "The inverse of the transformation matrix is not the kernel."
+                }
+            }
+        }
+    ]
+}

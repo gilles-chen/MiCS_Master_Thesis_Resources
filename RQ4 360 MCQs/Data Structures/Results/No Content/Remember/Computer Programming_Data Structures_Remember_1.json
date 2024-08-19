@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary purpose of a data structure?",
+            "options": {
+                "A": "To organize and store data efficiently",
+                "B": "To compile code",
+                "C": "To execute programs",
+                "D": "To debug errors"
+            },
+            "correct_answer": "A",
+            "hint": "Think about how data is managed in memory.",
+            "feedback": {
+                "correct": "Data structures are used to organize and store data efficiently for easy access and modification.",
+                "incorrect": {
+                    "B": "Compiling code is the job of a compiler, not a data structure.",
+                    "C": "Executing programs is the role of the CPU and operating system, not data structures.",
+                    "D": "Debugging errors is done using debugging tools, not data structures."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which data structure uses a LIFO (Last In, First Out) principle?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Linked List",
+                "D": "Tree"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a structure where the last element added is the first one to be removed.",
+            "feedback": {
+                "correct": "A stack follows the LIFO principle, where the last element added is the first to be removed.",
+                "incorrect": {
+                    "B": "A queue follows the FIFO (First In, First Out) principle.",
+                    "C": "A linked list does not follow LIFO or FIFO principles specifically.",
+                    "D": "A tree is a hierarchical structure and does not follow LIFO or FIFO principles."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the time complexity of accessing an element in an array by index?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A",
+            "hint": "Think about how quickly you can access an element if you know its index.",
+            "feedback": {
+                "correct": "Accessing an element by index in an array is an O(1) operation because it takes constant time.",
+                "incorrect": {
+                    "B": "O(n) would imply that the time to access an element grows linearly with the size of the array, which is not the case.",
+                    "C": "O(log n) is the time complexity for operations like binary search, not for accessing an array element by index.",
+                    "D": "O(n^2) is typically associated with nested loops, not simple array access."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which data structure is best suited for implementing a priority queue?",
+            "options": {
+                "A": "Heap",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a structure that allows efficient retrieval of the highest (or lowest) priority element.",
+            "feedback": {
+                "correct": "A heap is well-suited for implementing a priority queue because it allows efficient retrieval of the highest (or lowest) priority element.",
+                "incorrect": {
+                    "B": "A stack follows LIFO principle and is not suitable for priority queues.",
+                    "C": "An array does not provide efficient priority-based access.",
+                    "D": "A linked list does not provide efficient priority-based access."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the main advantage of a linked list over an array?",
+            "options": {
+                "A": "Dynamic size",
+                "B": "Faster access time",
+                "C": "Less memory usage",
+                "D": "Simpler implementation"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the flexibility in terms of size.",
+            "feedback": {
+                "correct": "The main advantage of a linked list over an array is its dynamic size, allowing for efficient insertion and deletion of elements.",
+                "incorrect": {
+                    "B": "Arrays provide faster access time due to direct indexing.",
+                    "C": "Linked lists generally use more memory due to storage of pointers.",
+                    "D": "Arrays are simpler to implement compared to linked lists."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which data structure is used to implement recursion?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Tree",
+                "D": "Graph"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the structure that stores function calls.",
+            "feedback": {
+                "correct": "A stack is used to implement recursion because it stores the return addresses of function calls.",
+                "incorrect": {
+                    "B": "A queue is not used to store function calls.",
+                    "C": "A tree is a hierarchical structure and not used for implementing recursion.",
+                    "D": "A graph is used to represent relationships between objects, not for implementing recursion."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the worst-case time complexity of searching for an element in a binary search tree (BST)?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(1)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the scenario when the tree is unbalanced.",
+            "feedback": {
+                "correct": "The worst-case time complexity of searching in a BST is O(n), which occurs when the tree is unbalanced and resembles a linked list.",
+                "incorrect": {
+                    "B": "O(log n) is the average-case time complexity for a balanced BST.",
+                    "C": "O(1) implies constant time, which is not applicable for BST search.",
+                    "D": "O(n log n) is not the correct time complexity for searching in a BST."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Which data structure is used in Breadth-First Search (BFS) algorithm?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the structure that processes nodes level by level.",
+            "feedback": {
+                "correct": "A queue is used in the BFS algorithm to process nodes level by level.",
+                "incorrect": {
+                    "B": "A stack is used in Depth-First Search (DFS), not BFS.",
+                    "C": "A heap is used for priority queues, not for BFS.",
+                    "D": "A linked list is not specifically used for BFS."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the primary characteristic of a circular queue?",
+            "options": {
+                "A": "The last position is connected back to the first position",
+                "B": "It follows LIFO principle",
+                "C": "It uses a linked list",
+                "D": "It is always sorted"
+            },
+            "correct_answer": "A",
+            "hint": "Think about how the end of the queue is managed.",
+            "feedback": {
+                "correct": "In a circular queue, the last position is connected back to the first position, forming a circle.",
+                "incorrect": {
+                    "B": "A circular queue does not follow the LIFO principle; it follows FIFO.",
+                    "C": "A circular queue can be implemented using an array or a linked list.",
+                    "D": "A circular queue is not necessarily sorted."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Which data structure is used to implement a graph?",
+            "options": {
+                "A": "Adjacency list",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Heap"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a structure that represents connections between nodes.",
+            "feedback": {
+                "correct": "An adjacency list is commonly used to implement a graph, representing connections between nodes.",
+                "incorrect": {
+                    "B": "A stack is not used to represent graphs.",
+                    "C": "A queue is not used to represent graphs.",
+                    "D": "A heap is used for priority queues, not for representing graphs."
+                }
+            }
+        }
+    ]
+}

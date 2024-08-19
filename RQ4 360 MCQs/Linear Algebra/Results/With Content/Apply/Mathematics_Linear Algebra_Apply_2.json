@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given a vector space V and a linear transformation T: V \u2192 V, how would you apply T to the vector u = [2, 3] if T is represented by the matrix A = [[1, 0], [0, 1]]?",
+            "options": {
+                "A": "[2, 3]",
+                "B": "[3, 2]",
+                "C": "[1, 1]",
+                "D": "[0, 0]"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the identity matrix's effect on a vector.",
+            "feedback": {
+                "correct": "Applying the identity matrix to any vector leaves the vector unchanged.",
+                "incorrect": {
+                    "B": "This would be the result of a different transformation.",
+                    "C": "This is not the result of applying the identity matrix.",
+                    "D": "This would be the result of applying the zero matrix."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "How would you use matrix multiplication to find the product of matrices A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 2]]?",
+            "options": {
+                "A": "[[4, 4], [10, 8]]",
+                "B": "[[2, 4], [6, 8]]",
+                "C": "[[4, 4], [10, 10]]",
+                "D": "[[4, 4], [9, 10]]"
+            },
+            "correct_answer": "A",
+            "hint": "Multiply rows of A by columns of B.",
+            "feedback": {
+                "correct": "Matrix multiplication involves taking the dot product of rows of the first matrix with columns of the second matrix.",
+                "incorrect": {
+                    "B": "This result does not follow the correct matrix multiplication rules.",
+                    "C": "This result has an incorrect element in the second row, second column.",
+                    "D": "This result has an incorrect element in the second row, first column."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "If a matrix A has a determinant of 0, what can you apply to determine if A is invertible?",
+            "options": {
+                "A": "A is not invertible.",
+                "B": "A is invertible.",
+                "C": "A is singular.",
+                "D": "A is non-singular."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the determinant and matrix invertibility.",
+            "feedback": {
+                "correct": "A matrix with a determinant of 0 is not invertible.",
+                "incorrect": {
+                    "B": "A matrix with a determinant of 0 is not invertible.",
+                    "C": "While A is singular, this does not directly answer the question about invertibility.",
+                    "D": "A matrix with a determinant of 0 is singular, not non-singular."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "How would you apply the concept of eigenvalues to determine if a matrix A = [[2, 1], [1, 2]] is diagonalizable?",
+            "options": {
+                "A": "Find the eigenvalues and check if there are two distinct eigenvalues.",
+                "B": "Check if the determinant is non-zero.",
+                "C": "Find the inverse of the matrix.",
+                "D": "Check if the trace of the matrix is zero."
+            },
+            "correct_answer": "A",
+            "hint": "Diagonalizability depends on the eigenvalues.",
+            "feedback": {
+                "correct": "A matrix is diagonalizable if it has enough linearly independent eigenvectors, which is often indicated by having distinct eigenvalues.",
+                "incorrect": {
+                    "B": "The determinant being non-zero does not guarantee diagonalizability.",
+                    "C": "Finding the inverse is not directly related to diagonalizability.",
+                    "D": "The trace being zero is not a criterion for diagonalizability."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "How would you use the properties of linear transformations to show that T: R^2 \u2192 R^2 defined by T(x, y) = (2x, 3y) is a linear transformation?",
+            "options": {
+                "A": "Show that T preserves vector addition and scalar multiplication.",
+                "B": "Show that T maps vectors to the origin.",
+                "C": "Show that T is invertible.",
+                "D": "Show that T has a non-zero determinant."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the definitions of additivity and homogeneity.",
+            "feedback": {
+                "correct": "A linear transformation must preserve vector addition and scalar multiplication.",
+                "incorrect": {
+                    "B": "Mapping vectors to the origin is not a requirement for linearity.",
+                    "C": "Invertibility is not a requirement for linearity.",
+                    "D": "The determinant being non-zero is not a requirement for linearity."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "How would you apply the concept of linear independence to determine if the vectors v1 = [1, 2] and v2 = [2, 4] are linearly independent?",
+            "options": {
+                "A": "Check if one vector is a scalar multiple of the other.",
+                "B": "Check if their dot product is zero.",
+                "C": "Check if their cross product is zero.",
+                "D": "Check if their sum is zero."
+            },
+            "correct_answer": "A",
+            "hint": "Linear independence means no vector can be written as a scalar multiple of another.",
+            "feedback": {
+                "correct": "If one vector is a scalar multiple of the other, they are linearly dependent.",
+                "incorrect": {
+                    "B": "The dot product being zero indicates orthogonality, not linear independence.",
+                    "C": "Cross product is not defined in 2D vector spaces.",
+                    "D": "The sum being zero is not a criterion for linear independence."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "How would you use the concept of matrix inversion to solve the system of equations represented by A = [[1, 2], [3, 4]] and b = [5, 6]?",
+            "options": {
+                "A": "Find the inverse of A and multiply it by b.",
+                "B": "Find the determinant of A and multiply it by b.",
+                "C": "Transpose A and multiply it by b.",
+                "D": "Add A and b."
+            },
+            "correct_answer": "A",
+            "hint": "Consider how matrix inversion is used to solve linear systems.",
+            "feedback": {
+                "correct": "Multiplying the inverse of A by b gives the solution to the system A*x = b.",
+                "incorrect": {
+                    "B": "The determinant alone does not solve the system.",
+                    "C": "Transposing A does not solve the system.",
+                    "D": "Adding A and b does not solve the system."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "How would you apply the concept of eigenvectors to determine the eigenvector of the matrix A = [[2, 0], [0, 3]] corresponding to the eigenvalue 2?",
+            "options": {
+                "A": "[1, 0]",
+                "B": "[0, 1]",
+                "C": "[1, 1]",
+                "D": "[2, 3]"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the definition of eigenvectors.",
+            "feedback": {
+                "correct": "The eigenvector corresponding to the eigenvalue 2 is [1, 0].",
+                "incorrect": {
+                    "B": "This is the eigenvector corresponding to the eigenvalue 3.",
+                    "C": "This is not an eigenvector of the given matrix.",
+                    "D": "This is not an eigenvector of the given matrix."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "How would you use the properties of determinants to find the determinant of the matrix A = [[1, 2], [3, 4]]?",
+            "options": {
+                "A": "-2",
+                "B": "2",
+                "C": "0",
+                "D": "1"
+            },
+            "correct_answer": "A",
+            "hint": "Use the formula for the determinant of a 2x2 matrix.",
+            "feedback": {
+                "correct": "The determinant of a 2x2 matrix [[a, b], [c, d]] is ad - bc.",
+                "incorrect": {
+                    "B": "This is not the correct determinant.",
+                    "C": "This is not the correct determinant.",
+                    "D": "This is not the correct determinant."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "How would you apply the concept of vector spaces to determine if the set of vectors {[1, 0], [0, 1]} forms a basis for R^2?",
+            "options": {
+                "A": "Check if the vectors are linearly independent and span R^2.",
+                "B": "Check if the vectors are orthogonal.",
+                "C": "Check if the vectors are equal.",
+                "D": "Check if the vectors are parallel."
+            },
+            "correct_answer": "A",
+            "hint": "A basis must be linearly independent and span the space.",
+            "feedback": {
+                "correct": "A set of vectors forms a basis if they are linearly independent and span the vector space.",
+                "incorrect": {
+                    "B": "Orthogonality is not required for a basis.",
+                    "C": "The vectors being equal does not form a basis.",
+                    "D": "Parallel vectors cannot form a basis for R^2."
+                }
+            }
+        }
+    ]
+}

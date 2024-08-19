@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary function of the liver?",
+            "options": {
+                "A": "To filter blood",
+                "B": "To pump blood",
+                "C": "To produce insulin",
+                "D": "To store calcium"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the organ responsible for detoxifying substances in the body.",
+            "feedback": {
+                "correct": "The liver's primary function is to filter and detoxify blood.",
+                "incorrect": {
+                    "B": "The heart is responsible for pumping blood.",
+                    "C": "The pancreas produces insulin, not the liver.",
+                    "D": "Bones, not the liver, store calcium."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which vitamin is essential for calcium absorption in the body?",
+            "options": {
+                "A": "Vitamin D",
+                "B": "Vitamin C",
+                "C": "Vitamin B12",
+                "D": "Vitamin K"
+            },
+            "correct_answer": "A",
+            "hint": "This vitamin is often associated with sunlight.",
+            "feedback": {
+                "correct": "Vitamin D is essential for the absorption of calcium in the body.",
+                "incorrect": {
+                    "B": "Vitamin C is important for the immune system and collagen production.",
+                    "C": "Vitamin B12 is crucial for nerve function and blood formation.",
+                    "D": "Vitamin K is essential for blood clotting, not calcium absorption."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the main function of hemoglobin in the blood?",
+            "options": {
+                "A": "To transport oxygen",
+                "B": "To fight infections",
+                "C": "To clot blood",
+                "D": "To digest food"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the molecule that carries oxygen from the lungs to the rest of the body.",
+            "feedback": {
+                "correct": "Hemoglobin's main function is to transport oxygen from the lungs to tissues throughout the body.",
+                "incorrect": {
+                    "B": "White blood cells fight infections, not hemoglobin.",
+                    "C": "Platelets are responsible for blood clotting.",
+                    "D": "Digestive enzymes, not hemoglobin, are involved in food digestion."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which organ is primarily responsible for regulating blood sugar levels?",
+            "options": {
+                "A": "Pancreas",
+                "B": "Liver",
+                "C": "Kidney",
+                "D": "Heart"
+            },
+            "correct_answer": "A",
+            "hint": "This organ produces insulin.",
+            "feedback": {
+                "correct": "The pancreas is primarily responsible for regulating blood sugar levels by producing insulin.",
+                "incorrect": {
+                    "B": "The liver helps in glucose storage and release but does not directly regulate blood sugar levels.",
+                    "C": "The kidneys filter blood but do not regulate blood sugar levels.",
+                    "D": "The heart pumps blood but does not regulate blood sugar levels."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the primary function of the kidneys?",
+            "options": {
+                "A": "To filter waste from the blood",
+                "B": "To produce red blood cells",
+                "C": "To regulate body temperature",
+                "D": "To store bile"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the organ that produces urine.",
+            "feedback": {
+                "correct": "The primary function of the kidneys is to filter waste products from the blood and produce urine.",
+                "incorrect": {
+                    "B": "Red blood cells are produced in the bone marrow, not the kidneys.",
+                    "C": "The hypothalamus in the brain helps regulate body temperature.",
+                    "D": "The gallbladder stores bile, not the kidneys."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which hormone is responsible for regulating metabolism?",
+            "options": {
+                "A": "Thyroxine",
+                "B": "Insulin",
+                "C": "Adrenaline",
+                "D": "Estrogen"
+            },
+            "correct_answer": "A",
+            "hint": "This hormone is produced by the thyroid gland.",
+            "feedback": {
+                "correct": "Thyroxine, produced by the thyroid gland, is responsible for regulating metabolism.",
+                "incorrect": {
+                    "B": "Insulin regulates blood sugar levels, not metabolism.",
+                    "C": "Adrenaline prepares the body for 'fight or flight' responses.",
+                    "D": "Estrogen is a sex hormone involved in reproductive functions."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the main function of platelets in the blood?",
+            "options": {
+                "A": "To clot blood",
+                "B": "To transport oxygen",
+                "C": "To fight infections",
+                "D": "To carry nutrients"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the component of blood that helps stop bleeding.",
+            "feedback": {
+                "correct": "The main function of platelets is to clot blood and prevent excessive bleeding.",
+                "incorrect": {
+                    "B": "Hemoglobin in red blood cells transports oxygen.",
+                    "C": "White blood cells fight infections.",
+                    "D": "Plasma carries nutrients in the blood."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Which part of the brain is responsible for coordinating voluntary movements?",
+            "options": {
+                "A": "Cerebellum",
+                "B": "Cerebrum",
+                "C": "Medulla oblongata",
+                "D": "Hypothalamus"
+            },
+            "correct_answer": "A",
+            "hint": "This part of the brain is located at the back and below the cerebrum.",
+            "feedback": {
+                "correct": "The cerebellum is responsible for coordinating voluntary movements and maintaining balance.",
+                "incorrect": {
+                    "B": "The cerebrum is involved in higher brain functions like thought and action.",
+                    "C": "The medulla oblongata controls autonomic functions like breathing and heart rate.",
+                    "D": "The hypothalamus regulates homeostasis and endocrine functions."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the primary function of the small intestine?",
+            "options": {
+                "A": "To absorb nutrients",
+                "B": "To store bile",
+                "C": "To filter blood",
+                "D": "To produce insulin"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the part of the digestive system where most digestion and absorption occur.",
+            "feedback": {
+                "correct": "The primary function of the small intestine is to absorb nutrients from digested food.",
+                "incorrect": {
+                    "B": "The gallbladder stores bile, not the small intestine.",
+                    "C": "The kidneys filter blood, not the small intestine.",
+                    "D": "The pancreas produces insulin, not the small intestine."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Which organ is responsible for producing bile?",
+            "options": {
+                "A": "Liver",
+                "B": "Pancreas",
+                "C": "Gallbladder",
+                "D": "Stomach"
+            },
+            "correct_answer": "A",
+            "hint": "This organ also detoxifies substances in the body.",
+            "feedback": {
+                "correct": "The liver is responsible for producing bile, which aids in the digestion of fats.",
+                "incorrect": {
+                    "B": "The pancreas produces digestive enzymes and insulin, not bile.",
+                    "C": "The gallbladder stores bile but does not produce it.",
+                    "D": "The stomach secretes gastric juices but does not produce bile."
+                }
+            }
+        }
+    ]
+}

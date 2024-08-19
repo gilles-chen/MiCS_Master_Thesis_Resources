@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is a vector space?",
+            "options": {
+                "A": "A collection of vectors that can be added together and multiplied by scalars.",
+                "B": "A set of points in a plane.",
+                "C": "A matrix with rows and columns.",
+                "D": "A function that maps vectors to scalars."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the properties of vectors and operations that can be performed on them.",
+            "feedback": {
+                "correct": "A vector space is a collection of vectors that can be added together and multiplied by scalars.",
+                "incorrect": {
+                    "B": "A set of points in a plane does not necessarily form a vector space.",
+                    "C": "A matrix is a different concept, though related to vector spaces.",
+                    "D": "A function mapping vectors to scalars is not a vector space."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which property is essential for a set of vectors to form a vector space?",
+            "options": {
+                "A": "Closure under addition and scalar multiplication",
+                "B": "Existence of a unique solution",
+                "C": "Symmetry",
+                "D": "Orthogonality"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the operations that must be preserved in a vector space.",
+            "feedback": {
+                "correct": "Closure under addition and scalar multiplication is essential for a set of vectors to form a vector space.",
+                "incorrect": {
+                    "B": "Existence of a unique solution is not a defining property of a vector space.",
+                    "C": "Symmetry is not a requirement for a vector space.",
+                    "D": "Orthogonality is not necessary for a set of vectors to form a vector space."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "How does a linear transformation differ from a general function?",
+            "options": {
+                "A": "It preserves vector addition and scalar multiplication.",
+                "B": "It maps vectors to scalars.",
+                "C": "It is always invertible.",
+                "D": "It only operates on matrices."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the properties that must be maintained in a linear transformation.",
+            "feedback": {
+                "correct": "A linear transformation preserves vector addition and scalar multiplication.",
+                "incorrect": {
+                    "B": "A linear transformation maps vectors to vectors, not scalars.",
+                    "C": "Not all linear transformations are invertible.",
+                    "D": "Linear transformations can operate on vectors, not just matrices."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "What is the determinant of a matrix used for?",
+            "options": {
+                "A": "Checking matrix invertibility",
+                "B": "Finding the transpose of a matrix",
+                "C": "Calculating the trace of a matrix",
+                "D": "Performing matrix addition"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the role of the determinant in matrix properties.",
+            "feedback": {
+                "correct": "The determinant is used to check if a matrix is invertible.",
+                "incorrect": {
+                    "B": "The transpose of a matrix is found by flipping it over its diagonal, not using the determinant.",
+                    "C": "The trace of a matrix is the sum of its diagonal elements, not related to the determinant.",
+                    "D": "Matrix addition does not involve the determinant."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Which of the following is a property of eigenvalues?",
+            "options": {
+                "A": "The sum of the eigenvalues equals the trace of the matrix.",
+                "B": "The product of the eigenvalues equals the sum of the matrix elements.",
+                "C": "Eigenvalues are always positive.",
+                "D": "Eigenvalues are the same as the matrix entries."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between eigenvalues and the matrix's trace.",
+            "feedback": {
+                "correct": "The sum of the eigenvalues of a matrix equals the trace of the matrix.",
+                "incorrect": {
+                    "B": "The product of the eigenvalues equals the determinant of the matrix, not the sum of its elements.",
+                    "C": "Eigenvalues can be negative, zero, or positive.",
+                    "D": "Eigenvalues are not the same as the matrix entries; they are derived from the characteristic polynomial."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What does it mean for a set of vectors to be linearly independent?",
+            "options": {
+                "A": "No vector in the set can be written as a linear combination of the others.",
+                "B": "All vectors in the set are orthogonal.",
+                "C": "The vectors form a basis for the vector space.",
+                "D": "The vectors have the same magnitude."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the definition of linear independence in terms of vector combinations.",
+            "feedback": {
+                "correct": "A set of vectors is linearly independent if no vector in the set can be written as a linear combination of the others.",
+                "incorrect": {
+                    "B": "Orthogonality is not required for linear independence.",
+                    "C": "While a basis is a linearly independent set, not all linearly independent sets form a basis.",
+                    "D": "Magnitude is not relevant to linear independence."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the inverse of a matrix used for?",
+            "options": {
+                "A": "Solving linear systems",
+                "B": "Finding eigenvalues",
+                "C": "Calculating the determinant",
+                "D": "Performing matrix addition"
+            },
+            "correct_answer": "A",
+            "hint": "Consider how the inverse of a matrix can be applied to equations.",
+            "feedback": {
+                "correct": "The inverse of a matrix is used for solving linear systems.",
+                "incorrect": {
+                    "B": "Eigenvalues are found using the characteristic polynomial, not the inverse.",
+                    "C": "The determinant is calculated directly from the matrix, not using the inverse.",
+                    "D": "Matrix addition does not involve the inverse."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What does the kernel of a linear transformation represent?",
+            "options": {
+                "A": "The set of vectors mapped to the zero vector",
+                "B": "The set of all possible outputs",
+                "C": "The set of eigenvectors",
+                "D": "The set of vectors with non-zero determinants"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the definition of the kernel in terms of the output of the transformation.",
+            "feedback": {
+                "correct": "The kernel of a linear transformation is the set of vectors mapped to the zero vector.",
+                "incorrect": {
+                    "B": "The set of all possible outputs is the image, not the kernel.",
+                    "C": "Eigenvectors are related to eigenvalues, not directly to the kernel.",
+                    "D": "Determinants are properties of matrices, not vectors in the kernel."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "How is matrix multiplication defined?",
+            "options": {
+                "A": "The dot product of rows of the first matrix and columns of the second",
+                "B": "Adding corresponding elements of two matrices",
+                "C": "Multiplying each element by a scalar",
+                "D": "Flipping the matrix over its diagonal"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the process of combining elements from two matrices.",
+            "feedback": {
+                "correct": "Matrix multiplication is defined as the dot product of rows of the first matrix and columns of the second.",
+                "incorrect": {
+                    "B": "Adding corresponding elements is matrix addition, not multiplication.",
+                    "C": "Multiplying each element by a scalar is scalar multiplication, not matrix multiplication.",
+                    "D": "Flipping the matrix over its diagonal is the transpose operation."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the primary application of eigenvalues and eigenvectors in data science?",
+            "options": {
+                "A": "Dimensionality reduction through techniques like PCA",
+                "B": "Solving linear systems",
+                "C": "Finding matrix inverses",
+                "D": "Performing matrix addition"
+            },
+            "correct_answer": "A",
+            "hint": "Consider how eigenvalues and eigenvectors are used to simplify data.",
+            "feedback": {
+                "correct": "Eigenvalues and eigenvectors are primarily used for dimensionality reduction through techniques like PCA in data science.",
+                "incorrect": {
+                    "B": "Solving linear systems typically involves matrix operations, not eigenvalues and eigenvectors.",
+                    "C": "Finding matrix inverses is not the primary application of eigenvalues and eigenvectors.",
+                    "D": "Matrix addition does not involve eigenvalues and eigenvectors."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary role of a General Practitioner (GP) in managing chronic illnesses?",
+            "options": {
+                "A": "Providing surgical interventions",
+                "B": "Ensuring continuity of care and regular monitoring",
+                "C": "Specializing in one specific type of chronic illness",
+                "D": "Only prescribing medications without follow-ups"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the ongoing nature of chronic illness management.",
+            "feedback": {
+                "correct": "GPs ensure continuity of care and regular monitoring to prevent complications in chronic illnesses.",
+                "incorrect": {
+                    "A": "Surgical interventions are typically handled by specialists, not GPs.",
+                    "C": "GPs manage a broad spectrum of chronic illnesses, not just one specific type.",
+                    "D": "GPs provide comprehensive care, including follow-ups, not just medication prescriptions."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "How do General Practitioners (GPs) contribute to disease prevention and health promotion?",
+            "options": {
+                "A": "By focusing solely on treating existing conditions",
+                "B": "By emphasizing early detection, vaccinations, and lifestyle counseling",
+                "C": "By referring all preventive care to specialists",
+                "D": "By avoiding discussions about lifestyle changes"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the proactive measures GPs take to prevent diseases.",
+            "feedback": {
+                "correct": "GPs emphasize early detection, vaccinations, and lifestyle counseling to promote healthier living.",
+                "incorrect": {
+                    "A": "GPs focus on both treating existing conditions and preventing new ones.",
+                    "C": "GPs handle much of the preventive care themselves, not just refer to specialists.",
+                    "D": "GPs actively discuss and advise on lifestyle changes to improve health outcomes."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Why is effective communication crucial for General Practitioners (GPs)?",
+            "options": {
+                "A": "To ensure clarity in explanations and patient compliance with treatment plans",
+                "B": "To avoid discussing complex medical terms",
+                "C": "To reduce the time spent with each patient",
+                "D": "To focus solely on administrative tasks"
+            },
+            "correct_answer": "A",
+            "hint": "Think about how communication impacts patient understanding and adherence.",
+            "feedback": {
+                "correct": "Effective communication ensures clarity in explanations and patient compliance with treatment plans.",
+                "incorrect": {
+                    "B": "GPs need to discuss complex medical terms in a way that patients can understand.",
+                    "C": "Effective communication often requires spending adequate time with each patient.",
+                    "D": "GPs focus on patient care, not just administrative tasks."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "What is the significance of a Complete Blood Count (CBC) in general medicine?",
+            "options": {
+                "A": "It measures liver function",
+                "B": "It assesses overall health and detects disorders like anemia and infection",
+                "C": "It evaluates kidney function",
+                "D": "It provides detailed images of internal organs"
+            },
+            "correct_answer": "B",
+            "hint": "Consider what a CBC measures in the blood.",
+            "feedback": {
+                "correct": "A CBC assesses overall health and detects disorders like anemia and infection.",
+                "incorrect": {
+                    "A": "Liver function is assessed by liver function tests (LFTs), not CBC.",
+                    "C": "Kidney function is evaluated by tests like the Basic Metabolic Panel (BMP), not CBC.",
+                    "D": "Detailed images of internal organs are provided by imaging studies, not CBC."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "How do General Practitioners (GPs) manage hypertension?",
+            "options": {
+                "A": "By prescribing antibiotics",
+                "B": "By recommending lifestyle modifications and medications",
+                "C": "By performing surgical procedures",
+                "D": "By ignoring the condition until it worsens"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the non-invasive methods used to manage high blood pressure.",
+            "feedback": {
+                "correct": "GPs manage hypertension by recommending lifestyle modifications and medications.",
+                "incorrect": {
+                    "A": "Antibiotics are not used to manage hypertension.",
+                    "C": "Surgical procedures are not typically used to manage hypertension.",
+                    "D": "Ignoring hypertension can lead to serious complications; it requires proactive management."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is the role of spirometry in diagnosing respiratory conditions?",
+            "options": {
+                "A": "It measures blood glucose levels",
+                "B": "It evaluates airflow and is critical for diagnosing conditions like asthma and COPD",
+                "C": "It provides images of the lungs",
+                "D": "It assesses liver function"
+            },
+            "correct_answer": "B",
+            "hint": "Consider how lung function is tested.",
+            "feedback": {
+                "correct": "Spirometry evaluates airflow and is critical for diagnosing conditions like asthma and COPD.",
+                "incorrect": {
+                    "A": "Blood glucose levels are measured by blood tests, not spirometry.",
+                    "C": "Imaging of the lungs is done by X-rays or CT scans, not spirometry.",
+                    "D": "Liver function is assessed by liver function tests (LFTs), not spirometry."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Why is empathy important in patient-centered care?",
+            "options": {
+                "A": "It helps in making quick diagnoses",
+                "B": "It enhances patient trust and care outcomes",
+                "C": "It reduces the need for follow-up visits",
+                "D": "It focuses solely on the physical aspects of care"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the emotional and psychological aspects of patient care.",
+            "feedback": {
+                "correct": "Empathy enhances patient trust and care outcomes by addressing emotional and psychological needs.",
+                "incorrect": {
+                    "A": "While empathy can aid in understanding patient concerns, it is not primarily for making quick diagnoses.",
+                    "C": "Empathy does not necessarily reduce the need for follow-up visits; it improves the quality of care.",
+                    "D": "Empathy involves addressing both emotional and psychological aspects, not just physical care."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "How do General Practitioners (GPs) use patient history-taking in diagnosis?",
+            "options": {
+                "A": "By focusing only on the chief complaint",
+                "B": "By gathering comprehensive information including past medical history, family history, and social history",
+                "C": "By ignoring the patient's social history",
+                "D": "By relying solely on physical examination findings"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the different components that contribute to a thorough patient history.",
+            "feedback": {
+                "correct": "GPs gather comprehensive information including past medical history, family history, and social history to aid in diagnosis.",
+                "incorrect": {
+                    "A": "Focusing only on the chief complaint can miss important diagnostic information.",
+                    "C": "Ignoring the patient's social history can overlook factors that impact health.",
+                    "D": "Relying solely on physical examination findings without a thorough history can lead to incomplete diagnoses."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the importance of vaccinations in preventive medicine?",
+            "options": {
+                "A": "They treat existing infections",
+                "B": "They prevent infectious diseases and contribute to public health",
+                "C": "They are only necessary for children",
+                "D": "They have no role in adult healthcare"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the role of vaccines in preventing diseases.",
+            "feedback": {
+                "correct": "Vaccinations prevent infectious diseases and contribute to public health.",
+                "incorrect": {
+                    "A": "Vaccinations are preventive, not treatments for existing infections.",
+                    "C": "Vaccinations are necessary for both children and adults.",
+                    "D": "Vaccinations play a crucial role in adult healthcare as well."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "How do General Practitioners (GPs) use lifestyle modifications in managing diabetes?",
+            "options": {
+                "A": "By recommending only medication",
+                "B": "By advising on diet, exercise, and medication",
+                "C": "By focusing solely on insulin therapy",
+                "D": "By ignoring dietary and exercise recommendations"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the comprehensive approach to managing diabetes.",
+            "feedback": {
+                "correct": "GPs advise on diet, exercise, and medication to manage diabetes effectively.",
+                "incorrect": {
+                    "A": "Medication alone is not sufficient; lifestyle modifications are crucial.",
+                    "C": "Insulin therapy is important but must be combined with diet and exercise.",
+                    "D": "Ignoring dietary and exercise recommendations can lead to poor diabetes management."
+                }
+            }
+        }
+    ]
+}

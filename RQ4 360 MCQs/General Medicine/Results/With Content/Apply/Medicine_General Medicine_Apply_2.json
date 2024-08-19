@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "A patient with hypertension is advised to make lifestyle changes to manage their condition. Which of the following should be applied to effectively lower blood pressure?",
+            "options": {
+                "A": "Increase sodium intake",
+                "B": "Engage in regular physical exercise",
+                "C": "Drink more caffeinated beverages",
+                "D": "Smoke more frequently"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a lifestyle change that improves cardiovascular health.",
+            "feedback": {
+                "correct": "Engaging in regular physical exercise helps lower blood pressure and improve heart health.",
+                "incorrect": {
+                    "A": "Increasing sodium intake can worsen hypertension.",
+                    "C": "Caffeinated beverages can raise blood pressure in some individuals.",
+                    "D": "Smoking can increase blood pressure and worsen cardiovascular health."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "A patient with type 2 diabetes is struggling to manage their blood sugar levels. Which of the following strategies should be applied to help control their diabetes?",
+            "options": {
+                "A": "Increase intake of sugary snacks",
+                "B": "Implement a balanced diet and regular exercise",
+                "C": "Avoid all forms of physical activity",
+                "D": "Skip meals to reduce calorie intake"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a strategy that involves both diet and physical activity.",
+            "feedback": {
+                "correct": "Implementing a balanced diet and regular exercise helps control blood sugar levels and manage diabetes effectively.",
+                "incorrect": {
+                    "A": "Increasing intake of sugary snacks can worsen blood sugar control.",
+                    "C": "Avoiding physical activity can lead to poor blood sugar management.",
+                    "D": "Skipping meals can cause blood sugar fluctuations and is not a recommended strategy."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "A patient presents with symptoms of a urinary tract infection (UTI). Which of the following should be applied to treat the infection?",
+            "options": {
+                "A": "Prescribe antibiotics",
+                "B": "Advise the patient to drink more caffeinated beverages",
+                "C": "Recommend increased sodium intake",
+                "D": "Suggest avoiding all fluids"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a treatment that directly targets bacterial infections.",
+            "feedback": {
+                "correct": "Prescribing antibiotics is the standard treatment for bacterial UTIs.",
+                "incorrect": {
+                    "B": "Caffeinated beverages do not treat UTIs and can irritate the bladder.",
+                    "C": "Increased sodium intake does not address the infection.",
+                    "D": "Avoiding fluids can worsen the condition by concentrating the urine."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "A patient with chronic obstructive pulmonary disease (COPD) is advised to make lifestyle changes. Which of the following should be applied to manage their condition?",
+            "options": {
+                "A": "Continue smoking",
+                "B": "Implement smoking cessation and use bronchodilators",
+                "C": "Avoid all forms of physical activity",
+                "D": "Increase intake of sugary snacks"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a strategy that involves quitting smoking and using medication.",
+            "feedback": {
+                "correct": "Implementing smoking cessation and using bronchodilators helps manage COPD effectively.",
+                "incorrect": {
+                    "A": "Continuing smoking can worsen COPD symptoms.",
+                    "C": "Avoiding physical activity can lead to decreased lung function.",
+                    "D": "Increasing intake of sugary snacks does not address COPD management."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "A patient with hypothyroidism is experiencing fatigue and weight gain. Which of the following treatments should be applied to manage their condition?",
+            "options": {
+                "A": "Prescribe antithyroid medications",
+                "B": "Recommend hormone replacement therapy",
+                "C": "Advise the patient to avoid all forms of physical activity",
+                "D": "Suggest increasing sodium intake"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a treatment that addresses hormone deficiency.",
+            "feedback": {
+                "correct": "Hormone replacement therapy is the standard treatment for hypothyroidism.",
+                "incorrect": {
+                    "A": "Antithyroid medications are used for hyperthyroidism, not hypothyroidism.",
+                    "C": "Avoiding physical activity does not address the underlying hormone deficiency.",
+                    "D": "Increasing sodium intake does not treat hypothyroidism."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "A patient with asthma is experiencing frequent attacks. Which of the following should be applied to manage their condition?",
+            "options": {
+                "A": "Prescribe bronchodilators and corticosteroids",
+                "B": "Advise the patient to avoid all medications",
+                "C": "Recommend increasing intake of sugary snacks",
+                "D": "Suggest avoiding all forms of physical activity"
+            },
+            "correct_answer": "A",
+            "hint": "Consider medications that reduce inflammation and open airways.",
+            "feedback": {
+                "correct": "Prescribing bronchodilators and corticosteroids helps manage asthma by reducing inflammation and opening airways.",
+                "incorrect": {
+                    "B": "Avoiding medications can lead to poor asthma control.",
+                    "C": "Increasing intake of sugary snacks does not address asthma management.",
+                    "D": "Avoiding physical activity can lead to decreased lung function."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "A patient with coronary artery disease (CAD) is advised to make lifestyle changes. Which of the following should be applied to reduce their risk of heart attacks?",
+            "options": {
+                "A": "Increase intake of fatty foods",
+                "B": "Implement a heart-healthy diet and regular exercise",
+                "C": "Avoid all forms of physical activity",
+                "D": "Smoke more frequently"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a strategy that involves diet and exercise.",
+            "feedback": {
+                "correct": "Implementing a heart-healthy diet and regular exercise helps reduce the risk of heart attacks in CAD patients.",
+                "incorrect": {
+                    "A": "Increasing intake of fatty foods can worsen CAD.",
+                    "C": "Avoiding physical activity can lead to poor cardiovascular health.",
+                    "D": "Smoking can increase the risk of heart attacks."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "A patient with diabetes mellitus is advised to monitor their blood sugar levels regularly. Which of the following should be applied to ensure effective blood sugar management?",
+            "options": {
+                "A": "Skip meals to reduce calorie intake",
+                "B": "Use a glucometer to check blood sugar levels regularly",
+                "C": "Avoid all forms of physical activity",
+                "D": "Increase intake of sugary snacks"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a tool that helps track blood sugar levels.",
+            "feedback": {
+                "correct": "Using a glucometer to check blood sugar levels regularly helps manage diabetes effectively.",
+                "incorrect": {
+                    "A": "Skipping meals can cause blood sugar fluctuations.",
+                    "C": "Avoiding physical activity can lead to poor blood sugar control.",
+                    "D": "Increasing intake of sugary snacks can worsen blood sugar levels."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "A patient with osteoarthritis is experiencing joint pain. Which of the following should be applied to manage their symptoms?",
+            "options": {
+                "A": "Recommend pain relief medications and physical therapy",
+                "B": "Advise the patient to avoid all forms of physical activity",
+                "C": "Suggest increasing intake of sugary snacks",
+                "D": "Prescribe antibiotics"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a combination of medication and therapy.",
+            "feedback": {
+                "correct": "Recommending pain relief medications and physical therapy helps manage osteoarthritis symptoms effectively.",
+                "incorrect": {
+                    "B": "Avoiding physical activity can lead to decreased joint function.",
+                    "C": "Increasing intake of sugary snacks does not address osteoarthritis management.",
+                    "D": "Antibiotics are not used to treat osteoarthritis."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "A patient with a suspected bacterial infection presents with fever and chills. Which of the following diagnostic tools should be applied to confirm the infection?",
+            "options": {
+                "A": "Order a Complete Blood Count (CBC)",
+                "B": "Recommend increasing intake of sugary snacks",
+                "C": "Advise the patient to avoid all forms of physical activity",
+                "D": "Suggest increasing sodium intake"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a laboratory test that assesses overall health and detects infections.",
+            "feedback": {
+                "correct": "Ordering a Complete Blood Count (CBC) helps confirm the presence of a bacterial infection.",
+                "incorrect": {
+                    "B": "Increasing intake of sugary snacks does not diagnose infections.",
+                    "C": "Avoiding physical activity does not diagnose infections.",
+                    "D": "Increasing sodium intake does not diagnose infections."
+                }
+            }
+        }
+    ]
+}

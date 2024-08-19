@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the primary focus of General Medicine?",
+            "options": {
+                "A": "Pediatric care",
+                "B": "Comprehensive care of adults",
+                "C": "Surgical procedures",
+                "D": "Dental health"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the age group that General Medicine primarily serves.",
+            "feedback": {
+                "correct": "General Medicine, also known as Internal Medicine, focuses on the comprehensive care of adults.",
+                "incorrect": {
+                    "A": "Pediatric care is the focus of Pediatrics, not General Medicine.",
+                    "C": "Surgical procedures are primarily the focus of Surgery, not General Medicine.",
+                    "D": "Dental health is the focus of Dentistry, not General Medicine."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which of the following is a key responsibility of a General Practitioner (GP)?",
+            "options": {
+                "A": "Performing complex surgeries",
+                "B": "Providing ongoing care for patients",
+                "C": "Specializing in one body system",
+                "D": "Focusing solely on pediatric patients"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the role of GPs in managing a wide range of health issues.",
+            "feedback": {
+                "correct": "GPs provide ongoing care for patients, managing everything from routine check-ups to complex medical conditions.",
+                "incorrect": {
+                    "A": "Performing complex surgeries is typically the role of a surgeon, not a GP.",
+                    "C": "GPs manage a broad spectrum of health issues rather than specializing in one body system.",
+                    "D": "GPs provide care for adults, not focusing solely on pediatric patients."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the primary goal of preventive healthcare in General Medicine?",
+            "options": {
+                "A": "To treat diseases after they occur",
+                "B": "To prevent diseases before they occur",
+                "C": "To focus only on emergency care",
+                "D": "To specialize in surgical interventions"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the emphasis on early detection and health promotion.",
+            "feedback": {
+                "correct": "Preventive healthcare aims to prevent diseases before they occur through early detection, vaccinations, and lifestyle counseling.",
+                "incorrect": {
+                    "A": "Preventive healthcare focuses on preventing diseases, not just treating them after they occur.",
+                    "C": "Preventive healthcare is not limited to emergency care; it includes routine check-ups and health promotion.",
+                    "D": "Preventive healthcare does not specialize in surgical interventions."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Which chronic illness is commonly managed by General Practitioners?",
+            "options": {
+                "A": "Acute appendicitis",
+                "B": "Diabetes",
+                "C": "Fractured bones",
+                "D": "Dental cavities"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a long-term condition that requires regular monitoring and management.",
+            "feedback": {
+                "correct": "Diabetes is a chronic illness commonly managed by General Practitioners.",
+                "incorrect": {
+                    "A": "Acute appendicitis is typically managed by surgeons, not GPs.",
+                    "C": "Fractured bones are usually managed by orthopedic specialists.",
+                    "D": "Dental cavities are managed by dentists, not GPs."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the primary function of a Complete Blood Count (CBC) test?",
+            "options": {
+                "A": "To assess liver function",
+                "B": "To evaluate overall health and detect disorders",
+                "C": "To measure blood glucose levels",
+                "D": "To visualize bone fractures"
+            },
+            "correct_answer": "B",
+            "hint": "Think about a test that provides a broad overview of health status.",
+            "feedback": {
+                "correct": "A CBC test assesses overall health and detects a variety of disorders, including anemia and infection.",
+                "incorrect": {
+                    "A": "Liver function is assessed by Liver Function Tests (LFTs), not CBC.",
+                    "C": "Blood glucose levels are measured by glucose tests, not CBC.",
+                    "D": "Bone fractures are visualized using X-rays, not CBC."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Which imaging study is commonly used to visualize bone fractures?",
+            "options": {
+                "A": "Ultrasound",
+                "B": "CT Scan",
+                "C": "X-ray",
+                "D": "MRI"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the most basic and widely used imaging technique for bones.",
+            "feedback": {
+                "correct": "X-rays are commonly used to visualize bone fractures.",
+                "incorrect": {
+                    "A": "Ultrasound is typically used for soft tissue evaluation, not bone fractures.",
+                    "B": "CT Scans provide detailed images but are not the first choice for simple bone fractures.",
+                    "D": "MRI provides detailed images of soft tissues and organs, not primarily used for bone fractures."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the main purpose of spirometry in medical practice?",
+            "options": {
+                "A": "To measure blood pressure",
+                "B": "To evaluate lung function",
+                "C": "To assess liver enzymes",
+                "D": "To detect bone density"
+            },
+            "correct_answer": "B",
+            "hint": "Think about a test that measures airflow and respiratory health.",
+            "feedback": {
+                "correct": "Spirometry is used to evaluate lung function and diagnose conditions like asthma and COPD.",
+                "incorrect": {
+                    "A": "Blood pressure is measured using a sphygmomanometer, not spirometry.",
+                    "C": "Liver enzymes are assessed by Liver Function Tests (LFTs), not spirometry.",
+                    "D": "Bone density is measured using a DEXA scan, not spirometry."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Which vitamin is essential for blood clotting?",
+            "options": {
+                "A": "Vitamin K",
+                "B": "Vitamin C",
+                "C": "Vitamin D",
+                "D": "Vitamin A"
+            },
+            "correct_answer": "A",
+            "hint": "This vitamin's name starts with the same letter as 'Koagulation,' which is a German word for clotting.",
+            "feedback": {
+                "correct": "Vitamin K is essential for the synthesis of proteins required for blood coagulation.",
+                "incorrect": {
+                    "B": "Vitamin C is important for the immune system and collagen production, not clotting.",
+                    "C": "Vitamin D is crucial for calcium absorption and bone health, not blood clotting.",
+                    "D": "Vitamin A is important for vision and skin health, not involved in blood clotting."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Which of the following is a common symptom of hypothyroidism?",
+            "options": {
+                "A": "Weight loss",
+                "B": "Increased heart rate",
+                "C": "Fatigue",
+                "D": "Excessive sweating"
+            },
+            "correct_answer": "C",
+            "hint": "Think about a symptom related to low metabolic activity.",
+            "feedback": {
+                "correct": "Fatigue is a common symptom of hypothyroidism due to decreased metabolic activity.",
+                "incorrect": {
+                    "A": "Weight loss is more commonly associated with hyperthyroidism.",
+                    "B": "Increased heart rate is a symptom of hyperthyroidism, not hypothyroidism.",
+                    "D": "Excessive sweating is also more commonly associated with hyperthyroidism."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the primary cause of Chronic Obstructive Pulmonary Disease (COPD)?",
+            "options": {
+                "A": "Viral infection",
+                "B": "Smoking",
+                "C": "Allergic reactions",
+                "D": "Genetic mutations"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a lifestyle factor that significantly impacts lung health.",
+            "feedback": {
+                "correct": "Smoking is the primary cause of Chronic Obstructive Pulmonary Disease (COPD).",
+                "incorrect": {
+                    "A": "Viral infections are not the primary cause of COPD.",
+                    "C": "Allergic reactions are more commonly associated with asthma, not COPD.",
+                    "D": "While genetic factors can play a role, smoking is the primary cause of COPD."
+                }
+            }
+        }
+    ]
+}

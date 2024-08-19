@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Why is the liver considered a vital organ in the human body?",
+            "options": {
+                "A": "It produces insulin to regulate blood sugar levels.",
+                "B": "It filters toxins from the blood and produces bile.",
+                "C": "It stores oxygen for use during physical activity.",
+                "D": "It pumps blood throughout the body."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the liver's role in detoxification and digestion.",
+            "feedback": {
+                "correct": "The liver filters toxins from the blood and produces bile, which is essential for digestion.",
+                "incorrect": {
+                    "A": "Insulin is produced by the pancreas, not the liver.",
+                    "C": "Oxygen is stored in the blood by hemoglobin, not the liver.",
+                    "D": "The heart pumps blood throughout the body, not the liver."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "What is the primary function of red blood cells?",
+            "options": {
+                "A": "To fight infections",
+                "B": "To transport oxygen to body tissues",
+                "C": "To produce antibodies",
+                "D": "To regulate blood pressure"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the role of hemoglobin in red blood cells.",
+            "feedback": {
+                "correct": "Red blood cells transport oxygen to body tissues via hemoglobin.",
+                "incorrect": {
+                    "A": "White blood cells are responsible for fighting infections.",
+                    "C": "Antibodies are produced by B cells, a type of white blood cell.",
+                    "D": "Blood pressure is regulated by various factors, including the heart and blood vessels, not directly by red blood cells."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "How does the body respond to high levels of carbon dioxide in the blood?",
+            "options": {
+                "A": "By decreasing respiratory rate",
+                "B": "By increasing respiratory rate",
+                "C": "By decreasing heart rate",
+                "D": "By increasing blood glucose levels"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the body's need to expel excess carbon dioxide.",
+            "feedback": {
+                "correct": "The body responds to high levels of carbon dioxide by increasing the respiratory rate to expel more CO2.",
+                "incorrect": {
+                    "A": "Decreasing respiratory rate would retain more CO2, not expel it.",
+                    "C": "Heart rate is not directly related to expelling CO2.",
+                    "D": "Blood glucose levels are not directly related to CO2 levels."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "What is the role of the kidneys in maintaining homeostasis?",
+            "options": {
+                "A": "They produce digestive enzymes.",
+                "B": "They regulate blood pressure and filter waste from the blood.",
+                "C": "They store glycogen for energy.",
+                "D": "They produce red blood cells."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the kidneys' role in filtration and regulation.",
+            "feedback": {
+                "correct": "The kidneys regulate blood pressure and filter waste from the blood, maintaining homeostasis.",
+                "incorrect": {
+                    "A": "Digestive enzymes are produced by the pancreas and stomach, not the kidneys.",
+                    "C": "Glycogen is stored in the liver and muscles, not the kidneys.",
+                    "D": "Red blood cells are produced in the bone marrow, not the kidneys."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Why is the myelin sheath important for nerve function?",
+            "options": {
+                "A": "It produces neurotransmitters.",
+                "B": "It insulates nerve fibers and speeds up signal transmission.",
+                "C": "It stores calcium for muscle contraction.",
+                "D": "It filters waste products from the nervous system."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the role of myelin in signal conduction.",
+            "feedback": {
+                "correct": "The myelin sheath insulates nerve fibers and speeds up the transmission of nerve signals.",
+                "incorrect": {
+                    "A": "Neurotransmitters are produced by neurons, not the myelin sheath.",
+                    "C": "Calcium storage for muscle contraction occurs in the sarcoplasmic reticulum, not the myelin sheath.",
+                    "D": "Waste filtration is not a function of the myelin sheath."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is the primary function of platelets in the blood?",
+            "options": {
+                "A": "To transport oxygen",
+                "B": "To fight infections",
+                "C": "To aid in blood clotting",
+                "D": "To regulate blood pressure"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the role of platelets in wound healing.",
+            "feedback": {
+                "correct": "Platelets aid in blood clotting, which is essential for wound healing.",
+                "incorrect": {
+                    "A": "Red blood cells transport oxygen, not platelets.",
+                    "B": "White blood cells fight infections, not platelets.",
+                    "D": "Blood pressure regulation is not a primary function of platelets."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "How does the body regulate its temperature when it becomes too hot?",
+            "options": {
+                "A": "By constricting blood vessels",
+                "B": "By dilating blood vessels and sweating",
+                "C": "By increasing metabolic rate",
+                "D": "By shivering"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the body's cooling mechanisms.",
+            "feedback": {
+                "correct": "The body dilates blood vessels and sweats to release heat and cool down.",
+                "incorrect": {
+                    "A": "Constriction of blood vessels helps retain heat, not release it.",
+                    "C": "Increasing metabolic rate generates more heat, not less.",
+                    "D": "Shivering generates heat, which is a response to cold, not heat."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is the significance of the blood-brain barrier?",
+            "options": {
+                "A": "It allows all substances to pass freely into the brain.",
+                "B": "It protects the brain from harmful substances and pathogens.",
+                "C": "It regulates the production of cerebrospinal fluid.",
+                "D": "It facilitates the exchange of oxygen and carbon dioxide in the brain."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the protective role of the blood-brain barrier.",
+            "feedback": {
+                "correct": "The blood-brain barrier protects the brain from harmful substances and pathogens.",
+                "incorrect": {
+                    "A": "The blood-brain barrier selectively allows substances to pass, not all substances.",
+                    "C": "Cerebrospinal fluid production is regulated by the choroid plexus, not the blood-brain barrier.",
+                    "D": "Gas exchange in the brain occurs at the capillary level, not specifically through the blood-brain barrier."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Why is the pancreas considered both an endocrine and exocrine gland?",
+            "options": {
+                "A": "It produces hormones and digestive enzymes.",
+                "B": "It stores and releases bile.",
+                "C": "It filters blood and produces urine.",
+                "D": "It regulates body temperature and metabolism."
+            },
+            "correct_answer": "A",
+            "hint": "Think about the dual functions of the pancreas.",
+            "feedback": {
+                "correct": "The pancreas produces hormones (endocrine function) and digestive enzymes (exocrine function).",
+                "incorrect": {
+                    "B": "Bile is stored and released by the gallbladder, not the pancreas.",
+                    "C": "Blood filtration and urine production are functions of the kidneys, not the pancreas.",
+                    "D": "Body temperature and metabolism are regulated by various systems, not specifically by the pancreas."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the primary function of the small intestine in the digestive system?",
+            "options": {
+                "A": "To absorb nutrients from digested food",
+                "B": "To store and concentrate bile",
+                "C": "To break down food mechanically",
+                "D": "To produce insulin"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the role of the small intestine in nutrient absorption.",
+            "feedback": {
+                "correct": "The primary function of the small intestine is to absorb nutrients from digested food.",
+                "incorrect": {
+                    "B": "Bile is stored and concentrated in the gallbladder, not the small intestine.",
+                    "C": "Mechanical breakdown of food occurs mainly in the mouth and stomach.",
+                    "D": "Insulin is produced by the pancreas, not the small intestine."
+                }
+            }
+        }
+    ]
+}

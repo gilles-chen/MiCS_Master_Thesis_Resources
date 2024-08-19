@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given the matrix A = [[1, 2], [3, 4]], apply the matrix multiplication to find the product of A and the vector v = [1, 1].",
+            "options": {
+                "A": "[3, 7]",
+                "B": "[1, 1]",
+                "C": "[2, 4]",
+                "D": "[4, 6]"
+            },
+            "correct_answer": "A",
+            "hint": "Multiply each row of the matrix by the vector.",
+            "feedback": {
+                "correct": "Multiplying the matrix A by the vector v results in [3, 7].",
+                "incorrect": {
+                    "B": "This is the original vector, not the product.",
+                    "C": "This result comes from adding the elements of the matrix, not multiplying.",
+                    "D": "This result is incorrect; check the multiplication process again."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Apply the Gaussian elimination method to solve the system of equations: 2x + 3y = 5 and 4x + 6y = 10.",
+            "options": {
+                "A": "No solution",
+                "B": "Infinite solutions",
+                "C": "x = 1, y = 1",
+                "D": "x = 0, y = 0"
+            },
+            "correct_answer": "B",
+            "hint": "Check if the equations are multiples of each other.",
+            "feedback": {
+                "correct": "The system has infinite solutions because the second equation is a multiple of the first.",
+                "incorrect": {
+                    "A": "The system does not have no solution; the equations are dependent.",
+                    "C": "This is not a valid solution for the given system.",
+                    "D": "This is not a valid solution for the given system."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Use the determinant to determine if the matrix A = [[2, 3], [4, 6]] is invertible.",
+            "options": {
+                "A": "Yes, it is invertible",
+                "B": "No, it is not invertible",
+                "C": "It depends on the context",
+                "D": "Cannot be determined"
+            },
+            "correct_answer": "B",
+            "hint": "Calculate the determinant of the matrix.",
+            "feedback": {
+                "correct": "The matrix is not invertible because its determinant is zero.",
+                "incorrect": {
+                    "A": "The matrix is not invertible because its determinant is zero.",
+                    "C": "Invertibility does not depend on context but on the determinant.",
+                    "D": "The determinant can be calculated to determine invertibility."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Apply the concept of eigenvalues to find the eigenvalues of the matrix A = [[1, 0], [0, 2]].",
+            "options": {
+                "A": "1 and 2",
+                "B": "0 and 1",
+                "C": "2 and 3",
+                "D": "1 and 3"
+            },
+            "correct_answer": "A",
+            "hint": "Solve the characteristic equation det(A - \u03bbI) = 0.",
+            "feedback": {
+                "correct": "The eigenvalues of the matrix are 1 and 2.",
+                "incorrect": {
+                    "B": "These are not the correct eigenvalues.",
+                    "C": "These are not the correct eigenvalues.",
+                    "D": "These are not the correct eigenvalues."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Use the concept of linear independence to determine if the vectors v1 = [1, 2] and v2 = [2, 4] are linearly independent.",
+            "options": {
+                "A": "Yes, they are linearly independent",
+                "B": "No, they are not linearly independent",
+                "C": "It depends on the context",
+                "D": "Cannot be determined"
+            },
+            "correct_answer": "B",
+            "hint": "Check if one vector is a scalar multiple of the other.",
+            "feedback": {
+                "correct": "The vectors are not linearly independent because v2 is a scalar multiple of v1.",
+                "incorrect": {
+                    "A": "The vectors are not linearly independent because v2 is a scalar multiple of v1.",
+                    "C": "Linear independence does not depend on context.",
+                    "D": "Linear independence can be determined by checking if one vector is a scalar multiple of the other."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Apply the Gram-Schmidt process to orthogonalize the set of vectors {v1 = [1, 1], v2 = [1, -1]}. What is the resulting orthogonal set?",
+            "options": {
+                "A": "{[1, 1], [1, -1]}",
+                "B": "{[1, 1], [0, -2]}",
+                "C": "{[1, 1], [2, 0]}",
+                "D": "{[1, 1], [0, 1]}"
+            },
+            "correct_answer": "B",
+            "hint": "Subtract the projection of v2 onto v1 from v2.",
+            "feedback": {
+                "correct": "The resulting orthogonal set is {[1, 1], [0, -2]}.",
+                "incorrect": {
+                    "A": "This is the original set, not the orthogonalized set.",
+                    "C": "This is not the correct orthogonal set.",
+                    "D": "This is not the correct orthogonal set."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Use the concept of matrix rank to determine the rank of the matrix A = [[1, 2], [2, 4]].",
+            "options": {
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "3"
+            },
+            "correct_answer": "B",
+            "hint": "Check the number of linearly independent rows or columns.",
+            "feedback": {
+                "correct": "The rank of the matrix is 1 because there is only one linearly independent row.",
+                "incorrect": {
+                    "A": "The rank is not zero; there is at least one linearly independent row.",
+                    "C": "The rank is not 2; the rows are linearly dependent.",
+                    "D": "The rank cannot be greater than the number of rows or columns."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Apply the concept of vector projection to find the projection of vector v = [3, 4] onto vector u = [1, 0].",
+            "options": {
+                "A": "[3, 0]",
+                "B": "[0, 4]",
+                "C": "[1, 4]",
+                "D": "[3, 4]"
+            },
+            "correct_answer": "A",
+            "hint": "Use the formula for projection: proj_u(v) = (v \u2022 u / u \u2022 u) * u.",
+            "feedback": {
+                "correct": "The projection of v onto u is [3, 0].",
+                "incorrect": {
+                    "B": "This is not the correct projection.",
+                    "C": "This is not the correct projection.",
+                    "D": "This is the original vector, not the projection."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Use the concept of matrix inversion to find the inverse of the matrix A = [[1, 2], [3, 4]].",
+            "options": {
+                "A": "[[-2, 1], [1.5, -0.5]]",
+                "B": "[[4, -2], [-3, 1]]",
+                "C": "[[1, 0], [0, 1]]",
+                "D": "[[2, -1], [-1.5, 0.5]]"
+            },
+            "correct_answer": "A",
+            "hint": "Use the formula for the inverse of a 2x2 matrix: A^(-1) = 1/det(A) * adj(A).",
+            "feedback": {
+                "correct": "The inverse of the matrix A is [[-2, 1], [1.5, -0.5]].",
+                "incorrect": {
+                    "B": "This is not the correct inverse.",
+                    "C": "This is the identity matrix, not the inverse.",
+                    "D": "This is not the correct inverse."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Apply the concept of linear transformations to determine the image of the vector v = [1, 2] under the transformation T(x, y) = (2x + y, x - y).",
+            "options": {
+                "A": "[4, -1]",
+                "B": "[3, -1]",
+                "C": "[2, 1]",
+                "D": "[1, 2]"
+            },
+            "correct_answer": "B",
+            "hint": "Substitute the components of the vector into the transformation equations.",
+            "feedback": {
+                "correct": "The image of the vector under the transformation is [3, -1].",
+                "incorrect": {
+                    "A": "This is not the correct image.",
+                    "C": "This is not the correct image.",
+                    "D": "This is the original vector, not the image."
+                }
+            }
+        }
+    ]
+}

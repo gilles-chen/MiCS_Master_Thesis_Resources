@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Why is the liver considered a vital organ in the human body?",
+            "options": {
+                "A": "It produces insulin.",
+                "B": "It filters toxins from the blood.",
+                "C": "It stores oxygen for the body.",
+                "D": "It regulates body temperature."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the liver's role in detoxification.",
+            "feedback": {
+                "correct": "The liver filters toxins from the blood, making it essential for detoxification.",
+                "incorrect": {
+                    "A": "Insulin is produced by the pancreas, not the liver.",
+                    "C": "Oxygen is stored in the blood by hemoglobin, not the liver.",
+                    "D": "Body temperature is regulated by the hypothalamus, not the liver."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "What is the primary function of red blood cells?",
+            "options": {
+                "A": "To fight infections",
+                "B": "To transport oxygen",
+                "C": "To clot blood",
+                "D": "To produce hormones"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the role of hemoglobin in red blood cells.",
+            "feedback": {
+                "correct": "Red blood cells transport oxygen from the lungs to the rest of the body.",
+                "incorrect": {
+                    "A": "White blood cells are responsible for fighting infections.",
+                    "C": "Platelets are responsible for blood clotting.",
+                    "D": "Hormones are produced by various glands, not red blood cells."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "How does the body respond to high blood glucose levels?",
+            "options": {
+                "A": "By releasing glucagon",
+                "B": "By releasing insulin",
+                "C": "By increasing heart rate",
+                "D": "By decreasing blood flow to the liver"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the hormone that lowers blood glucose levels.",
+            "feedback": {
+                "correct": "The body releases insulin to help cells absorb glucose and lower blood glucose levels.",
+                "incorrect": {
+                    "A": "Glucagon is released to increase blood glucose levels, not decrease them.",
+                    "C": "Heart rate is not directly related to blood glucose regulation.",
+                    "D": "Blood flow to the liver is not decreased in response to high blood glucose levels."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "What is the role of the kidneys in the human body?",
+            "options": {
+                "A": "To produce digestive enzymes",
+                "B": "To filter waste from the blood",
+                "C": "To regulate body temperature",
+                "D": "To store glycogen"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the kidneys' role in the excretory system.",
+            "feedback": {
+                "correct": "The kidneys filter waste products from the blood and excrete them as urine.",
+                "incorrect": {
+                    "A": "Digestive enzymes are produced by the pancreas and stomach, not the kidneys.",
+                    "C": "Body temperature is regulated by the hypothalamus, not the kidneys.",
+                    "D": "Glycogen is stored in the liver and muscles, not the kidneys."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Why is the heart considered a double pump?",
+            "options": {
+                "A": "It pumps blood to the lungs and the rest of the body",
+                "B": "It pumps blood only to the lungs",
+                "C": "It pumps blood only to the rest of the body",
+                "D": "It pumps blood to the brain and the rest of the body"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the two circuits of blood flow in the body.",
+            "feedback": {
+                "correct": "The heart pumps blood to the lungs (pulmonary circulation) and to the rest of the body (systemic circulation).",
+                "incorrect": {
+                    "B": "The heart pumps blood to both the lungs and the rest of the body, not just the lungs.",
+                    "C": "The heart pumps blood to both the lungs and the rest of the body, not just the rest of the body.",
+                    "D": "The heart pumps blood to the entire body, including the brain, not just the brain and the rest of the body."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is the primary function of the small intestine?",
+            "options": {
+                "A": "To absorb nutrients",
+                "B": "To store bile",
+                "C": "To produce insulin",
+                "D": "To filter blood"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the role of villi in the small intestine.",
+            "feedback": {
+                "correct": "The primary function of the small intestine is to absorb nutrients from digested food.",
+                "incorrect": {
+                    "B": "Bile is stored in the gallbladder, not the small intestine.",
+                    "C": "Insulin is produced by the pancreas, not the small intestine.",
+                    "D": "Blood is filtered by the kidneys, not the small intestine."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "How does the body maintain homeostasis when body temperature rises?",
+            "options": {
+                "A": "By constricting blood vessels",
+                "B": "By dilating blood vessels",
+                "C": "By decreasing sweat production",
+                "D": "By increasing heart rate"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the body's cooling mechanisms.",
+            "feedback": {
+                "correct": "The body dilates blood vessels to increase blood flow to the skin, allowing heat to dissipate.",
+                "incorrect": {
+                    "A": "Constriction of blood vessels would retain heat, not dissipate it.",
+                    "C": "Decreasing sweat production would reduce cooling, not increase it.",
+                    "D": "Heart rate is not directly related to temperature regulation."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is the role of the pancreas in digestion?",
+            "options": {
+                "A": "To produce bile",
+                "B": "To secrete digestive enzymes",
+                "C": "To absorb nutrients",
+                "D": "To filter toxins"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the pancreas' role in breaking down food.",
+            "feedback": {
+                "correct": "The pancreas secretes digestive enzymes that help break down carbohydrates, proteins, and fats.",
+                "incorrect": {
+                    "A": "Bile is produced by the liver, not the pancreas.",
+                    "C": "Nutrient absorption occurs in the small intestine, not the pancreas.",
+                    "D": "Toxins are filtered by the liver and kidneys, not the pancreas."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Why is the hypothalamus important in the endocrine system?",
+            "options": {
+                "A": "It produces red blood cells",
+                "B": "It regulates hormone release from the pituitary gland",
+                "C": "It stores calcium",
+                "D": "It filters waste from the blood"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the hypothalamus' role in controlling other glands.",
+            "feedback": {
+                "correct": "The hypothalamus regulates hormone release from the pituitary gland, influencing many bodily functions.",
+                "incorrect": {
+                    "A": "Red blood cells are produced in the bone marrow, not the hypothalamus.",
+                    "C": "Calcium is stored in bones, not the hypothalamus.",
+                    "D": "Waste is filtered by the kidneys, not the hypothalamus."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the primary function of white blood cells?",
+            "options": {
+                "A": "To transport oxygen",
+                "B": "To fight infections",
+                "C": "To clot blood",
+                "D": "To produce hormones"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the immune system's role in the body.",
+            "feedback": {
+                "correct": "White blood cells are crucial for fighting infections and protecting the body against foreign invaders.",
+                "incorrect": {
+                    "A": "Red blood cells transport oxygen, not white blood cells.",
+                    "C": "Platelets are responsible for blood clotting, not white blood cells.",
+                    "D": "Hormones are produced by various glands, not white blood cells."
+                }
+            }
+        }
+    ]
+}

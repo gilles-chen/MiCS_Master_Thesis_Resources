@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Explain why a binary search tree (BST) is more efficient than a linked list for search operations.",
+            "options": {
+                "A": "A BST has a time complexity of O(log n) for search operations, while a linked list has O(n).",
+                "B": "A BST uses less memory than a linked list.",
+                "C": "A BST can store more elements than a linked list.",
+                "D": "A BST is easier to implement than a linked list."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the time complexity of search operations in both data structures.",
+            "feedback": {
+                "correct": "A BST has a time complexity of O(log n) for search operations, making it more efficient than a linked list, which has O(n).",
+                "incorrect": {
+                    "B": "Memory usage is not the primary reason for the efficiency of BSTs in search operations.",
+                    "C": "The capacity to store elements is not the reason for the efficiency of BSTs in search operations.",
+                    "D": "Ease of implementation is not related to the efficiency of search operations in BSTs."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Describe the main difference between a stack and a queue.",
+            "options": {
+                "A": "A stack follows FIFO order, while a queue follows LIFO order.",
+                "B": "A stack follows LIFO order, while a queue follows FIFO order.",
+                "C": "A stack allows insertion at both ends, while a queue allows insertion at one end.",
+                "D": "A stack is used for breadth-first search, while a queue is used for depth-first search."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the order in which elements are added and removed in both data structures.",
+            "feedback": {
+                "correct": "A stack follows Last In, First Out (LIFO) order, while a queue follows First In, First Out (FIFO) order.",
+                "incorrect": {
+                    "A": "This is the opposite of the correct order for stacks and queues.",
+                    "C": "Stacks do not allow insertion at both ends; this describes a deque.",
+                    "D": "Stacks are used for depth-first search, while queues are used for breadth-first search."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Interpret the significance of using a hash table over an array for storing data.",
+            "options": {
+                "A": "Hash tables provide constant time complexity for search operations.",
+                "B": "Hash tables use less memory than arrays.",
+                "C": "Hash tables maintain the order of elements.",
+                "D": "Hash tables are easier to implement than arrays."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the time complexity for search operations in both data structures.",
+            "feedback": {
+                "correct": "Hash tables provide constant time complexity (O(1)) for search operations, making them more efficient than arrays for this purpose.",
+                "incorrect": {
+                    "B": "Memory usage is not the primary reason for using hash tables over arrays.",
+                    "C": "Hash tables do not maintain the order of elements; arrays do.",
+                    "D": "Ease of implementation is not the reason for the efficiency of hash tables."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Compare and contrast an array and a linked list in terms of memory allocation.",
+            "options": {
+                "A": "Arrays use dynamic memory allocation, while linked lists use static memory allocation.",
+                "B": "Arrays use static memory allocation, while linked lists use dynamic memory allocation.",
+                "C": "Both arrays and linked lists use static memory allocation.",
+                "D": "Both arrays and linked lists use dynamic memory allocation."
+            },
+            "correct_answer": "B",
+            "hint": "Think about how memory is allocated for elements in both data structures.",
+            "feedback": {
+                "correct": "Arrays use static memory allocation, meaning their size is fixed at compile time. Linked lists use dynamic memory allocation, allowing them to grow and shrink at runtime.",
+                "incorrect": {
+                    "A": "This is the opposite of the correct memory allocation methods for arrays and linked lists.",
+                    "C": "Arrays use static memory allocation, but linked lists use dynamic memory allocation.",
+                    "D": "Arrays use static memory allocation, not dynamic."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Explain the purpose of a priority queue in data structures.",
+            "options": {
+                "A": "To store elements in a sorted order.",
+                "B": "To allow insertion and deletion at both ends.",
+                "C": "To process elements based on their priority.",
+                "D": "To maintain a fixed size of elements."
+            },
+            "correct_answer": "C",
+            "hint": "Consider how elements are processed in a priority queue.",
+            "feedback": {
+                "correct": "A priority queue processes elements based on their priority, not just their order of insertion.",
+                "incorrect": {
+                    "A": "While elements may be sorted, the primary purpose is to process based on priority.",
+                    "B": "This describes a deque, not a priority queue.",
+                    "D": "Priority queues do not necessarily maintain a fixed size."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Summarize the main advantage of using a doubly linked list over a singly linked list.",
+            "options": {
+                "A": "Doubly linked lists use less memory.",
+                "B": "Doubly linked lists allow traversal in both directions.",
+                "C": "Doubly linked lists are easier to implement.",
+                "D": "Doubly linked lists have faster insertion and deletion operations."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the flexibility in traversal provided by doubly linked lists.",
+            "feedback": {
+                "correct": "Doubly linked lists allow traversal in both forward and backward directions, providing more flexibility than singly linked lists.",
+                "incorrect": {
+                    "A": "Doubly linked lists use more memory due to the additional pointer.",
+                    "C": "Doubly linked lists are generally more complex to implement than singly linked lists.",
+                    "D": "Insertion and deletion operations are not necessarily faster in doubly linked lists."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Describe the role of a heap in implementing a priority queue.",
+            "options": {
+                "A": "A heap ensures that the highest priority element is always at the root.",
+                "B": "A heap maintains the order of elements as they are inserted.",
+                "C": "A heap allows for constant time insertion and deletion.",
+                "D": "A heap uses a linked list structure to store elements."
+            },
+            "correct_answer": "A",
+            "hint": "Think about the structure of a heap and how it organizes elements based on priority.",
+            "feedback": {
+                "correct": "A heap ensures that the highest priority element is always at the root, making it efficient for implementing a priority queue.",
+                "incorrect": {
+                    "B": "Heaps do not maintain the order of elements as they are inserted; they organize based on priority.",
+                    "C": "Heaps do not allow for constant time insertion and deletion; these operations are typically O(log n).",
+                    "D": "Heaps do not use a linked list structure; they are typically implemented using arrays."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Interpret the significance of using a graph data structure in computer networks.",
+            "options": {
+                "A": "Graphs can represent the hierarchical structure of a network.",
+                "B": "Graphs can model the connections and pathways between different nodes in a network.",
+                "C": "Graphs are used to store data in a linear fashion.",
+                "D": "Graphs are used to implement stacks and queues."
+            },
+            "correct_answer": "B",
+            "hint": "Consider how graphs can represent relationships and connections.",
+            "feedback": {
+                "correct": "Graphs can model the connections and pathways between different nodes in a network, making them ideal for representing computer networks.",
+                "incorrect": {
+                    "A": "Graphs are not typically used to represent hierarchical structures; trees are more suitable for that purpose.",
+                    "C": "Graphs are not used to store data in a linear fashion; they represent relationships.",
+                    "D": "Graphs are not used to implement stacks and queues; these are separate data structures."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Compare the time complexity of insertion operations in an array and a linked list.",
+            "options": {
+                "A": "Both have O(1) time complexity.",
+                "B": "Array has O(1) and linked list has O(n) time complexity.",
+                "C": "Array has O(n) and linked list has O(1) time complexity.",
+                "D": "Both have O(n) time complexity."
+            },
+            "correct_answer": "C",
+            "hint": "Consider the steps involved in inserting an element in both data structures.",
+            "feedback": {
+                "correct": "Array insertion has O(n) time complexity due to shifting elements, while linked list insertion has O(1) time complexity if the position is known.",
+                "incorrect": {
+                    "A": "Array insertion is not O(1) due to the need to shift elements.",
+                    "B": "This is the opposite of the correct time complexities for arrays and linked lists.",
+                    "D": "Linked list insertion is O(1) if the position is known, not O(n)."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Explain the concept of a circular queue and its advantage over a linear queue.",
+            "options": {
+                "A": "A circular queue allows for dynamic resizing.",
+                "B": "A circular queue prevents memory wastage by reusing empty spaces.",
+                "C": "A circular queue maintains the order of elements.",
+                "D": "A circular queue is easier to implement than a linear queue."
+            },
+            "correct_answer": "B",
+            "hint": "Think about how a circular queue manages the front and rear pointers.",
+            "feedback": {
+                "correct": "A circular queue prevents memory wastage by reusing empty spaces, making it more efficient than a linear queue.",
+                "incorrect": {
+                    "A": "Circular queues do not allow for dynamic resizing; they have a fixed size.",
+                    "C": "Both circular and linear queues maintain the order of elements.",
+                    "D": "Ease of implementation is not the primary advantage of circular queues."
+                }
+            }
+        }
+    ]
+}

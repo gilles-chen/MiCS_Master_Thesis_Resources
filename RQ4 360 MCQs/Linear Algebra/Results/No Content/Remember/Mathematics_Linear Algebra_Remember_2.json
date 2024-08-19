@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is the term for a matrix with the same number of rows and columns?",
+            "options": {
+                "A": "Square matrix",
+                "B": "Rectangular matrix",
+                "C": "Diagonal matrix",
+                "D": "Identity matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the shape of the matrix.",
+            "feedback": {
+                "correct": "A square matrix has an equal number of rows and columns.",
+                "incorrect": {
+                    "B": "A rectangular matrix has a different number of rows and columns.",
+                    "C": "A diagonal matrix has non-zero elements only on its diagonal, but it can also be a square matrix.",
+                    "D": "An identity matrix is a special type of square matrix with ones on the diagonal and zeros elsewhere."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "What is the determinant of a 2x2 matrix [a b; c d]?",
+            "options": {
+                "A": "ad - bc",
+                "B": "ab + cd",
+                "C": "ac - bd",
+                "D": "a + d"
+            },
+            "correct_answer": "A",
+            "hint": "It involves the product of the diagonals.",
+            "feedback": {
+                "correct": "The determinant of a 2x2 matrix [a b; c d] is calculated as ad - bc.",
+                "incorrect": {
+                    "B": "ab + cd is not the correct formula for the determinant.",
+                    "C": "ac - bd is incorrect; the correct formula is ad - bc.",
+                    "D": "a + d is just the sum of the diagonal elements, not the determinant."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the name of a matrix that has all its elements equal to zero?",
+            "options": {
+                "A": "Zero matrix",
+                "B": "Unit matrix",
+                "C": "Diagonal matrix",
+                "D": "Symmetric matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the value of the elements.",
+            "feedback": {
+                "correct": "A zero matrix has all its elements equal to zero.",
+                "incorrect": {
+                    "B": "A unit matrix is another name for an identity matrix, which has ones on the diagonal.",
+                    "C": "A diagonal matrix has non-zero elements only on its diagonal.",
+                    "D": "A symmetric matrix is equal to its transpose, but it doesn't necessarily have all elements as zero."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "What is the rank of a matrix?",
+            "options": {
+                "A": "The maximum number of linearly independent rows or columns",
+                "B": "The number of rows",
+                "C": "The number of columns",
+                "D": "The sum of all elements"
+            },
+            "correct_answer": "A",
+            "hint": "It relates to linear independence.",
+            "feedback": {
+                "correct": "The rank of a matrix is the maximum number of linearly independent rows or columns.",
+                "incorrect": {
+                    "B": "The number of rows is not the rank of the matrix.",
+                    "C": "The number of columns is not the rank of the matrix.",
+                    "D": "The sum of all elements is not related to the rank of the matrix."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the transpose of a matrix?",
+            "options": {
+                "A": "A new matrix obtained by interchanging rows and columns",
+                "B": "A new matrix obtained by multiplying each element by -1",
+                "C": "A new matrix obtained by adding a scalar to each element",
+                "D": "A new matrix obtained by multiplying each element by a scalar"
+            },
+            "correct_answer": "A",
+            "hint": "Think about swapping positions.",
+            "feedback": {
+                "correct": "The transpose of a matrix is obtained by interchanging its rows and columns.",
+                "incorrect": {
+                    "B": "Multiplying each element by -1 gives the negative of the matrix, not the transpose.",
+                    "C": "Adding a scalar to each element does not result in the transpose.",
+                    "D": "Multiplying each element by a scalar scales the matrix but does not transpose it."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What is an eigenvalue of a matrix?",
+            "options": {
+                "A": "A scalar that satisfies the equation Ax = \u03bbx",
+                "B": "A vector that satisfies the equation Ax = \u03bbx",
+                "C": "A matrix that satisfies the equation Ax = \u03bbx",
+                "D": "A scalar that satisfies the equation A + \u03bb = 0"
+            },
+            "correct_answer": "A",
+            "hint": "It is a scalar in the eigenvalue equation.",
+            "feedback": {
+                "correct": "An eigenvalue is a scalar \u03bb that satisfies the equation Ax = \u03bbx for a given matrix A and vector x.",
+                "incorrect": {
+                    "B": "A vector that satisfies the equation Ax = \u03bbx is called an eigenvector, not an eigenvalue.",
+                    "C": "A matrix does not satisfy the eigenvalue equation; it is a scalar.",
+                    "D": "A + \u03bb = 0 is not the correct form of the eigenvalue equation."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "What is the identity matrix?",
+            "options": {
+                "A": "A square matrix with ones on the diagonal and zeros elsewhere",
+                "B": "A square matrix with zeros on the diagonal and ones elsewhere",
+                "C": "A matrix with all elements equal to one",
+                "D": "A matrix with all elements equal to zero"
+            },
+            "correct_answer": "A",
+            "hint": "Think about the diagonal elements.",
+            "feedback": {
+                "correct": "The identity matrix is a square matrix with ones on the diagonal and zeros elsewhere.",
+                "incorrect": {
+                    "B": "A square matrix with zeros on the diagonal and ones elsewhere is not the identity matrix.",
+                    "C": "A matrix with all elements equal to one is not the identity matrix.",
+                    "D": "A matrix with all elements equal to zero is called a zero matrix, not the identity matrix."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is the trace of a square matrix?",
+            "options": {
+                "A": "The sum of the diagonal elements",
+                "B": "The product of the diagonal elements",
+                "C": "The sum of all elements",
+                "D": "The determinant of the matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Focus on the diagonal elements.",
+            "feedback": {
+                "correct": "The trace of a square matrix is the sum of its diagonal elements.",
+                "incorrect": {
+                    "B": "The product of the diagonal elements is not the trace.",
+                    "C": "The sum of all elements is not the trace.",
+                    "D": "The determinant is a different concept from the trace."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is a vector space?",
+            "options": {
+                "A": "A set of vectors that can be added together and multiplied by scalars",
+                "B": "A set of vectors that can only be added together",
+                "C": "A set of vectors that can only be multiplied by scalars",
+                "D": "A set of vectors that are linearly dependent"
+            },
+            "correct_answer": "A",
+            "hint": "Think about operations that can be performed on vectors.",
+            "feedback": {
+                "correct": "A vector space is a set of vectors that can be added together and multiplied by scalars.",
+                "incorrect": {
+                    "B": "A vector space allows both addition and scalar multiplication, not just addition.",
+                    "C": "A vector space allows both addition and scalar multiplication, not just scalar multiplication.",
+                    "D": "A vector space can contain linearly independent vectors, not just dependent ones."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What is the inverse of a matrix?",
+            "options": {
+                "A": "A matrix that, when multiplied with the original matrix, results in the identity matrix",
+                "B": "A matrix that, when added to the original matrix, results in the zero matrix",
+                "C": "A matrix that, when subtracted from the original matrix, results in the identity matrix",
+                "D": "A matrix that, when divided by the original matrix, results in the identity matrix"
+            },
+            "correct_answer": "A",
+            "hint": "Think about matrix multiplication.",
+            "feedback": {
+                "correct": "The inverse of a matrix is a matrix that, when multiplied with the original matrix, results in the identity matrix.",
+                "incorrect": {
+                    "B": "Adding the inverse to the original matrix does not result in the zero matrix.",
+                    "C": "Subtracting the inverse from the original matrix does not result in the identity matrix.",
+                    "D": "Matrix division is not defined in this context; the inverse is related to multiplication."
+                }
+            }
+        }
+    ]
+}

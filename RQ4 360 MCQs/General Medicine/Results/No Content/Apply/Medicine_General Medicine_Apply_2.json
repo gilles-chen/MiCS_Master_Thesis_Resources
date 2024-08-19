@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "A patient presents with acute asthma exacerbation. Which medication should be applied immediately to relieve bronchospasm?",
+            "options": {
+                "A": "Albuterol",
+                "B": "Montelukast",
+                "C": "Fluticasone",
+                "D": "Theophylline"
+            },
+            "correct_answer": "A",
+            "hint": "Consider a fast-acting bronchodilator.",
+            "feedback": {
+                "correct": "Albuterol is a fast-acting bronchodilator used to relieve bronchospasm in acute asthma exacerbations.",
+                "incorrect": {
+                    "B": "Montelukast is a leukotriene receptor antagonist used for long-term control, not immediate relief.",
+                    "C": "Fluticasone is an inhaled corticosteroid used for long-term control, not immediate relief.",
+                    "D": "Theophylline is a bronchodilator but not the first choice for immediate relief in acute exacerbations."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "A patient with a history of peptic ulcer disease presents with severe epigastric pain and signs of peritonitis. What is the most appropriate initial intervention?",
+            "options": {
+                "A": "Administer a proton pump inhibitor",
+                "B": "Perform an abdominal ultrasound",
+                "C": "Initiate intravenous fluids and antibiotics",
+                "D": "Schedule an elective endoscopy"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the need for immediate stabilization and infection control.",
+            "feedback": {
+                "correct": "Initiating intravenous fluids and antibiotics is crucial for stabilizing the patient and addressing potential infection.",
+                "incorrect": {
+                    "A": "A proton pump inhibitor is important but not the immediate priority in severe cases with signs of peritonitis.",
+                    "B": "An abdominal ultrasound may be useful but is not the immediate intervention needed for stabilization.",
+                    "D": "An elective endoscopy is not appropriate in an emergency situation with signs of peritonitis."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "A patient with chronic kidney disease (CKD) presents with hyperkalemia. Which treatment should be applied to rapidly lower the potassium levels?",
+            "options": {
+                "A": "Administer calcium gluconate",
+                "B": "Administer insulin and glucose",
+                "C": "Administer sodium bicarbonate",
+                "D": "Administer furosemide"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a treatment that shifts potassium into cells.",
+            "feedback": {
+                "correct": "Administering insulin and glucose helps to shift potassium into cells, rapidly lowering serum potassium levels.",
+                "incorrect": {
+                    "A": "Calcium gluconate stabilizes the heart but does not lower potassium levels.",
+                    "C": "Sodium bicarbonate can help in certain cases but is not the fastest method to lower potassium.",
+                    "D": "Furosemide is a diuretic that can help excrete potassium but is not the fastest method."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "A patient with suspected bacterial meningitis is brought to the emergency department. What is the most appropriate initial step in management?",
+            "options": {
+                "A": "Perform a lumbar puncture",
+                "B": "Administer broad-spectrum antibiotics",
+                "C": "Order a CT scan of the head",
+                "D": "Monitor vital signs closely"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the need to address the infection immediately.",
+            "feedback": {
+                "correct": "Administering broad-spectrum antibiotics is crucial to start treating the infection as soon as possible.",
+                "incorrect": {
+                    "A": "A lumbar puncture is important for diagnosis but should not delay antibiotic administration.",
+                    "C": "A CT scan may be necessary but should not delay the initiation of antibiotics.",
+                    "D": "Monitoring vital signs is important but does not address the immediate need to treat the infection."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "A patient with a history of atrial fibrillation presents with sudden onset of unilateral weakness and difficulty speaking. What is the most appropriate initial intervention?",
+            "options": {
+                "A": "Administer aspirin",
+                "B": "Administer tissue plasminogen activator (tPA)",
+                "C": "Order an MRI of the brain",
+                "D": "Start heparin infusion"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a treatment that addresses acute ischemic stroke.",
+            "feedback": {
+                "correct": "Administering tPA is the most appropriate initial intervention for acute ischemic stroke if within the treatment window.",
+                "incorrect": {
+                    "A": "Aspirin may be used but is not the most effective initial treatment for acute ischemic stroke.",
+                    "C": "An MRI can help with diagnosis but should not delay the administration of tPA.",
+                    "D": "Heparin infusion is not the first-line treatment for acute ischemic stroke."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "A patient with type 2 diabetes presents with a blood glucose level of 600 mg/dL and signs of dehydration. What is the most appropriate initial treatment?",
+            "options": {
+                "A": "Administer insulin",
+                "B": "Administer oral hypoglycemic agents",
+                "C": "Administer intravenous fluids",
+                "D": "Administer glucagon"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the need to address dehydration first.",
+            "feedback": {
+                "correct": "Administering intravenous fluids is crucial to address dehydration and stabilize the patient.",
+                "incorrect": {
+                    "A": "Insulin is important but should be administered after initial fluid resuscitation.",
+                    "B": "Oral hypoglycemic agents are not appropriate in this acute setting.",
+                    "D": "Glucagon is used to raise blood sugar, not lower it."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "A patient with a history of deep vein thrombosis (DVT) presents with sudden onset of chest pain and shortness of breath. What is the most appropriate initial intervention?",
+            "options": {
+                "A": "Administer aspirin",
+                "B": "Administer nitroglycerin",
+                "C": "Administer heparin",
+                "D": "Order a chest X-ray"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a treatment that addresses potential pulmonary embolism.",
+            "feedback": {
+                "correct": "Administering heparin is crucial to prevent further clot formation in suspected pulmonary embolism.",
+                "incorrect": {
+                    "A": "Aspirin is not the first-line treatment for pulmonary embolism.",
+                    "B": "Nitroglycerin is used for chest pain due to angina, not pulmonary embolism.",
+                    "D": "A chest X-ray can help with diagnosis but should not delay the administration of heparin."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "A patient with chronic obstructive pulmonary disease (COPD) presents with increased dyspnea and productive cough. What is the most appropriate initial intervention?",
+            "options": {
+                "A": "Administer oral corticosteroids",
+                "B": "Administer antibiotics",
+                "C": "Administer bronchodilators",
+                "D": "Order a chest CT scan"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a treatment that provides immediate relief of bronchoconstriction.",
+            "feedback": {
+                "correct": "Administering bronchodilators is crucial to relieve bronchoconstriction and improve breathing.",
+                "incorrect": {
+                    "A": "Oral corticosteroids are important but not the immediate first step.",
+                    "B": "Antibiotics may be needed but are not the immediate first step.",
+                    "D": "A chest CT scan can help with diagnosis but should not delay the administration of bronchodilators."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "A patient with suspected sepsis presents with fever, tachycardia, and hypotension. What is the most appropriate initial intervention?",
+            "options": {
+                "A": "Administer antipyretics",
+                "B": "Administer intravenous fluids and broad-spectrum antibiotics",
+                "C": "Order blood cultures",
+                "D": "Monitor vital signs closely"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the need for immediate stabilization and infection control.",
+            "feedback": {
+                "correct": "Administering intravenous fluids and broad-spectrum antibiotics is crucial for stabilizing the patient and addressing the infection.",
+                "incorrect": {
+                    "A": "Antipyretics can help with fever but do not address the underlying sepsis.",
+                    "C": "Blood cultures are important for diagnosis but should not delay the initial treatment.",
+                    "D": "Monitoring vital signs is important but does not address the immediate need to treat the infection."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "A patient with a history of congestive heart failure presents with worsening shortness of breath and peripheral edema. What is the most appropriate initial intervention?",
+            "options": {
+                "A": "Administer beta-blockers",
+                "B": "Administer diuretics",
+                "C": "Administer ACE inhibitors",
+                "D": "Order an echocardiogram"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a treatment that addresses fluid overload.",
+            "feedback": {
+                "correct": "Administering diuretics is crucial to reduce fluid overload and improve symptoms.",
+                "incorrect": {
+                    "A": "Beta-blockers are important for long-term management but not the immediate first step.",
+                    "C": "ACE inhibitors are important for long-term management but not the immediate first step.",
+                    "D": "An echocardiogram can help with diagnosis but should not delay the administration of diuretics."
+                }
+            }
+        }
+    ]
+}

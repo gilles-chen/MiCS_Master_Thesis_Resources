@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Explain why a matrix is invertible if and only if its determinant is non-zero.",
+            "options": {
+                "A": "A non-zero determinant indicates the matrix has full rank.",
+                "B": "A non-zero determinant means the matrix is singular.",
+                "C": "A non-zero determinant implies the matrix has dependent rows.",
+                "D": "A non-zero determinant shows the matrix is symmetric."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the determinant and the rank of a matrix.",
+            "feedback": {
+                "correct": "A non-zero determinant indicates that the matrix has full rank, meaning it is invertible.",
+                "incorrect": {
+                    "B": "A non-zero determinant means the matrix is non-singular, not singular.",
+                    "C": "A non-zero determinant implies the matrix has independent rows, not dependent rows.",
+                    "D": "A non-zero determinant does not necessarily indicate that the matrix is symmetric."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Describe the geometric interpretation of the dot product of two vectors.",
+            "options": {
+                "A": "It represents the area of the parallelogram formed by the vectors.",
+                "B": "It represents the volume of the parallelepiped formed by the vectors.",
+                "C": "It represents the projection of one vector onto another.",
+                "D": "It represents the angle between the two vectors."
+            },
+            "correct_answer": "C",
+            "hint": "Think about how the dot product relates to the components of the vectors along each other.",
+            "feedback": {
+                "correct": "The dot product represents the projection of one vector onto another.",
+                "incorrect": {
+                    "A": "The area of the parallelogram is given by the magnitude of the cross product, not the dot product.",
+                    "B": "The volume of the parallelepiped is related to the scalar triple product, not the dot product.",
+                    "D": "The dot product is related to the cosine of the angle between the vectors, not the angle itself."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Summarize the properties of an orthogonal matrix.",
+            "options": {
+                "A": "Its rows and columns are orthogonal unit vectors.",
+                "B": "Its determinant is always zero.",
+                "C": "It is always a symmetric matrix.",
+                "D": "It has eigenvalues that are always positive."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the definition of orthogonality in the context of matrix rows and columns.",
+            "feedback": {
+                "correct": "An orthogonal matrix has rows and columns that are orthogonal unit vectors.",
+                "incorrect": {
+                    "B": "The determinant of an orthogonal matrix is \u00b11, not always zero.",
+                    "C": "An orthogonal matrix is not necessarily symmetric.",
+                    "D": "The eigenvalues of an orthogonal matrix can be \u00b11, not always positive."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Interpret the significance of the eigenvalues of a matrix.",
+            "options": {
+                "A": "They represent the scaling factors along the eigenvectors.",
+                "B": "They indicate the matrix is invertible.",
+                "C": "They show the matrix is diagonalizable.",
+                "D": "They determine the rank of the matrix."
+            },
+            "correct_answer": "A",
+            "hint": "Think about how eigenvalues affect the transformation represented by the matrix.",
+            "feedback": {
+                "correct": "Eigenvalues represent the scaling factors along the eigenvectors.",
+                "incorrect": {
+                    "B": "Eigenvalues alone do not indicate whether a matrix is invertible.",
+                    "C": "A matrix being diagonalizable depends on having a full set of linearly independent eigenvectors, not just the eigenvalues.",
+                    "D": "The rank of the matrix is determined by the number of linearly independent rows or columns, not directly by the eigenvalues."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Compare the row space and column space of a matrix.",
+            "options": {
+                "A": "Both spaces have the same dimension, which is the rank of the matrix.",
+                "B": "The row space has a higher dimension than the column space.",
+                "C": "The column space has a higher dimension than the row space.",
+                "D": "They are always orthogonal to each other."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the rank of a matrix and its row and column spaces.",
+            "feedback": {
+                "correct": "Both the row space and column space have the same dimension, which is the rank of the matrix.",
+                "incorrect": {
+                    "B": "The row space and column space have the same dimension, not different dimensions.",
+                    "C": "The row space and column space have the same dimension, not different dimensions.",
+                    "D": "The row space and column space are not necessarily orthogonal to each other."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Explain the concept of linear independence in the context of vectors.",
+            "options": {
+                "A": "Vectors are linearly independent if they lie on the same line.",
+                "B": "Vectors are linearly independent if none of them can be written as a linear combination of the others.",
+                "C": "Vectors are linearly independent if they have the same magnitude.",
+                "D": "Vectors are linearly independent if they are orthogonal to each other."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the definition of linear independence in terms of linear combinations.",
+            "feedback": {
+                "correct": "Vectors are linearly independent if none of them can be written as a linear combination of the others.",
+                "incorrect": {
+                    "A": "Vectors lying on the same line are linearly dependent, not independent.",
+                    "C": "The magnitude of vectors does not determine their linear independence.",
+                    "D": "Orthogonality implies linear independence, but linear independence does not require orthogonality."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Describe the process of finding the inverse of a matrix using Gaussian elimination.",
+            "options": {
+                "A": "Augment the matrix with the identity matrix and perform row operations until the original matrix becomes the identity matrix.",
+                "B": "Find the determinant and adjugate of the matrix, then divide the adjugate by the determinant.",
+                "C": "Transpose the matrix and then find the determinant.",
+                "D": "Perform row operations to reduce the matrix to its row echelon form."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the method involving row operations and the identity matrix.",
+            "feedback": {
+                "correct": "To find the inverse using Gaussian elimination, augment the matrix with the identity matrix and perform row operations until the original matrix becomes the identity matrix.",
+                "incorrect": {
+                    "B": "Finding the determinant and adjugate is another method, but not the one involving Gaussian elimination.",
+                    "C": "Transposing the matrix is not part of the process for finding the inverse using Gaussian elimination.",
+                    "D": "Reducing the matrix to its row echelon form alone does not yield the inverse."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Summarize the conditions under which a set of vectors forms a basis for a vector space.",
+            "options": {
+                "A": "The vectors must be linearly dependent and span the vector space.",
+                "B": "The vectors must be linearly independent and span the vector space.",
+                "C": "The vectors must be orthogonal and have the same magnitude.",
+                "D": "The vectors must be equal in number to the dimension of the vector space and have the same direction."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the requirements for both spanning the space and linear independence.",
+            "feedback": {
+                "correct": "A set of vectors forms a basis for a vector space if they are linearly independent and span the vector space.",
+                "incorrect": {
+                    "A": "The vectors must be linearly independent, not dependent.",
+                    "C": "Orthogonality and magnitude are not necessary conditions for forming a basis.",
+                    "D": "The vectors must be linearly independent and span the space, not just have the same direction."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Interpret the meaning of the rank of a matrix.",
+            "options": {
+                "A": "The rank is the number of non-zero rows in its row echelon form.",
+                "B": "The rank is the number of columns in the matrix.",
+                "C": "The rank is the number of rows in the matrix.",
+                "D": "The rank is the sum of the diagonal elements of the matrix."
+            },
+            "correct_answer": "A",
+            "hint": "Think about the row echelon form and the concept of linear independence.",
+            "feedback": {
+                "correct": "The rank of a matrix is the number of non-zero rows in its row echelon form.",
+                "incorrect": {
+                    "B": "The rank is not simply the number of columns in the matrix.",
+                    "C": "The rank is not simply the number of rows in the matrix.",
+                    "D": "The rank is not the sum of the diagonal elements; that is the trace of the matrix."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Compare the properties of symmetric and skew-symmetric matrices.",
+            "options": {
+                "A": "Symmetric matrices have all positive eigenvalues, while skew-symmetric matrices have all negative eigenvalues.",
+                "B": "Symmetric matrices are equal to their transpose, while skew-symmetric matrices are equal to the negative of their transpose.",
+                "C": "Symmetric matrices have orthogonal eigenvectors, while skew-symmetric matrices have orthogonal columns.",
+                "D": "Symmetric matrices are always invertible, while skew-symmetric matrices are always singular."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the definitions involving the transpose of the matrices.",
+            "feedback": {
+                "correct": "Symmetric matrices are equal to their transpose, while skew-symmetric matrices are equal to the negative of their transpose.",
+                "incorrect": {
+                    "A": "Symmetric matrices do not necessarily have all positive eigenvalues, and skew-symmetric matrices do not necessarily have all negative eigenvalues.",
+                    "C": "Symmetric matrices have orthogonal eigenvectors, but skew-symmetric matrices do not necessarily have orthogonal columns.",
+                    "D": "Symmetric matrices are not always invertible, and skew-symmetric matrices are not always singular."
+                }
+            }
+        }
+    ]
+}

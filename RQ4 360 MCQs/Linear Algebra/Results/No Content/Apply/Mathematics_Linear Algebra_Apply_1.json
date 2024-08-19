@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given the matrix A = [[1, 2], [3, 4]], apply the matrix multiplication to find the product of A and the vector v = [1, 1].",
+            "options": {
+                "A": "[3, 7]",
+                "B": "[1, 1]",
+                "C": "[2, 4]",
+                "D": "[5, 11]"
+            },
+            "correct_answer": "A",
+            "hint": "Multiply each row of the matrix by the vector.",
+            "feedback": {
+                "correct": "Multiplying the matrix A by the vector v results in [1*1 + 2*1, 3*1 + 4*1] = [3, 7].",
+                "incorrect": {
+                    "B": "This is the original vector, not the result of the multiplication.",
+                    "C": "This result does not account for the correct matrix multiplication.",
+                    "D": "This result is incorrect; recheck the multiplication process."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Apply the Gaussian elimination method to solve the system of equations: 2x + 3y = 5 and 4x + 6y = 10.",
+            "options": {
+                "A": "No solution",
+                "B": "Infinite solutions",
+                "C": "x = 1, y = 1",
+                "D": "x = 0, y = 0"
+            },
+            "correct_answer": "B",
+            "hint": "Check if the equations are multiples of each other.",
+            "feedback": {
+                "correct": "The second equation is a multiple of the first, indicating the system has infinite solutions.",
+                "incorrect": {
+                    "A": "The system is not inconsistent; it has infinite solutions.",
+                    "C": "This is not a correct solution for the given system.",
+                    "D": "This is not a correct solution for the given system."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Use the determinant to determine if the matrix A = [[2, 3], [4, 6]] is invertible.",
+            "options": {
+                "A": "Yes, because the determinant is non-zero",
+                "B": "No, because the determinant is zero",
+                "C": "Yes, because the matrix is square",
+                "D": "No, because the matrix is not square"
+            },
+            "correct_answer": "B",
+            "hint": "Calculate the determinant of the matrix.",
+            "feedback": {
+                "correct": "The determinant of A is 2*6 - 3*4 = 0, so the matrix is not invertible.",
+                "incorrect": {
+                    "A": "The determinant is zero, so the matrix is not invertible.",
+                    "C": "Being square is necessary but not sufficient for invertibility.",
+                    "D": "The matrix is square, but the determinant is zero."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Apply the concept of eigenvalues to determine which of the following is an eigenvalue of the matrix A = [[4, 1], [2, 3]].",
+            "options": {
+                "A": "5",
+                "B": "3",
+                "C": "2",
+                "D": "1"
+            },
+            "correct_answer": "A",
+            "hint": "Solve the characteristic equation det(A - \u03bbI) = 0.",
+            "feedback": {
+                "correct": "The characteristic equation is (4-\u03bb)(3-\u03bb) - 2 = 0, which simplifies to \u03bb^2 - 7\u03bb + 10 = 0. Solving this gives eigenvalues 5 and 2.",
+                "incorrect": {
+                    "B": "3 is not an eigenvalue of the matrix.",
+                    "C": "2 is an eigenvalue, but not the only one.",
+                    "D": "1 is not an eigenvalue of the matrix."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Use the concept of linear independence to determine if the vectors v1 = [1, 2] and v2 = [2, 4] are linearly independent.",
+            "options": {
+                "A": "Yes, they are linearly independent",
+                "B": "No, they are linearly dependent",
+                "C": "Yes, because they are not multiples of each other",
+                "D": "No, because they are orthogonal"
+            },
+            "correct_answer": "B",
+            "hint": "Check if one vector is a scalar multiple of the other.",
+            "feedback": {
+                "correct": "v2 is a scalar multiple of v1 (v2 = 2*v1), so they are linearly dependent.",
+                "incorrect": {
+                    "A": "The vectors are not linearly independent because one is a multiple of the other.",
+                    "C": "The vectors are multiples of each other, making them linearly dependent.",
+                    "D": "Orthogonality is not relevant here; the vectors are not orthogonal."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Apply the Gram-Schmidt process to orthogonalize the set of vectors {v1 = [1, 1], v2 = [1, -1]}. What is the resulting orthogonal set?",
+            "options": {
+                "A": "{[1, 1], [1, -1]}",
+                "B": "{[1, 1], [0, -2]}",
+                "C": "{[1, 1], [1, 0]}",
+                "D": "{[1, 1], [0, 1]}"
+            },
+            "correct_answer": "B",
+            "hint": "Subtract the projection of v2 onto v1 from v2.",
+            "feedback": {
+                "correct": "The orthogonal set is {[1, 1], [1, -1] - proj_{[1, 1]}[1, -1]} = {[1, 1], [0, -2]}.",
+                "incorrect": {
+                    "A": "This is the original set, not the orthogonalized set.",
+                    "C": "This set is not orthogonal.",
+                    "D": "This set is not orthogonal."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Use the concept of vector spaces to determine if the set of vectors {[1, 0], [0, 1], [1, 1]} forms a basis for R^2.",
+            "options": {
+                "A": "Yes, because they span R^2",
+                "B": "No, because they do not span R^2",
+                "C": "Yes, because they are linearly independent",
+                "D": "No, because they are not linearly independent"
+            },
+            "correct_answer": "D",
+            "hint": "Check the linear independence of the vectors.",
+            "feedback": {
+                "correct": "The set {[1, 0], [0, 1], [1, 1]} is not linearly independent because it contains more vectors than the dimension of R^2.",
+                "incorrect": {
+                    "A": "While they span R^2, they are not linearly independent.",
+                    "B": "They do span R^2, but they are not linearly independent.",
+                    "C": "They are not linearly independent."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Apply the concept of matrix rank to determine the rank of the matrix A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]].",
+            "options": {
+                "A": "3",
+                "B": "2",
+                "C": "1",
+                "D": "0"
+            },
+            "correct_answer": "B",
+            "hint": "Reduce the matrix to its row echelon form.",
+            "feedback": {
+                "correct": "The matrix reduces to a form with two non-zero rows, indicating a rank of 2.",
+                "incorrect": {
+                    "A": "The matrix does not have three linearly independent rows.",
+                    "C": "The matrix has more than one linearly independent row.",
+                    "D": "The matrix has non-zero rows, so the rank is not zero."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Use the concept of linear transformations to determine the image of the vector v = [1, 2] under the transformation T(x, y) = (2x + y, x - y).",
+            "options": {
+                "A": "[4, -1]",
+                "B": "[3, -1]",
+                "C": "[2, 1]",
+                "D": "[1, 2]"
+            },
+            "correct_answer": "B",
+            "hint": "Apply the transformation to each component of the vector.",
+            "feedback": {
+                "correct": "Applying T to v gives T(1, 2) = (2*1 + 2, 1 - 2) = [3, -1].",
+                "incorrect": {
+                    "A": "This result does not correctly apply the transformation.",
+                    "C": "This result does not correctly apply the transformation.",
+                    "D": "This is the original vector, not the transformed vector."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Apply the concept of orthogonal projection to find the projection of the vector v = [3, 4] onto the vector u = [1, 0].",
+            "options": {
+                "A": "[3, 0]",
+                "B": "[0, 4]",
+                "C": "[1, 0]",
+                "D": "[3, 4]"
+            },
+            "correct_answer": "A",
+            "hint": "Use the formula for the projection of v onto u: proj_u(v) = (v\u00b7u / u\u00b7u) * u.",
+            "feedback": {
+                "correct": "The projection of v onto u is (3*1 + 4*0) / (1*1 + 0*0) * [1, 0] = [3, 0].",
+                "incorrect": {
+                    "B": "This is not the correct projection.",
+                    "C": "This is not the correct projection.",
+                    "D": "This is the original vector, not the projection."
+                }
+            }
+        }
+    ]
+}

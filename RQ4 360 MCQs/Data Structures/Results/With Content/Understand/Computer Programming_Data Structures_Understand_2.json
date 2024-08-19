@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Explain why arrays are commonly used in dynamic programming.",
+            "options": {
+                "A": "Because they allow for constant time insertion and deletion.",
+                "B": "Because they store data in a tabular format, which is useful for storing intermediate results.",
+                "C": "Because they are dynamic in size and can grow as needed.",
+                "D": "Because they provide efficient search operations."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the structure and access patterns required in dynamic programming.",
+            "feedback": {
+                "correct": "Arrays store data in a tabular format, which is useful for storing intermediate results in dynamic programming.",
+                "incorrect": {
+                    "A": "Arrays do not allow for constant time insertion and deletion; these operations can be costly.",
+                    "C": "Arrays are not dynamic in size; they have a fixed size.",
+                    "D": "While arrays provide efficient access by index, their search operations are not the primary reason they are used in dynamic programming."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Describe the main advantage of using a linked list over an array.",
+            "options": {
+                "A": "Linked lists provide faster access to elements by index.",
+                "B": "Linked lists have a fixed size, making memory management easier.",
+                "C": "Linked lists allow for efficient insertions and deletions.",
+                "D": "Linked lists are stored in contiguous memory locations."
+            },
+            "correct_answer": "C",
+            "hint": "Think about the flexibility of linked lists in terms of modifying the data structure.",
+            "feedback": {
+                "correct": "Linked lists allow for efficient insertions and deletions, especially at the beginning or end of the list.",
+                "incorrect": {
+                    "A": "Linked lists do not provide faster access to elements by index; this is a strength of arrays.",
+                    "B": "Linked lists do not have a fixed size; they are dynamic.",
+                    "D": "Linked lists are not stored in contiguous memory locations; arrays are."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Compare and contrast stacks and queues in terms of their access patterns.",
+            "options": {
+                "A": "Both stacks and queues follow a Last In, First Out (LIFO) access pattern.",
+                "B": "Stacks follow a First In, First Out (FIFO) access pattern, while queues follow a Last In, First Out (LIFO) access pattern.",
+                "C": "Stacks follow a Last In, First Out (LIFO) access pattern, while queues follow a First In, First Out (FIFO) access pattern.",
+                "D": "Both stacks and queues follow a First In, First Out (FIFO) access pattern."
+            },
+            "correct_answer": "C",
+            "hint": "Consider the order in which elements are added and removed in each data structure.",
+            "feedback": {
+                "correct": "Stacks follow a Last In, First Out (LIFO) access pattern, while queues follow a First In, First Out (FIFO) access pattern.",
+                "incorrect": {
+                    "A": "Stacks follow a LIFO pattern, but queues follow a FIFO pattern.",
+                    "B": "Stacks follow a LIFO pattern, not FIFO, and queues follow a FIFO pattern, not LIFO.",
+                    "D": "Stacks follow a LIFO pattern, not FIFO."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "Interpret the significance of using a binary search tree (BST) for search operations.",
+            "options": {
+                "A": "BSTs provide constant time search operations.",
+                "B": "BSTs ensure that all elements are stored in contiguous memory locations.",
+                "C": "BSTs allow for logarithmic time search operations in the average case.",
+                "D": "BSTs are always balanced, ensuring efficient search operations."
+            },
+            "correct_answer": "C",
+            "hint": "Consider the structure of a BST and how it affects search efficiency.",
+            "feedback": {
+                "correct": "BSTs allow for logarithmic time search operations in the average case due to their hierarchical structure.",
+                "incorrect": {
+                    "A": "BSTs do not provide constant time search operations; this is a characteristic of hash tables.",
+                    "B": "BSTs do not ensure that elements are stored in contiguous memory locations.",
+                    "D": "BSTs are not always balanced; only balanced BSTs like AVL trees ensure efficient search operations."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Explain the primary use case for a priority queue.",
+            "options": {
+                "A": "To store elements in a tabular format for dynamic programming.",
+                "B": "To manage function calls in a program.",
+                "C": "To process elements based on their priority rather than their order of arrival.",
+                "D": "To implement associative arrays."
+            },
+            "correct_answer": "C",
+            "hint": "Consider how elements are processed in a priority queue compared to a simple queue.",
+            "feedback": {
+                "correct": "Priority queues process elements based on their priority rather than their order of arrival.",
+                "incorrect": {
+                    "A": "Priority queues are not used to store elements in a tabular format; this is a use case for arrays.",
+                    "B": "Function call management is a use case for stacks, not priority queues.",
+                    "D": "Associative arrays are typically implemented using hash tables, not priority queues."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "Describe the main characteristic of a circular linked list.",
+            "options": {
+                "A": "Each node points to both the next and previous nodes.",
+                "B": "The last node points to the first node, forming a circle.",
+                "C": "Each node contains a pointer to the next node only.",
+                "D": "Nodes are stored in contiguous memory locations."
+            },
+            "correct_answer": "B",
+            "hint": "Think about how the nodes are connected in a circular linked list.",
+            "feedback": {
+                "correct": "In a circular linked list, the last node points to the first node, forming a circle.",
+                "incorrect": {
+                    "A": "This describes a doubly linked list, not a circular linked list.",
+                    "C": "This describes a singly linked list, not a circular linked list.",
+                    "D": "Nodes in a linked list are not stored in contiguous memory locations."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Summarize the key difference between a min-heap and a max-heap.",
+            "options": {
+                "A": "A min-heap has a parent node with a value greater than or equal to its children, while a max-heap has a parent node with a value less than or equal to its children.",
+                "B": "A min-heap has a parent node with a value less than or equal to its children, while a max-heap has a parent node with a value greater than or equal to its children.",
+                "C": "A min-heap is used for implementing stacks, while a max-heap is used for implementing queues.",
+                "D": "A min-heap is always balanced, while a max-heap is not."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the value relationship between parent and child nodes in each type of heap.",
+            "feedback": {
+                "correct": "In a min-heap, the parent node has a value less than or equal to its children, while in a max-heap, the parent node has a value greater than or equal to its children.",
+                "incorrect": {
+                    "A": "This statement reverses the characteristics of min-heaps and max-heaps.",
+                    "C": "Heaps are not used for implementing stacks or queues; they are used for priority queues.",
+                    "D": "Both min-heaps and max-heaps can be balanced."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "Interpret the significance of using a hash table for search operations.",
+            "options": {
+                "A": "Hash tables provide constant time search operations on average.",
+                "B": "Hash tables ensure that all elements are stored in contiguous memory locations.",
+                "C": "Hash tables allow for logarithmic time search operations in the average case.",
+                "D": "Hash tables are always balanced, ensuring efficient search operations."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the average time complexity of search operations in a hash table.",
+            "feedback": {
+                "correct": "Hash tables provide constant time search operations on average due to their use of a hash function.",
+                "incorrect": {
+                    "B": "Hash tables do not ensure that elements are stored in contiguous memory locations.",
+                    "C": "Hash tables provide constant time search operations on average, not logarithmic time.",
+                    "D": "Hash tables are not balanced data structures; they rely on hash functions for efficiency."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Explain the primary advantage of using a trie for storing strings.",
+            "options": {
+                "A": "Tries provide constant time search operations for all keys.",
+                "B": "Tries allow for efficient prefix-based searches.",
+                "C": "Tries ensure that all elements are stored in contiguous memory locations.",
+                "D": "Tries are always balanced, ensuring efficient search operations."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the structure of a trie and how it supports searching for prefixes.",
+            "feedback": {
+                "correct": "Tries allow for efficient prefix-based searches, making them suitable for applications like autocomplete systems.",
+                "incorrect": {
+                    "A": "Tries do not provide constant time search operations for all keys; the time complexity depends on the length of the key.",
+                    "C": "Tries do not ensure that elements are stored in contiguous memory locations.",
+                    "D": "Tries are not necessarily balanced data structures."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "Compare the time complexity of insertion operations in arrays and linked lists.",
+            "options": {
+                "A": "Both arrays and linked lists have O(1) time complexity for insertion operations.",
+                "B": "Arrays have O(n) time complexity for insertion operations, while linked lists have O(1) time complexity.",
+                "C": "Arrays have O(1) time complexity for insertion operations, while linked lists have O(n) time complexity.",
+                "D": "Both arrays and linked lists have O(n) time complexity for insertion operations."
+            },
+            "correct_answer": "B",
+            "hint": "Consider the need for shifting elements in arrays and the dynamic nature of linked lists.",
+            "feedback": {
+                "correct": "Arrays have O(n) time complexity for insertion operations due to the need for shifting elements, while linked lists have O(1) time complexity for insertions at the beginning.",
+                "incorrect": {
+                    "A": "Arrays do not have O(1) time complexity for insertion operations; they require shifting elements.",
+                    "C": "Linked lists have O(1) time complexity for insertion operations at the beginning, not O(n).",
+                    "D": "Linked lists have O(1) time complexity for insertion operations at the beginning, not O(n)."
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "What is a vector space?",
+            "options": {
+                "A": "A collection of vectors that can be added together and multiplied by scalars.",
+                "B": "A set of points in a plane.",
+                "C": "A matrix with rows and columns.",
+                "D": "A function that maps vectors to scalars."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the properties of vectors and scalar multiplication.",
+            "feedback": {
+                "correct": "A vector space is a collection of vectors that can be added together and multiplied by scalars.",
+                "incorrect": {
+                    "B": "A set of points in a plane does not necessarily form a vector space.",
+                    "C": "A matrix is a different concept, representing arrays of numbers.",
+                    "D": "A function mapping vectors to scalars is not a vector space."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "Which property is essential for a set of vectors to form a vector space?",
+            "options": {
+                "A": "Closure under vector addition and scalar multiplication.",
+                "B": "Existence of a unique solution to every linear equation.",
+                "C": "Ability to be represented as a matrix.",
+                "D": "Having a determinant."
+            },
+            "correct_answer": "A",
+            "hint": "Think about the operations that must be preserved in a vector space.",
+            "feedback": {
+                "correct": "Closure under vector addition and scalar multiplication is essential for a set of vectors to form a vector space.",
+                "incorrect": {
+                    "B": "Existence of a unique solution to every linear equation is not a defining property of a vector space.",
+                    "C": "Being represented as a matrix is not a requirement for a vector space.",
+                    "D": "Having a determinant is a property of matrices, not vector spaces."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "What is the role of eigenvalues in linear algebra?",
+            "options": {
+                "A": "They determine the invertibility of a matrix.",
+                "B": "They are used to solve systems of linear equations.",
+                "C": "They provide information about the scaling factor in linear transformations.",
+                "D": "They represent the sum of the elements in a matrix."
+            },
+            "correct_answer": "C",
+            "hint": "Consider how eigenvalues relate to eigenvectors in transformations.",
+            "feedback": {
+                "correct": "Eigenvalues provide information about the scaling factor in linear transformations.",
+                "incorrect": {
+                    "A": "Invertibility of a matrix is determined by its determinant, not eigenvalues.",
+                    "B": "Solving systems of linear equations typically involves matrix operations, not directly eigenvalues.",
+                    "D": "The sum of the elements in a matrix is not related to eigenvalues."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "How does a linear transformation preserve vector operations?",
+            "options": {
+                "A": "By maintaining the original coordinates of vectors.",
+                "B": "By ensuring the sum and scalar multiple of vectors are mapped correctly.",
+                "C": "By converting vectors into matrices.",
+                "D": "By changing the dimension of the vector space."
+            },
+            "correct_answer": "B",
+            "hint": "Think about the properties of additivity and homogeneity.",
+            "feedback": {
+                "correct": "A linear transformation preserves vector operations by ensuring the sum and scalar multiple of vectors are mapped correctly.",
+                "incorrect": {
+                    "A": "Maintaining the original coordinates is not a requirement for linear transformations.",
+                    "C": "Converting vectors into matrices is not how linear transformations work.",
+                    "D": "Changing the dimension of the vector space is not a property of linear transformations."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "What is the determinant of a matrix used for?",
+            "options": {
+                "A": "To find the inverse of the matrix.",
+                "B": "To add two matrices.",
+                "C": "To multiply a matrix by a scalar.",
+                "D": "To transpose a matrix."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the determinant and matrix invertibility.",
+            "feedback": {
+                "correct": "The determinant of a matrix is used to find the inverse of the matrix.",
+                "incorrect": {
+                    "B": "Adding two matrices does not involve the determinant.",
+                    "C": "Multiplying a matrix by a scalar does not require the determinant.",
+                    "D": "Transposing a matrix does not involve the determinant."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "What does it mean for a set of vectors to be linearly independent?",
+            "options": {
+                "A": "No vector in the set can be written as a linear combination of the others.",
+                "B": "All vectors in the set are orthogonal to each other.",
+                "C": "The vectors span the entire vector space.",
+                "D": "The vectors have the same magnitude."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the definition of linear independence.",
+            "feedback": {
+                "correct": "A set of vectors is linearly independent if no vector in the set can be written as a linear combination of the others.",
+                "incorrect": {
+                    "B": "Orthogonality is not required for linear independence.",
+                    "C": "Spanning the entire vector space is related to the concept of a basis, not linear independence.",
+                    "D": "Having the same magnitude is not related to linear independence."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "How is matrix multiplication defined?",
+            "options": {
+                "A": "By adding corresponding elements of two matrices.",
+                "B": "By multiplying each element of a matrix by a scalar.",
+                "C": "By taking the dot product of rows of the first matrix and columns of the second.",
+                "D": "By flipping the matrix over its diagonal."
+            },
+            "correct_answer": "C",
+            "hint": "Consider the process of combining rows and columns in matrix multiplication.",
+            "feedback": {
+                "correct": "Matrix multiplication is defined by taking the dot product of rows of the first matrix and columns of the second.",
+                "incorrect": {
+                    "A": "Adding corresponding elements is matrix addition, not multiplication.",
+                    "B": "Multiplying each element by a scalar is scalar multiplication, not matrix multiplication.",
+                    "D": "Flipping the matrix over its diagonal is the transpose operation, not multiplication."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "What is the kernel of a linear transformation?",
+            "options": {
+                "A": "The set of vectors mapped to the zero vector.",
+                "B": "The set of all possible outputs of the transformation.",
+                "C": "The determinant of the transformation matrix.",
+                "D": "The inverse of the transformation matrix."
+            },
+            "correct_answer": "A",
+            "hint": "Consider what happens to vectors that are mapped to zero.",
+            "feedback": {
+                "correct": "The kernel of a linear transformation is the set of vectors mapped to the zero vector.",
+                "incorrect": {
+                    "B": "The set of all possible outputs is the image, not the kernel.",
+                    "C": "The determinant is a scalar value, not a set of vectors.",
+                    "D": "The inverse of the transformation matrix is not related to the kernel."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "What is the significance of the eigenvalues of a matrix?",
+            "options": {
+                "A": "They determine the matrix's invertibility.",
+                "B": "They indicate the scaling factors in the matrix's linear transformations.",
+                "C": "They represent the sum of the matrix's elements.",
+                "D": "They are used to transpose the matrix."
+            },
+            "correct_answer": "B",
+            "hint": "Think about how eigenvalues relate to eigenvectors in transformations.",
+            "feedback": {
+                "correct": "Eigenvalues indicate the scaling factors in the matrix's linear transformations.",
+                "incorrect": {
+                    "A": "Invertibility is determined by the determinant, not eigenvalues.",
+                    "C": "The sum of the matrix's elements is not related to eigenvalues.",
+                    "D": "Transposing the matrix does not involve eigenvalues."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "What does the determinant of a matrix indicate about the matrix?",
+            "options": {
+                "A": "Whether the matrix is invertible.",
+                "B": "The sum of the matrix's elements.",
+                "C": "The number of rows and columns in the matrix.",
+                "D": "The transpose of the matrix."
+            },
+            "correct_answer": "A",
+            "hint": "Consider the relationship between the determinant and matrix invertibility.",
+            "feedback": {
+                "correct": "The determinant of a matrix indicates whether the matrix is invertible.",
+                "incorrect": {
+                    "B": "The sum of the matrix's elements is not related to the determinant.",
+                    "C": "The number of rows and columns is the matrix's dimension, not its determinant.",
+                    "D": "The transpose of the matrix is not related to the determinant."
+                }
+            }
+        }
+    ]
+}

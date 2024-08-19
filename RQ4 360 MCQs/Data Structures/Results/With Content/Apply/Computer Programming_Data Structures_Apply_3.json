@@ -1,0 +1,104 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given an unsorted array of integers, which data structure would you apply to efficiently find the median after each insertion?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that can efficiently manage dynamic data and provide quick access to the median.",
+            "feedback": {
+                "correct": "Heaps (specifically a combination of min-heap and max-heap) can be used to efficiently find the median in a dynamic set of numbers.",
+                "incorrect": {
+                    "A": "Stacks follow LIFO order and are not suitable for finding medians efficiently.",
+                    "B": "Queues follow FIFO order and are not suitable for finding medians efficiently.",
+                    "D": "Linked Lists do not provide efficient access to the median element."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "You need to implement a spell checker that suggests corrections for misspelled words. Which data structure would you apply to store the dictionary of words for efficient prefix-based searching?",
+            "options": {
+                "A": "Array",
+                "B": "Trie",
+                "C": "Stack",
+                "D": "Graph"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that is efficient for prefix-based searches.",
+            "feedback": {
+                "correct": "A Trie is a tree-like data structure that is efficient for storing and searching dynamic sets of strings, making it ideal for a spell checker.",
+                "incorrect": {
+                    "A": "Arrays are not efficient for prefix-based searches.",
+                    "C": "Stacks are not suitable for storing and searching words based on prefixes.",
+                    "D": "Graphs are more complex and not specifically optimized for prefix-based searches."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "To implement a priority queue for a task scheduling system, which data structure would you apply to ensure that the highest priority task is always processed first?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Heap",
+                "D": "Queue"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that maintains order based on priority.",
+            "feedback": {
+                "correct": "A Heap, specifically a min-heap or max-heap, is ideal for implementing a priority queue as it allows efficient access to the highest or lowest priority element.",
+                "incorrect": {
+                    "A": "Arrays do not efficiently support priority-based access.",
+                    "B": "Linked Lists do not efficiently support priority-based access.",
+                    "D": "Queues follow FIFO order and do not support priority-based access."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "You are tasked with implementing a system that frequently inserts and deletes elements from both ends of a list. Which data structure would you apply to achieve this efficiently?",
+            "options": {
+                "A": "Array",
+                "B": "Doubly Linked List",
+                "C": "Stack",
+                "D": "Binary Search Tree"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that allows efficient insertions and deletions from both ends.",
+            "feedback": {
+                "correct": "A Doubly Linked List allows efficient insertions and deletions from both ends of the list.",
+                "incorrect": {
+                    "A": "Arrays require shifting elements, making insertions and deletions inefficient.",
+                    "C": "Stacks only allow insertions and deletions from one end.",
+                    "D": "Binary Search Trees are not optimized for frequent insertions and deletions from both ends."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "To implement a cache that provides average O(1) time complexity for insertions, deletions, and lookups, which data structure would you apply?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Hash Table",
+                "D": "Binary Search Tree"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that uses a hash function to map keys to values.",
+            "feedback": {
+                "correct": "A Hash Table provides average O(1) time complexity for insertions, deletions, and lookups, making it ideal for implementing a cache.",
+                "incorrect": {
+                    "A": "Arrays do not provide efficient insertions, deletions, and lookups.",
+                    "B": "Linked Lists do not provide efficient lookups.",
+                    "D": "Binary Search Trees provide O(log n) time complexity, which is not as efficient as O(1)."
+                }
+            }
+        }
+    ]
+}
