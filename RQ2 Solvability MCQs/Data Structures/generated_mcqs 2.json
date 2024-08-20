@@ -1,0 +1,216 @@
+{
+    "mcqs": [
+        {
+            "id": 1,
+            "question": "Which of the following data structures is characterized by a Last In, First Out (LIFO) access pattern?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think about how you would manage function calls in programming.",
+            "feedback": {
+                "correct": "Correct! A stack uses a Last In, First Out (LIFO) access pattern.",
+                "incorrect": {
+                    "A": "Incorrect. A queue uses a First In, First Out (FIFO) access pattern.",
+                    "C": "Incorrect. An array does not follow LIFO or FIFO strictly.",
+                    "D": "Incorrect. A linked list does not inherently follow LIFO or FIFO."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 2,
+            "question": "What is the time complexity for accessing an element by index in an array?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A",
+            "hint": "Accessing an element by index in an array is very efficient.",
+            "feedback": {
+                "correct": "Correct! Accessing an element by index in an array has a time complexity of O(1).",
+                "incorrect": {
+                    "B": "Incorrect. O(n) is the time complexity for searching in an unsorted array.",
+                    "C": "Incorrect. O(log n) is the time complexity for operations in a balanced tree.",
+                    "D": "Incorrect. O(n^2) is not relevant for basic array operations."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 3,
+            "question": "Which type of data structure is best suited for implementing a priority queue?",
+            "options": {
+                "A": "Stack",
+                "B": "Array",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C",
+            "hint": "This data structure is designed to manage priorities efficiently.",
+            "feedback": {
+                "correct": "Correct! A heap is best suited for implementing a priority queue.",
+                "incorrect": {
+                    "A": "Incorrect. A stack follows LIFO and is not suitable for priority management.",
+                    "B": "Incorrect. An array does not handle priorities efficiently.",
+                    "D": "Incorrect. A linked list does not inherently manage priorities."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 4,
+            "question": "What is the primary advantage of using a linked list over an array?",
+            "options": {
+                "A": "Fixed size",
+                "B": "Contiguous memory allocation",
+                "C": "Dynamic size",
+                "D": "O(1) access time"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the flexibility in memory allocation.",
+            "feedback": {
+                "correct": "Correct! Linked lists have a dynamic size, allowing for efficient insertions and deletions.",
+                "incorrect": {
+                    "A": "Incorrect. Arrays have a fixed size, not linked lists.",
+                    "B": "Incorrect. Arrays use contiguous memory allocation, not linked lists.",
+                    "D": "Incorrect. Linked lists do not have O(1) access time; that's a characteristic of arrays."
+                }
+            },
+            "solvable": false,
+            "reason": "This information is present. It's not mentioned as an 'advantage' per se, just as a characteristic."
+        },
+        {
+            "id": 5,
+            "question": "Which of the following operations on a stack has a time complexity of O(1)?",
+            "options": {
+                "A": "Push",
+                "B": "Search",
+                "C": "Traversal",
+                "D": "Sort"
+            },
+            "correct_answer": "A",
+            "hint": "Consider the basic operations of a stack.",
+            "feedback": {
+                "correct": "Correct! The push operation in a stack has a time complexity of O(1).",
+                "incorrect": {
+                    "B": "Incorrect. Searching in a stack has a time complexity of O(n).",
+                    "C": "Incorrect. Traversal is not a basic stack operation.",
+                    "D": "Incorrect. Sorting is not a basic stack operation and generally has higher complexity."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 6,
+            "question": "In a binary search tree (BST), what is the time complexity for searching an element in the average case?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the balanced nature of the tree.",
+            "feedback": {
+                "correct": "Correct! In a balanced BST, the average case time complexity for searching is O(log n).",
+                "incorrect": {
+                    "A": "Incorrect. O(1) is not achievable for searching in a BST.",
+                    "B": "Incorrect. O(n) is the worst-case time complexity for an unbalanced BST.",
+                    "D": "Incorrect. O(n^2) is not relevant for BST operations."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 7,
+            "question": "Which data structure is used for implementing associative arrays and provides average O(1) time complexity for search operations?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Hash Table",
+                "D": "Binary Search Tree"
+            },
+            "correct_answer": "C",
+            "hint": "This data structure uses a hash function.",
+            "feedback": {
+                "correct": "Correct! Hash tables provide average O(1) time complexity for search operations.",
+                "incorrect": {
+                    "A": "Incorrect. Arrays do not provide O(1) search time complexity.",
+                    "B": "Incorrect. Linked lists have O(n) search time complexity.",
+                    "D": "Incorrect. Binary search trees have O(log n) search time complexity."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 8,
+            "question": "Which operation in a circular queue connects the end of the queue back to the front?",
+            "options": {
+                "A": "Enqueue",
+                "B": "Dequeue",
+                "C": "Peek",
+                "D": "Wrap-around"
+            },
+            "correct_answer": "D",
+            "hint": "Think about how the circular nature of the queue is maintained.",
+            "feedback": {
+                "correct": "Correct! The wrap-around operation connects the end of the queue back to the front in a circular queue.",
+                "incorrect": {
+                    "A": "Incorrect. Enqueue adds an element to the end of the queue.",
+                    "B": "Incorrect. Dequeue removes an element from the front of the queue.",
+                    "C": "Incorrect. Peek views the front element without removing it."
+                }
+            },
+            "solvable": false,
+            "reason": "There is no mention of the term wrap-around"
+        },
+        {
+            "id": 9,
+            "question": "Which tree data structure is specifically used for dynamic sets of strings and supports efficient prefix-based searches?",
+            "options": {
+                "A": "Binary Search Tree",
+                "B": "Trie",
+                "C": "AVL Tree",
+                "D": "Segment Tree"
+            },
+            "correct_answer": "B",
+            "hint": "This tree is commonly used in autocomplete systems.",
+            "feedback": {
+                "correct": "Correct! A trie is used for dynamic sets of strings and supports efficient prefix-based searches.",
+                "incorrect": {
+                    "A": "Incorrect. A binary search tree is not specifically designed for string operations.",
+                    "C": "Incorrect. An AVL tree is a self-balancing binary search tree.",
+                    "D": "Incorrect. A segment tree is used for interval queries."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 10,
+            "question": "Which data structure is most suitable for implementing a breadth-first search (BFS) algorithm?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the FIFO nature required for BFS.",
+            "feedback": {
+                "correct": "Correct! A queue is most suitable for implementing a breadth-first search (BFS) algorithm.",
+                "incorrect": {
+                    "A": "Incorrect. A stack is used for depth-first search (DFS).",
+                    "C": "Incorrect. A heap is not used for BFS.",
+                    "D": "Incorrect. A linked list is not inherently suitable for BFS."
+                }
+            },
+            "solvable": true
+        }
+    ]
+}

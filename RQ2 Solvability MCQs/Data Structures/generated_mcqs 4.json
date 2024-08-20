@@ -1,0 +1,214 @@
+{
+    "mcqs": [
+        {
+            "id": 1,
+            "question": "Which of the following data structures is characterized by a Last In, First Out (LIFO) access pattern?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "This data structure operates similarly to a stack of plates.",
+            "feedback": {
+                "correct": "Correct! A stack follows the Last In, First Out (LIFO) access pattern.",
+                "incorrect": {
+                    "A": "Incorrect. A queue follows the First In, First Out (FIFO) access pattern.",
+                    "C": "Incorrect. An array does not inherently follow LIFO or FIFO patterns.",
+                    "D": "Incorrect. A linked list does not inherently follow LIFO or FIFO patterns."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 2,
+            "question": "In which data structure does the last node point back to the first node?",
+            "options": {
+                "A": "Singly Linked List",
+                "B": "Doubly Linked List",
+                "C": "Circular Linked List",
+                "D": "Array"
+            },
+            "correct_answer": "C",
+            "hint": "This type of linked list forms a closed loop.",
+            "feedback": {
+                "correct": "Correct! In a circular linked list, the last node points back to the first node.",
+                "incorrect": {
+                    "A": "Incorrect. In a singly linked list, each node points only to the next node.",
+                    "B": "Incorrect. In a doubly linked list, nodes have pointers to both next and previous nodes.",
+                    "D": "Incorrect. An array does not have nodes pointing to each other."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 3,
+            "question": "What is the time complexity of accessing an element by index in an array?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(1)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C",
+            "hint": "Arrays allow direct access to elements via indices.",
+            "feedback": {
+                "correct": "Correct! Accessing an element by index in an array has a time complexity of O(1).",
+                "incorrect": {
+                    "A": "Incorrect. O(n) is the time complexity for searching in an unsorted array.",
+                    "B": "Incorrect. O(log n) is the time complexity for operations in balanced trees.",
+                    "D": "Incorrect. O(n^2) is not applicable for basic array operations."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 4,
+            "question": "Which type of tree ensures that the left child has a smaller value and the right child has a greater value?",
+            "options": {
+                "A": "Binary Tree",
+                "B": "AVL Tree",
+                "C": "Binary Search Tree (BST)",
+                "D": "B-tree"
+            },
+            "correct_answer": "C",
+            "hint": "This tree type is specifically designed for efficient searching.",
+            "feedback": {
+                "correct": "Correct! A Binary Search Tree (BST) ensures that the left child has a smaller value and the right child has a greater value.",
+                "incorrect": {
+                    "A": "Incorrect. A binary tree does not enforce any specific order among nodes.",
+                    "B": "Incorrect. An AVL tree is a self-balancing BST, but the question asks for the basic type.",
+                    "D": "Incorrect. A B-tree is used for efficiently storing and managing databases and file systems."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 5,
+            "question": "What is the primary advantage of using a hash table?",
+            "options": {
+                "A": "Efficient sorting",
+                "B": "Fast lookups",
+                "C": "Dynamic resizing",
+                "D": "Hierarchical data representation"
+            },
+            "correct_answer": "B",
+            "hint": "This data structure is known for its average O(1) time complexity for search operations.",
+            "feedback": {
+                "correct": "Correct! The primary advantage of using a hash table is fast lookups.",
+                "incorrect": {
+                    "A": "Incorrect. Hash tables are not used for sorting.",
+                    "C": "Incorrect. While hash tables can resize dynamically, it is not their primary advantage.",
+                    "D": "Incorrect. Hierarchical data representation is a characteristic of tree structures."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 6,
+            "question": "Which operation in a linked list has a time complexity of O(1) at the beginning?",
+            "options": {
+                "A": "Access",
+                "B": "Search",
+                "C": "Insertion",
+                "D": "Deletion"
+            },
+            "correct_answer": "C",
+            "hint": "This operation can be performed efficiently at the head of the list.",
+            "feedback": {
+                "correct": "Correct! Insertion at the beginning of a linked list has a time complexity of O(1).",
+                "incorrect": {
+                    "A": "Incorrect. Accessing an element in a linked list has a time complexity of O(n).",
+                    "B": "Incorrect. Searching in a linked list has a time complexity of O(n).",
+                    "D": "Incorrect. Deletion at the beginning of a linked list also has O(1) complexity, but the question asks specifically about insertion."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 7,
+            "question": "Which data structure is most suitable for implementing function call management?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "This data structure follows a LIFO access pattern, ideal for managing nested function calls.",
+            "feedback": {
+                "correct": "Correct! A stack is most suitable for implementing function call management.",
+                "incorrect": {
+                    "A": "Incorrect. A queue follows FIFO, which is not suitable for nested function calls.",
+                    "C": "Incorrect. Arrays do not inherently provide the LIFO access pattern required for function call management.",
+                    "D": "Incorrect. Linked lists do not inherently provide the LIFO access pattern required for function call management."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 8,
+            "question": "Which type of graph has edges that do not have a direction?",
+            "options": {
+                "A": "Directed Graph",
+                "B": "Undirected Graph",
+                "C": "Weighted Graph",
+                "D": "Unweighted Graph"
+            },
+            "correct_answer": "B",
+            "hint": "In this type of graph, the relationship between nodes is bidirectional.",
+            "feedback": {
+                "correct": "Correct! An undirected graph has edges that do not have a direction.",
+                "incorrect": {
+                    "A": "Incorrect. A directed graph has edges with a direction.",
+                    "C": "Incorrect. A weighted graph has edges with weights but can be either directed or undirected.",
+                    "D": "Incorrect. An unweighted graph has edges without weights but can be either directed or undirected."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 9,
+            "question": "What is the time complexity of inserting an element in a balanced binary search tree?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "C",
+            "hint": "Balanced trees maintain their height to ensure efficient operations.",
+            "feedback": {
+                "correct": "Correct! The time complexity of inserting an element in a balanced binary search tree is O(log n).",
+                "incorrect": {
+                    "A": "Incorrect. O(1) is the time complexity for hash table operations.",
+                    "B": "Incorrect. O(n) is the time complexity for operations in an unbalanced tree.",
+                    "D": "Incorrect. O(n log n) is not applicable for basic tree operations."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 10,
+            "question": "Which data structure is best suited for implementing a priority queue?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Heap",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "This data structure maintains a specific order based on priority.",
+            "feedback": {
+                "correct": "Correct! A heap is best suited for implementing a priority queue.",
+                "incorrect": {
+                    "A": "Incorrect. Arrays do not efficiently support priority-based operations.",
+                    "B": "Incorrect. Linked lists do not efficiently support priority-based operations.",
+                    "D": "Incorrect. Stacks follow LIFO, which is not suitable for priority-based operations."
+                }
+            },
+            "solvable": true
+        }
+    ]
+}

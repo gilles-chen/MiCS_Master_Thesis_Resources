@@ -1,0 +1,214 @@
+{
+  "mcqs": [
+    {
+      "id": 1,
+      "question": "What is the highest mountain in the European Union?",
+      "options": {
+        "A": "Mont Blanc",
+        "B": "Mount Elbrus",
+        "C": "Matterhorn",
+        "D": "Grossglockner"
+      },
+      "correct_answer": "A",
+      "hint": "This mountain is located on the border of France and Italy.",
+      "feedback": {
+        "correct": "Mont Blanc, at 4,808 meters, is the highest mountain in the European Union.",
+        "incorrect": {
+          "B": "Mount Elbrus is the highest mountain in Europe but not in the EU, as it is located in Russia.",
+          "C": "Matterhorn is a famous peak in the Alps but not the highest in the EU.",
+          "D": "Grossglockner is the highest mountain in Austria but not the highest in the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 2,
+      "question": "Which river is the longest in the European Union?",
+      "options": {
+        "A": "Rhine",
+        "B": "Elbe",
+        "C": "Danube",
+        "D": "Seine"
+      },
+      "correct_answer": "C",
+      "hint": "This river flows through 10 countries before emptying into the Black Sea.",
+      "feedback": {
+        "correct": "The Danube River, at approximately 2,860 kilometers, is the longest river in the European Union.",
+        "incorrect": {
+          "A": "The Rhine is an important river but shorter than the Danube.",
+          "B": "The Elbe is significant but not the longest river in the EU.",
+          "D": "The Seine is mainly in France and much shorter than the Danube."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 3,
+      "question": "Where is the largest lake in the European Union located?",
+      "options": {
+        "A": "Germany",
+        "B": "Finland",
+        "C": "Sweden",
+        "D": "France"
+      },
+      "correct_answer": "C",
+      "hint": "This lake is located in a country known for its extensive forests and lakes.",
+      "feedback": {
+        "correct": "Lake Vänern, the largest lake in the EU, is located in Sweden.",
+        "incorrect": {
+          "A": "Germany has many lakes but not the largest in the EU.",
+          "B": "Finland is known for its lakes, but the largest lake in the EU is in Sweden.",
+          "D": "France has significant lakes, but the largest lake in the EU is in Sweden."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 4,
+      "question": "What is the northernmost point of the European Union?",
+      "options": {
+        "A": "Nuorgam, Finland",
+        "B": "Reykjavik, Iceland",
+        "C": "Oslo, Norway",
+        "D": "Helsinki, Finland"
+      },
+      "correct_answer": "A",
+      "hint": "This village is located near the border with Norway.",
+      "feedback": {
+        "correct": "Nuorgam, located in Finland, is the northernmost point of the European Union.",
+        "incorrect": {
+          "B": "Reykjavik is the capital of Iceland, which is not part of the EU.",
+          "C": "Oslo is the capital of Norway, which is not part of the EU.",
+          "D": "Helsinki is the capital of Finland but not the northernmost point."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 5,
+      "question": "Which location marks the southernmost point of mainland Spain and the European continent?",
+      "options": {
+        "A": "Cape Greco",
+        "B": "Monchique Islet",
+        "C": "Punta de Tarifa",
+        "D": "Gibraltar"
+      },
+      "correct_answer": "C",
+      "hint": "This point is located in Spain.",
+      "feedback": {
+        "correct": "Punta de Tarifa is the southernmost point of mainland Spain and the European continent.",
+        "incorrect": {
+          "A": "Cape Greco is the easternmost point of the EU, located in Cyprus.",
+          "B": "Monchique Islet is the westernmost point of the EU, located in the Azores.",
+          "D": "Gibraltar is a British Overseas Territory, not the southernmost point of mainland Spain."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 6,
+      "question": "What is the westernmost point of the European Union?",
+      "options": {
+        "A": "Cape Roca",
+        "B": "Nuorgam",
+        "C": "Monchique Islet",
+        "D": "Lisbon"
+      },
+      "correct_answer": "C",
+      "hint": "This islet is part of the Azores archipelago.",
+      "feedback": {
+        "correct": "Monchique Islet, part of the Azores archipelago in Portugal, is the westernmost point of the EU.",
+        "incorrect": {
+          "A": "Cape Roca is the westernmost point of mainland Europe but not the EU.",
+          "B": "Nuorgam is the northernmost point of the EU, located in Finland.",
+          "D": "Lisbon is the capital of Portugal but not the westernmost point of the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 7,
+      "question": "Which location is the easternmost point of the European Union?",
+      "options": {
+        "A": "Cape Greco",
+        "B": "Punta de Tarifa",
+        "C": "Monchique Islet",
+        "D": "Nuorgam"
+      },
+      "correct_answer": "A",
+      "hint": "This point is located in Cyprus.",
+      "feedback": {
+        "correct": "Cape Greco, located in Cyprus, is the easternmost point of the European Union.",
+        "incorrect": {
+          "B": "Punta de Tarifa is the southernmost point of mainland Spain and the European continent.",
+          "C": "Monchique Islet is the westernmost point of the EU, located in the Azores.",
+          "D": "Nuorgam is the northernmost point of the EU, located in Finland."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 8,
+      "question": "Which mountain range forms a natural border between France and Spain?",
+      "options": {
+        "A": "Alps",
+        "B": "Pyrenees",
+        "C": "Carpathians",
+        "D": "Appennines"
+      },
+      "correct_answer": "B",
+      "hint": "This mountain range is known for its significant role in European geography.",
+      "feedback": {
+        "correct": "The Pyrenees form a natural border between France and Spain.",
+        "incorrect": {
+          "A": "The Alps span across several countries including France and Italy but do not form a border between France and Spain.",
+          "C": "The Carpathians are located in Central and Eastern Europe, not between France and Spain.",
+          "D": "The Appennines are located in Italy and do not form a border between France and Spain."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 9,
+      "question": "Which sea is bordered by several EU countries, including Sweden, Finland, and Germany?",
+      "options": {
+        "A": "Mediterranean Sea",
+        "B": "Baltic Sea",
+        "C": "Black Sea",
+        "D": "North Sea"
+      },
+      "correct_answer": "B",
+      "hint": "This sea is important for maritime trade and regional cooperation in Northern Europe.",
+      "feedback": {
+        "correct": "The Baltic Sea is bordered by several EU countries, including Sweden, Finland, and Germany.",
+        "incorrect": {
+          "A": "The Mediterranean Sea is bordered by southern EU countries but not Sweden, Finland, or Germany.",
+          "C": "The Black Sea is bordered by countries like Romania and Bulgaria but not Sweden, Finland, or Germany.",
+          "D": "The North Sea is bordered by countries like the UK and the Netherlands but not Sweden or Finland."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 10,
+      "question": "Which river originates in the Swiss Alps and flows through Germany and the Netherlands?",
+      "options": {
+        "A": "Danube",
+        "B": "Elbe",
+        "C": "Rhine",
+        "D": "Seine"
+      },
+      "correct_answer": "C",
+      "hint": "This river is a key economic and cultural artery in Europe.",
+      "feedback": {
+        "correct": "The Rhine River originates in the Swiss Alps and flows through Germany and the Netherlands.",
+        "incorrect": {
+          "A": "The Danube originates in Germany's Black Forest and flows southeast across 10 countries.",
+          "B": "The Elbe flows from the Czech Republic through Germany but does not originate in the Swiss Alps.",
+          "D": "The Seine is primarily in France and does not flow through Germany or the Netherlands."
+        }
+      },
+      "solvable": true
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+    "mcqs": [
+        {
+            "id": 1,
+            "question": "Which data structure is best suited for implementing a LIFO (Last In, First Out) access pattern?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think of a stack of plates.",
+            "feedback": {
+                "correct": "A stack is a collection of elements with Last In, First Out (LIFO) access pattern.",
+                "incorrect": {
+                    "A": "A queue follows a First In, First Out (FIFO) access pattern.",
+                    "C": "An array provides direct access to elements by index but does not inherently follow LIFO.",
+                    "D": "A linked list allows dynamic size but does not inherently follow LIFO."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 2,
+            "question": "In which data structure does each node point to the next node, and possibly to the previous node?",
+            "options": {
+                "A": "Array",
+                "B": "Stack",
+                "C": "Doubly Linked List",
+                "D": "Queue"
+            },
+            "correct_answer": "C",
+            "hint": "This type of linked list allows traversal in both directions.",
+            "feedback": {
+                "correct": "A doubly linked list has nodes that point to both the next and previous nodes.",
+                "incorrect": {
+                    "A": "An array stores elements in contiguous memory locations but does not have pointers.",
+                    "B": "A stack follows a LIFO pattern and does not have nodes pointing to each other.",
+                    "D": "A queue follows a FIFO pattern and does not have nodes pointing to each other."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 3,
+            "question": "Which operation has an O(1) time complexity in a hash table?",
+            "options": {
+                "A": "Insertion",
+                "B": "Search",
+                "C": "Deletion",
+                "D": "All of the above"
+            },
+            "correct_answer": "D",
+            "hint": "Hash tables are known for their average-case efficiency.",
+            "feedback": {
+                "correct": "Hash tables provide average O(1) time complexity for insertion, search, and deletion operations.",
+                "incorrect": {
+                    "A": "While correct, it is not the only operation with O(1) complexity.",
+                    "B": "While correct, it is not the only operation with O(1) complexity.",
+                    "C": "While correct, it is not the only operation with O(1) complexity."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 4,
+            "question": "Which data structure is most appropriate for implementing a priority queue?",
+            "options": {
+                "A": "Stack",
+                "B": "Heap",
+                "C": "Linked List",
+                "D": "Array"
+            },
+            "correct_answer": "B",
+            "hint": "This data structure maintains a specific order based on priority.",
+            "feedback": {
+                "correct": "Heaps are used to implement priority queues due to their ability to efficiently manage the highest (or lowest) priority element.",
+                "incorrect": {
+                    "A": "Stacks follow a LIFO pattern and do not handle priorities efficiently.",
+                    "C": "Linked lists do not inherently manage priorities.",
+                    "D": "Arrays do not efficiently manage priorities."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 5,
+            "question": "What is the time complexity for accessing an element by index in an array?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A",
+            "hint": "Arrays provide direct access to elements.",
+            "feedback": {
+                "correct": "Accessing an element by index in an array has O(1) time complexity.",
+                "incorrect": {
+                    "B": "O(log n) is the time complexity for searching in a balanced binary search tree.",
+                    "C": "O(n) is the time complexity for searching in an unsorted array.",
+                    "D": "O(n^2) is not applicable for accessing elements in an array."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 6,
+            "question": "Which type of tree ensures that the left child has a smaller value than the parent and the right child has a greater value?",
+            "options": {
+                "A": "Binary Tree",
+                "B": "Binary Search Tree (BST)",
+                "C": "AVL Tree",
+                "D": "B-tree"
+            },
+            "correct_answer": "B",
+            "hint": "This tree type is used for efficient searching and sorting.",
+            "feedback": {
+                "correct": "A Binary Search Tree (BST) ensures that the left child has a smaller value and the right child has a greater value than the parent.",
+                "incorrect": {
+                    "A": "A binary tree does not enforce any specific ordering of nodes.",
+                    "C": "An AVL tree is a self-balancing binary search tree but the question does not specify balancing.",
+                    "D": "A B-tree is used for databases and file systems but does not enforce the same ordering as a BST."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 7,
+            "question": "Which data structure is particularly useful for dynamic sets of strings and efficient prefix-based searches?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Trie",
+                "C": "Segment Tree",
+                "D": "Heap"
+            },
+            "correct_answer": "B",
+            "hint": "This data structure is often used in autocomplete systems.",
+            "feedback": {
+                "correct": "A trie is used for storing dynamic sets of strings and allows efficient prefix-based searches.",
+                "incorrect": {
+                    "A": "Hash tables are used for fast lookups but are not optimized for prefix-based searches.",
+                    "C": "Segment trees are used for range queries, not for string operations.",
+                    "D": "Heaps are used for priority queues and do not handle string operations."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 8,
+            "question": "Which data structure uses a hierarchical parent-child relationship with a root node?",
+            "options": {
+                "A": "Array",
+                "B": "Graph",
+                "C": "Tree",
+                "D": "Queue"
+            },
+            "correct_answer": "C",
+            "hint": "This structure is often used for hierarchical data representation.",
+            "feedback": {
+                "correct": "A tree uses a hierarchical parent-child relationship with a root node.",
+                "incorrect": {
+                    "A": "An array stores elements in contiguous memory locations and does not have a hierarchical structure.",
+                    "B": "A graph consists of vertices and edges but does not have a hierarchical parent-child relationship.",
+                    "D": "A queue follows a FIFO pattern and does not have a hierarchical structure."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 9,
+            "question": "What is the time complexity for inserting an element at the beginning of a singly linked list?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(log n)",
+                "C": "O(n)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "A",
+            "hint": "Linked lists allow efficient insertions and deletions.",
+            "feedback": {
+                "correct": "Inserting an element at the beginning of a singly linked list has O(1) time complexity.",
+                "incorrect": {
+                    "B": "O(log n) is the time complexity for operations in balanced trees.",
+                    "C": "O(n) is the time complexity for searching in a linked list.",
+                    "D": "O(n^2) is not applicable for linked list operations."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 10,
+            "question": "Which data structure is used to implement associative arrays and provides average O(1) time complexity for search operations?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Hash Table",
+                "D": "Heap"
+            },
+            "correct_answer": "C",
+            "hint": "This data structure uses a hash function to map keys to values.",
+            "feedback": {
+                "correct": "A hash table is used to implement associative arrays and provides average O(1) time complexity for search operations.",
+                "incorrect": {
+                    "A": "A stack follows a LIFO pattern and does not provide O(1) search complexity.",
+                    "B": "A queue follows a FIFO pattern and does not provide O(1) search complexity.",
+                    "D": "A heap is used for priority queues and does not provide O(1) search complexity."
+                }
+            },
+            "solvable": true
+        }
+    ]
+}

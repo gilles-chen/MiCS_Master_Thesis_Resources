@@ -1,0 +1,214 @@
+{
+  "mcqs": [
+    {
+      "id": 1,
+      "question": "What is the highest mountain in the European Union?",
+      "options": {
+        "A": "Mont Blanc",
+        "B": "Mount Elbrus",
+        "C": "Matterhorn",
+        "D": "Grossglockner"
+      },
+      "correct_answer": "A",
+      "hint": "This mountain is located on the border of France and Italy.",
+      "feedback": {
+        "correct": "Mont Blanc, at 4,808 meters, is the highest mountain in the European Union.",
+        "incorrect": {
+          "B": "Mount Elbrus is the highest mountain in Europe but not in the EU, as it is located in Russia.",
+          "C": "Matterhorn is a famous peak in the Alps but not the highest in the EU.",
+          "D": "Grossglockner is the highest mountain in Austria but not the highest in the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 2,
+      "question": "Which river is the longest in the European Union?",
+      "options": {
+        "A": "Rhine",
+        "B": "Elbe",
+        "C": "Danube",
+        "D": "Seine"
+      },
+      "correct_answer": "C",
+      "hint": "This river flows through 10 countries before emptying into the Black Sea.",
+      "feedback": {
+        "correct": "The Danube River, at approximately 2,860 kilometers, is the longest river in the European Union.",
+        "incorrect": {
+          "A": "The Rhine is an important river but shorter than the Danube.",
+          "B": "The Elbe is significant but not the longest river in the EU.",
+          "D": "The Seine is mainly in France and much shorter than the Danube."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 3,
+      "question": "What is the largest lake in the European Union?",
+      "options": {
+        "A": "Lake Geneva",
+        "B": "Lake Vättern",
+        "C": "Lake Vänern",
+        "D": "Lake Balaton"
+      },
+      "correct_answer": "C",
+      "hint": "This lake is located in Sweden.",
+      "feedback": {
+        "correct": "Lake Vänern, with an area of approximately 5,655 square kilometers, is the largest lake in the European Union.",
+        "incorrect": {
+          "A": "Lake Geneva is large but not the largest in the EU.",
+          "B": "Lake Vättern is in Sweden but smaller than Lake Vänern.",
+          "D": "Lake Balaton is the largest lake in Central Europe but not the largest in the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 4,
+      "question": "Where is the northernmost point of the European Union located?",
+      "options": {
+        "A": "Nuorgam, Finland",
+        "B": "Reykjavik, Iceland",
+        "C": "Oslo, Norway",
+        "D": "Helsinki, Finland"
+      },
+      "correct_answer": "A",
+      "hint": "This village is located near the border with Norway.",
+      "feedback": {
+        "correct": "Nuorgam, located in Finland, is the northernmost point of the European Union.",
+        "incorrect": {
+          "B": "Reykjavik is the capital of Iceland, which is not part of the EU.",
+          "C": "Oslo is the capital of Norway, which is not part of the EU.",
+          "D": "Helsinki is the capital of Finland but not the northernmost point."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 5,
+      "question": "What is the southernmost point of the European Union?",
+      "options": {
+        "A": "Gibraltar",
+        "B": "Punta de Tarifa, Spain",
+        "C": "Malta",
+        "D": "Crete, Greece"
+      },
+      "correct_answer": "B",
+      "hint": "This point is located in mainland Spain.",
+      "feedback": {
+        "correct": "Punta de Tarifa, located at approximately 36° 0' N latitude, is the southernmost point of the European Union.",
+        "incorrect": {
+          "A": "Gibraltar is a British Overseas Territory, not part of the EU.",
+          "C": "Malta is an island nation in the EU but not the southernmost point.",
+          "D": "Crete is a Greek island but not the southernmost point of the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 6,
+      "question": "Which location represents the westernmost point of the European Union?",
+      "options": {
+        "A": "Lisbon, Portugal",
+        "B": "Galway, Ireland",
+        "C": "Monchique Islet, Portugal",
+        "D": "Azores, Portugal"
+      },
+      "correct_answer": "C",
+      "hint": "This islet is part of the Azores archipelago.",
+      "feedback": {
+        "correct": "Monchique Islet, located in the Azores, is the westernmost point of the European Union.",
+        "incorrect": {
+          "A": "Lisbon is the capital of Portugal but not the westernmost point.",
+          "B": "Galway is in Ireland but not the westernmost point of the EU.",
+          "D": "The Azores is the archipelago where Monchique Islet is located, but the specific point is Monchique Islet."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 7,
+      "question": "What is the easternmost point of the European Union?",
+      "options": {
+        "A": "Athens, Greece",
+        "B": "Bucharest, Romania",
+        "C": "Cape Greco, Cyprus",
+        "D": "Istanbul, Turkey"
+      },
+      "correct_answer": "C",
+      "hint": "This point is located in Cyprus.",
+      "feedback": {
+        "correct": "Cape Greco, located at approximately 34° 0' E longitude, is the easternmost point of the European Union.",
+        "incorrect": {
+          "A": "Athens is the capital of Greece but not the easternmost point.",
+          "B": "Bucharest is the capital of Romania but not the easternmost point.",
+          "D": "Istanbul is in Turkey, which is not part of the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 8,
+      "question": "Which mountain range forms a natural border between France and Spain?",
+      "options": {
+        "A": "Alps",
+        "B": "Carpathians",
+        "C": "Pyrenees",
+        "D": "Apennines"
+      },
+      "correct_answer": "C",
+      "hint": "This mountain range is known for its stunning landscapes and winter sports.",
+      "feedback": {
+        "correct": "The Pyrenees form a natural border between France and Spain.",
+        "incorrect": {
+          "A": "The Alps span across several countries but do not form the border between France and Spain.",
+          "B": "The Carpathians are located in Central and Eastern Europe, not between France and Spain.",
+          "D": "The Apennines are located in Italy."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 9,
+      "question": "Which river originates in the Swiss Alps and flows through Germany and the Netherlands before emptying into the North Sea?",
+      "options": {
+        "A": "Danube",
+        "B": "Elbe",
+        "C": "Rhine",
+        "D": "Seine"
+      },
+      "correct_answer": "C",
+      "hint": "This river is a key economic and cultural artery in Europe.",
+      "feedback": {
+        "correct": "The Rhine River originates in the Swiss Alps and flows through Germany and the Netherlands before emptying into the North Sea.",
+        "incorrect": {
+          "A": "The Danube flows southeast across Europe and empties into the Black Sea.",
+          "B": "The Elbe flows from the Czech Republic through Germany to the North Sea but does not originate in the Swiss Alps.",
+          "D": "The Seine is primarily in France and empties into the English Channel."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 10,
+      "question": "Which sea is bordered by Sweden, Finland, Estonia, Latvia, Lithuania, Poland, and Germany?",
+      "options": {
+        "A": "Mediterranean Sea",
+        "B": "Black Sea",
+        "C": "Baltic Sea",
+        "D": "North Sea"
+      },
+      "correct_answer": "C",
+      "hint": "This sea is important for maritime trade and regional cooperation.",
+      "feedback": {
+        "correct": "The Baltic Sea is bordered by Sweden, Finland, Estonia, Latvia, Lithuania, Poland, and Germany.",
+        "incorrect": {
+          "A": "The Mediterranean Sea is bordered by southern European countries but not the ones listed.",
+          "B": "The Black Sea is bordered by countries including Romania and Bulgaria but not the ones listed.",
+          "D": "The North Sea is bordered by countries including the UK, Germany, and the Netherlands but not all the ones listed."
+        }
+      },
+      "solvable": true
+    }
+  ]
+}

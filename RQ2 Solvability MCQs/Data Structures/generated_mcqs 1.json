@@ -1,0 +1,204 @@
+{
+    "mcqs": [
+        {
+            "id": "1",
+            "question": "Given an unsorted array of integers, which data structure would you use to find the median efficiently after each insertion?",
+            "options": {
+                "A": "Stack",
+                "B": "Queue",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that supports dynamic order statistics.",
+            "feedback": {
+                "correct": "Heaps can efficiently maintain the median by using a min-heap and a max-heap.",
+                "incorrect": {
+                    "A": "A stack does not support efficient median finding.",
+                    "B": "A queue follows FIFO order, not suitable for finding medians.",
+                    "D": "A linked list does not support efficient median finding."
+                }
+            }
+        },
+        {
+            "id": "2",
+            "question": "You need to implement a spell checker that quickly verifies if a word is in a dictionary. Which data structure is most appropriate for this task?",
+            "options": {
+                "A": "Array",
+                "B": "Trie",
+                "C": "Stack",
+                "D": "Queue"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure designed for efficient prefix-based searches.",
+            "feedback": {
+                "correct": "A Trie is highly efficient for prefix-based searches such as those used in spell checkers.",
+                "incorrect": {
+                    "A": "An array would be inefficient for large dictionaries.",
+                    "C": "A stack is not suitable for searching words.",
+                    "D": "A queue does not support efficient word searches."
+                }
+            }
+        },
+        {
+            "id": "3",
+            "question": "Which data structure would you use to implement a browser's back and forward navigation feature?",
+            "options": {
+                "A": "Array",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Graph"
+            },
+            "correct_answer": "B",
+            "hint": "Think about LIFO access pattern.",
+            "feedback": {
+                "correct": "A stack is ideal for implementing back and forward navigation due to its LIFO nature.",
+                "incorrect": {
+                    "A": "An array does not efficiently support LIFO operations.",
+                    "C": "A queue follows FIFO order, which is not suitable for back and forward navigation.",
+                    "D": "A graph is too complex for this use case."
+                }
+            }
+        },
+        {
+            "id": "4",
+            "question": "To implement a priority queue for a task scheduling system, which data structure should you use?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Heap",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that supports efficient retrieval of the highest priority element.",
+            "feedback": {
+                "correct": "A heap is ideal for implementing priority queues due to its efficient insertion and extraction of the highest priority element.",
+                "incorrect": {
+                    "A": "An array does not efficiently support priority queue operations.",
+                    "B": "A linked list does not efficiently support priority queue operations.",
+                    "D": "A stack follows LIFO order, which is not suitable for priority queues."
+                }
+            }
+        },
+        {
+            "id": "5",
+            "question": "Which data structure is most appropriate for implementing an undo feature in a text editor?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Graph"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that allows you to reverse the most recent operations.",
+            "feedback": {
+                "correct": "A stack is ideal for implementing an undo feature due to its LIFO nature.",
+                "incorrect": {
+                    "A": "A queue follows FIFO order, which is not suitable for undo operations.",
+                    "C": "An array does not efficiently support undo operations.",
+                    "D": "A graph is too complex for this use case."
+                }
+            }
+        },
+        {
+            "id": "6",
+            "question": "To efficiently manage and retrieve hierarchical data, such as an organizational structure, which data structure would you use?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Tree",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that naturally represents hierarchical relationships.",
+            "feedback": {
+                "correct": "A tree is ideal for representing hierarchical data due to its parent-child relationship structure.",
+                "incorrect": {
+                    "A": "An array does not efficiently support hierarchical data.",
+                    "B": "A linked list does not naturally represent hierarchical relationships.",
+                    "D": "A stack is not suitable for hierarchical data representation."
+                }
+            }
+        },
+        {
+            "id": "7",
+            "question": "Which data structure would you use to implement a system that needs to track the order of tasks and process them in the order they were added?",
+            "options": {
+                "A": "Array",
+                "B": "Stack",
+                "C": "Queue",
+                "D": "Heap"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that follows FIFO order.",
+            "feedback": {
+                "correct": "A queue is ideal for tracking and processing tasks in the order they were added due to its FIFO nature.",
+                "incorrect": {
+                    "A": "An array does not efficiently support FIFO operations.",
+                    "B": "A stack follows LIFO order, not suitable for this use case.",
+                    "D": "A heap is used for priority-based processing, not order-based."
+                }
+            }
+        },
+        {
+            "id": "8",
+            "question": "To store and quickly retrieve key-value pairs, which data structure would you use?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Hash Table",
+                "D": "Stack"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that uses a hash function.",
+            "feedback": {
+                "correct": "A hash table is ideal for storing and retrieving key-value pairs efficiently.",
+                "incorrect": {
+                    "A": "An array does not efficiently support key-value pair operations.",
+                    "B": "A linked list does not efficiently support key-value pair operations.",
+                    "D": "A stack is not suitable for key-value pair operations."
+                }
+            }
+        },
+        {
+            "id": "9",
+            "question": "Which data structure would you use to implement a system that needs to frequently insert and delete elements from both ends?",
+            "options": {
+                "A": "Array",
+                "B": "Deque",
+                "C": "Stack",
+                "D": "Heap"
+            },
+            "correct_answer": "B",
+            "hint": "Consider a data structure that supports operations at both ends.",
+            "feedback": {
+                "correct": "A deque (double-ended queue) is ideal for frequent insertions and deletions from both ends.",
+                "incorrect": {
+                    "A": "An array does not efficiently support operations at both ends.",
+                    "C": "A stack only supports operations at one end.",
+                    "D": "A heap is used for priority-based operations, not for operations at both ends."
+                }
+            }
+        },
+        {
+            "id": "10",
+            "question": "To implement a dynamic array that can grow and shrink in size, which data structure would you use?",
+            "options": {
+                "A": "Array",
+                "B": "Linked List",
+                "C": "Vector",
+                "D": "Queue"
+            },
+            "correct_answer": "C",
+            "hint": "Consider a data structure that supports dynamic resizing.",
+            "feedback": {
+                "correct": "A vector (or dynamic array) is ideal for implementing a dynamic array that can grow and shrink in size.",
+                "incorrect": {
+                    "A": "A regular array does not support dynamic resizing.",
+                    "B": "A linked list does not provide efficient random access.",
+                    "D": "A queue does not support dynamic resizing efficiently."
+                }
+            }
+        }
+    ]
+}

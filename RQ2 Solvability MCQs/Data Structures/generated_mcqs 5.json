@@ -1,0 +1,217 @@
+{
+    "mcqs": [
+        {
+            "id": 1,
+            "question": "Which of the following data structures is known for its Last In, First Out (LIFO) access pattern?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Linked List"
+            },
+            "correct_answer": "B",
+            "hint": "Think about a structure where the last element added is the first one to be removed.",
+            "feedback": {
+                "correct": "Correct! A stack is known for its Last In, First Out (LIFO) access pattern.",
+                "incorrect": {
+                    "A": "Incorrect. A queue follows a First In, First Out (FIFO) access pattern.",
+                    "C": "Incorrect. An array allows random access and does not follow LIFO or FIFO.",
+                    "D": "Incorrect. A linked list does not inherently follow LIFO or FIFO; it depends on how it's used."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 2,
+            "question": "What is the time complexity for accessing an element by index in an array?",
+            "options": {
+                "A": "O(n)",
+                "B": "O(log n)",
+                "C": "O(1)",
+                "D": "O(n^2)"
+            },
+            "correct_answer": "C",
+            "hint": "Accessing an element by index in an array is very efficient.",
+            "feedback": {
+                "correct": "Correct! Accessing an element by index in an array has a time complexity of O(1).",
+                "incorrect": {
+                    "A": "Incorrect. O(n) is the time complexity for searching in an unsorted array.",
+                    "B": "Incorrect. O(log n) is the time complexity for operations in a balanced binary search tree.",
+                    "D": "Incorrect. O(n^2) is not applicable to accessing elements in an array."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 3,
+            "question": "In which scenario is a doubly linked list more advantageous than a singly linked list?",
+            "options": {
+                "A": "When memory usage needs to be minimized",
+                "B": "When frequent insertions and deletions are required at both ends",
+                "C": "When elements are accessed by index frequently",
+                "D": "When implementing a stack"
+            },
+            "correct_answer": "B",
+            "hint": "Consider the flexibility offered by having pointers to both the next and previous nodes.",
+            "feedback": {
+                "correct": "Correct! A doubly linked list is advantageous for frequent insertions and deletions at both ends.",
+                "incorrect": {
+                    "A": "Incorrect. Doubly linked lists use more memory due to the extra pointer.",
+                    "C": "Incorrect. Arrays are more efficient for frequent index-based access.",
+                    "D": "Incorrect. Stacks are typically implemented using arrays or singly linked lists."
+                }
+            },
+            "solvable": true,
+            "recall": false
+        },
+        {
+            "id": 4,
+            "question": "Which data structure is best suited for implementing a priority queue?",
+            "options": {
+                "A": "Array",
+                "B": "Stack",
+                "C": "Heap",
+                "D": "Linked List"
+            },
+            "correct_answer": "C",
+            "hint": "This data structure maintains the smallest or largest element at the root.",
+            "feedback": {
+                "correct": "Correct! Heaps are best suited for implementing priority queues.",
+                "incorrect": {
+                    "A": "Incorrect. Arrays are not efficient for priority queues due to their fixed size and lack of order.",
+                    "B": "Incorrect. Stacks follow LIFO and are not suitable for priority-based access.",
+                    "D": "Incorrect. Linked lists do not maintain order efficiently for priority queues."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 5,
+            "question": "What is the main advantage of using a hash table?",
+            "options": {
+                "A": "Maintains data in sorted order",
+                "B": "Provides fast lookups",
+                "C": "Uses minimal memory",
+                "D": "Supports FIFO access pattern"
+            },
+            "correct_answer": "B",
+            "hint": "Think about a data structure that provides average O(1) time complexity for search operations.",
+            "feedback": {
+                "correct": "Correct! The main advantage of using a hash table is that it provides fast lookups.",
+                "incorrect": {
+                    "A": "Incorrect. Hash tables do not maintain data in sorted order.",
+                    "C": "Incorrect. Hash tables may use more memory due to hash functions and collision handling.",
+                    "D": "Incorrect. Hash tables do not follow FIFO access pattern."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 6,
+            "question": "Which traversal method would you use to process all nodes in a binary search tree in ascending order?",
+            "options": {
+                "A": "Pre-order",
+                "B": "Post-order",
+                "C": "In-order",
+                "D": "Level-order"
+            },
+            "correct_answer": "C",
+            "hint": "This method processes the left subtree, the root, and then the right subtree.",
+            "feedback": {
+                "correct": "Correct! In-order traversal processes all nodes in a binary search tree in ascending order.",
+                "incorrect": {
+                    "A": "Incorrect. Pre-order traversal processes the root before its subtrees.",
+                    "B": "Incorrect. Post-order traversal processes the root after its subtrees.",
+                    "D": "Incorrect. Level-order traversal processes nodes level by level."
+                }
+            },
+            "solvable": false,
+            "recall": false,
+            "reason": "In-order method is mentioned but not explained how it works."
+        },
+        {
+            "id": 7,
+            "question": "Which data structure is typically used to implement function call management?",
+            "options": {
+                "A": "Queue",
+                "B": "Stack",
+                "C": "Array",
+                "D": "Graph"
+            },
+            "correct_answer": "B",
+            "hint": "Think about the structure that follows a LIFO pattern, which is useful for tracking function calls.",
+            "feedback": {
+                "correct": "Correct! Stacks are typically used to implement function call management.",
+                "incorrect": {
+                    "A": "Incorrect. Queues follow FIFO and are not suitable for function call management.",
+                    "C": "Incorrect. Arrays do not inherently follow LIFO or FIFO patterns.",
+                    "D": "Incorrect. Graphs are used for representing relationships between nodes, not for function call management."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 8,
+            "question": "What is the time complexity for inserting an element into a binary search tree (BST) in the average case?",
+            "options": {
+                "A": "O(1)",
+                "B": "O(n)",
+                "C": "O(log n)",
+                "D": "O(n log n)"
+            },
+            "correct_answer": "C",
+            "hint": "Consider the time complexity for balanced trees.",
+            "feedback": {
+                "correct": "Correct! The time complexity for inserting an element into a BST in the average case is O(log n).",
+                "incorrect": {
+                    "A": "Incorrect. O(1) is the time complexity for inserting into a hash table.",
+                    "B": "Incorrect. O(n) is the worst-case time complexity for inserting into an unbalanced BST.",
+                    "D": "Incorrect. O(n log n) is the time complexity for sorting algorithms like merge sort."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 9,
+            "question": "Which data structure allows for efficient prefix-based searches?",
+            "options": {
+                "A": "Hash Table",
+                "B": "Trie",
+                "C": "Heap",
+                "D": "Segment Tree"
+            },
+            "correct_answer": "B",
+            "hint": "This data structure is tree-like and used for storing associative data structures.",
+            "feedback": {
+                "correct": "Correct! Tries allow for efficient prefix-based searches.",
+                "incorrect": {
+                    "A": "Incorrect. Hash tables are used for fast lookups but not for prefix-based searches.",
+                    "C": "Incorrect. Heaps are used for priority queues and do not support prefix-based searches.",
+                    "D": "Incorrect. Segment trees are used for range queries, not prefix-based searches."
+                }
+            },
+            "solvable": true
+        },
+        {
+            "id": 10,
+            "question": "Which of the following best describes a circular queue?",
+            "options": {
+                "A": "A queue where the last element points to the first element",
+                "B": "A queue where elements are processed based on priority",
+                "C": "A queue where elements are stored in a tree structure",
+                "D": "A queue where elements are accessed in LIFO order"
+            },
+            "correct_answer": "A",
+            "hint": "Think about a queue that connects the end back to the front.",
+            "feedback": {
+                "correct": "Correct! A circular queue is a queue where the last element points to the first element.",
+                "incorrect": {
+                    "B": "Incorrect. A priority queue processes elements based on priority, not circular connections.",
+                    "C": "Incorrect. Elements in a tree structure are not part of a queue.",
+                    "D": "Incorrect. LIFO order is characteristic of a stack, not a queue."
+                }
+            },
+            "solvable": true
+        }
+    ]
+}

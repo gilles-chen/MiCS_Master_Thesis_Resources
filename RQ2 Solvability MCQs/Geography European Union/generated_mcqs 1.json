@@ -1,0 +1,214 @@
+{
+  "mcqs": [
+    {
+      "id": 1,
+      "question": "What is the highest mountain in the European Union?",
+      "options": {
+        "A": "Mont Blanc",
+        "B": "Mount Elbrus",
+        "C": "Matterhorn",
+        "D": "Grossglockner"
+      },
+      "correct_answer": "A",
+      "hint": "This mountain is located on the border of France and Italy.",
+      "feedback": {
+        "correct": "Mont Blanc, at 4,808 meters, is the highest mountain in the European Union.",
+        "incorrect": {
+          "B": "Mount Elbrus is the highest mountain in Europe but not in the EU, as it is located in Russia.",
+          "C": "Matterhorn is a famous peak in the Alps but not the highest in the EU.",
+          "D": "Grossglockner is the highest mountain in Austria but not in the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 2,
+      "question": "Which river is the longest in the European Union?",
+      "options": {
+        "A": "Rhine",
+        "B": "Elbe",
+        "C": "Danube",
+        "D": "Seine"
+      },
+      "correct_answer": "C",
+      "hint": "This river flows through 10 countries before emptying into the Black Sea.",
+      "feedback": {
+        "correct": "The Danube River, at approximately 2,860 kilometers, is the longest river in the European Union.",
+        "incorrect": {
+          "A": "The Rhine is an important river but shorter than the Danube.",
+          "B": "The Elbe is significant but not the longest river in the EU.",
+          "D": "The Seine is mainly in France and much shorter than the Danube."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 3,
+      "question": "What is the largest lake in the European Union?",
+      "options": {
+        "A": "Lake Balaton",
+        "B": "Lake Geneva",
+        "C": "Lake Vättern",
+        "D": "Lake Vänern"
+      },
+      "correct_answer": "D",
+      "hint": "This lake is located in Sweden.",
+      "feedback": {
+        "correct": "Lake Vänern, with an area of approximately 5,655 square kilometers, is the largest lake in the European Union.",
+        "incorrect": {
+          "A": "Lake Balaton is the largest lake in Central Europe but not the largest in the EU.",
+          "B": "Lake Geneva is one of the largest lakes in Europe but not the largest in the EU.",
+          "C": "Lake Vättern is also in Sweden but is smaller than Lake Vänern."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 4,
+      "question": "Where is the northernmost point of the European Union located?",
+      "options": {
+        "A": "Nuorgam, Finland",
+        "B": "Reykjavik, Iceland",
+        "C": "Oslo, Norway",
+        "D": "Helsinki, Finland"
+      },
+      "correct_answer": "A",
+      "hint": "This village is located near the border with Norway.",
+      "feedback": {
+        "correct": "Nuorgam, located in Finland, is the northernmost point of the European Union.",
+        "incorrect": {
+          "B": "Reykjavik is the capital of Iceland, which is not part of the EU.",
+          "C": "Oslo is the capital of Norway, which is not part of the EU.",
+          "D": "Helsinki is the capital of Finland but not the northernmost point."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 5,
+      "question": "What is the southernmost point of the European Union?",
+      "options": {
+        "A": "Cape Greco, Cyprus",
+        "B": "Monchique Islet, Portugal",
+        "C": "Punta de Tarifa, Spain",
+        "D": "Gibraltar, UK"
+      },
+      "correct_answer": "C",
+      "hint": "This point is located in mainland Spain.",
+      "feedback": {
+        "correct": "Punta de Tarifa, located at approximately 36° 0' N latitude, is the southernmost point of the European Union.",
+        "incorrect": {
+          "A": "Cape Greco is the easternmost point of the EU, not the southernmost.",
+          "B": "Monchique Islet is the westernmost point of the EU.",
+          "D": "Gibraltar is a British Overseas Territory and not part of the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 6,
+      "question": "What is the westernmost point of the European Union?",
+      "options": {
+        "A": "Cape Roca, Portugal",
+        "B": "Monchique Islet, Portugal",
+        "C": "Ponta Delgada, Portugal",
+        "D": "Lisbon, Portugal"
+      },
+      "correct_answer": "B",
+      "hint": "This point is part of the Azores archipelago.",
+      "feedback": {
+        "correct": "Monchique Islet, located at approximately 31° 16' W longitude, is the westernmost point of the European Union.",
+        "incorrect": {
+          "A": "Cape Roca is the westernmost point of mainland Europe but not the westernmost in the EU.",
+          "C": "Ponta Delgada is a city in the Azores but not the westernmost point.",
+          "D": "Lisbon is the capital of Portugal but not the westernmost point."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 7,
+      "question": "Where is the easternmost point of the European Union?",
+      "options": {
+        "A": "Nuorgam, Finland",
+        "B": "Cape Greco, Cyprus",
+        "C": "Punta de Tarifa, Spain",
+        "D": "Monchique Islet, Portugal"
+      },
+      "correct_answer": "B",
+      "hint": "This point is located on a prominent headland in Cyprus.",
+      "feedback": {
+        "correct": "Cape Greco, located at approximately 34° 0' E longitude, is the easternmost point of the European Union.",
+        "incorrect": {
+          "A": "Nuorgam is the northernmost point of the EU.",
+          "C": "Punta de Tarifa is the southernmost point of the EU.",
+          "D": "Monchique Islet is the westernmost point of the EU."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 8,
+      "question": "Which mountain range forms a natural border between France and Spain?",
+      "options": {
+        "A": "Alps",
+        "B": "Pyrenees",
+        "C": "Carpathians",
+        "D": "Apennines"
+      },
+      "correct_answer": "B",
+      "hint": "This mountain range is known for its rugged terrain and scenic beauty.",
+      "feedback": {
+        "correct": "The Pyrenees form a natural border between France and Spain.",
+        "incorrect": {
+          "A": "The Alps are located in Central Europe, spanning several countries including France and Italy.",
+          "C": "The Carpathians are located in Central and Eastern Europe, including Romania and Slovakia.",
+          "D": "The Apennines are located in Italy."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 9,
+      "question": "Which sea borders several EU countries including Sweden, Finland, and Germany?",
+      "options": {
+        "A": "Mediterranean Sea",
+        "B": "Black Sea",
+        "C": "Baltic Sea",
+        "D": "North Sea"
+      },
+      "correct_answer": "C",
+      "hint": "This sea is crucial for maritime trade and regional cooperation in Northern Europe.",
+      "feedback": {
+        "correct": "The Baltic Sea borders several EU countries including Sweden, Finland, Estonia, Latvia, Lithuania, Poland, and Germany.",
+        "incorrect": {
+          "A": "The Mediterranean Sea borders southern EU countries but not Sweden, Finland, or Germany.",
+          "B": "The Black Sea is located in Eastern Europe and borders countries like Romania and Bulgaria but not Sweden, Finland, or Germany.",
+          "D": "The North Sea borders the UK, Germany, and the Netherlands but not Sweden or Finland."
+        }
+      },
+      "solvable": true
+    },
+    {
+      "id": 10,
+      "question": "Which peninsula encompasses Spain and Portugal?",
+      "options": {
+        "A": "Scandinavian Peninsula",
+        "B": "Balkan Peninsula",
+        "C": "Iberian Peninsula",
+        "D": "Italian Peninsula"
+      },
+      "correct_answer": "C",
+      "hint": "This peninsula is known for its diverse landscapes and cultural heritage.",
+      "feedback": {
+        "correct": "The Iberian Peninsula encompasses Spain and Portugal.",
+        "incorrect": {
+          "A": "The Scandinavian Peninsula includes Sweden and part of Finland.",
+          "B": "The Balkan Peninsula includes countries like Greece, Bulgaria, and Albania.",
+          "D": "The Italian Peninsula includes Italy."
+        }
+      },
+      "solvable": true
+    }
+  ]
+}
